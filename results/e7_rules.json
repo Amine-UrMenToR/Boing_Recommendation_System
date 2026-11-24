@@ -1,0 +1,203 @@
+{
+ "every_list": {
+  "checks": 36733,
+  "violations": 0,
+  "by_check": {
+   "R1 no list while switched off": {
+    "checks": 1983,
+    "violations": 0
+   },
+   "R1 no list for under-14s": {
+    "checks": 1983,
+    "violations": 0
+   },
+   "R11 at most 5, no repeats": {
+    "checks": 1983,
+    "violations": 0
+   },
+   "never me": {
+    "checks": 2480,
+    "violations": 0
+   },
+   "never a friend": {
+    "checks": 2480,
+    "violations": 0
+   },
+   "never a pending request": {
+    "checks": 2480,
+    "violations": 0
+   },
+   "R8 never blocked either way": {
+    "checks": 2480,
+    "violations": 0
+   },
+   "R8 never suspended": {
+    "checks": 2480,
+    "violations": 0
+   },
+   "R8 never private": {
+    "checks": 2480,
+    "violations": 0
+   },
+   "only people who switched on": {
+    "checks": 2480,
+    "violations": 0
+   },
+   "only people taking requests": {
+    "checks": 2480,
+    "violations": 0
+   },
+   "R8 age bands": {
+    "checks": 2480,
+    "violations": 0
+   },
+   "R7 never someone dismissed": {
+    "checks": 2480,
+    "violations": 0
+   },
+   "R6 \"N mutual friends\" is true": {
+    "checks": 1240,
+    "violations": 0
+   },
+   "R6 the reason is the bigger signal": {
+    "checks": 2480,
+    "violations": 0
+   },
+   "R6 \"both in X\": both are members and X is listed": {
+    "checks": 1240,
+    "violations": 0
+   },
+   "R6 \"N groups together\" is true": {
+    "checks": 0,
+    "violations": 0
+   },
+   "R5 at most 2 people per named group": {
+    "checks": 1024,
+    "violations": 0
+   }
+  }
+ },
+ "age_grid": {
+  "cases": 243,
+  "allowed_by_rule": 138,
+  "shown_when_forbidden": 0,
+  "missing_when_allowed": 0,
+  "checks": 2480,
+  "violations": 0
+ },
+ "planted_cases": {
+  "baits": 191,
+  "shown_by_design": 0,
+  "checks": 33227,
+  "violations": 0,
+  "shown_with_rule_removed": {
+   "blocked": [
+    17,
+    19
+   ],
+   "blocked_by": [
+    19,
+    19
+   ],
+   "suspended": [
+    15,
+    19
+   ],
+   "private": [
+    15,
+    20
+   ],
+   "opt_in": [
+    10,
+    19
+   ],
+   "requests": [
+    18,
+    20
+   ],
+   "pending_out": [
+    20,
+    20
+   ],
+   "pending_in": [
+    16,
+    19
+   ],
+   "dismissed": [
+    19,
+    19
+   ],
+   "age": [
+    17,
+    17
+   ]
+  }
+ },
+ "planted_faults": {
+  "faults": 18,
+  "caught": 18,
+  "detail": {
+   "rule removed: self": {
+    "never me": 266
+   },
+   "rule removed: friend": {
+    "never a friend": 169
+   },
+   "rule removed: pending": {
+    "never a pending request": 44
+   },
+   "rule removed: blocked": {
+    "R8 never blocked either way": 45
+   },
+   "rule removed: suspended": {
+    "R8 never suspended": 281
+   },
+   "rule removed: private": {
+    "R8 never private": 874
+   },
+   "rule removed: opt_in": {
+    "only people who switched on": 1930
+   },
+   "rule removed: requests": {
+    "only people taking requests": 382
+   },
+   "rule removed: age": {
+    "R1 no list for under-14s": 19,
+    "R8 age bands": 627
+   },
+   "rule removed: dismissed": {
+    "R7 never someone dismissed": 18
+   },
+   "old binary age line": {
+    "R1 no list for under-14s": 19,
+    "R8 age bands": 184
+   },
+   "a list while switched off": {
+    "R1 no list while switched off": 1493
+   },
+   "a list for an under-14": {
+    "R1 no list while switched off": 10,
+    "R1 no list for under-14s": 29,
+    "R8 age bands": 145
+   },
+   "three people for one group": {
+    "R5 at most 2 people per named group": 32
+   },
+   "six items": {
+    "R11 at most 5, no repeats": 1,
+    "only people who switched on": 1
+   },
+   "wrong count": {
+    "R6 \"N mutual friends\" is true": 1
+   },
+   "group not shared": {
+    "R6 \"both in X\": both are members and X is listed": 1
+   },
+   "wrong reason": {
+    "R6 \"N mutual friends\" is true": 1,
+    "R6 the reason is the bigger signal": 1
+   }
+  }
+ },
+ "total_checks": 72440
+}

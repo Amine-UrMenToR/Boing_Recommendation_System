@@ -1,0 +1,121 @@
+{
+  "eps": 2.0,
+  "m": 3,
+  "size_share": 0.25,
+  "noise_draws_test": 10,
+  "noise_draws_quiz": 5,
+  "rule": "on the practice quiz, the smallest eps at which some setting keeps at least 90% of the accuracy (NDCG@5) and at least 90% of the newcomer share of the design without privacy; at that eps, the most accurate passing m and split",
+  "justification": "epsilon = 2 with each member counting for at most m = 3 groups (25% of the budget on the group sizes, the rest on the pair counts). It is the strongest privacy at which the design keeps at least 90% of its accuracy and of its slots for new or small groups on the practice quiz (at any smaller epsilon no setting keeps both: the most accurate one keeps 87% of the accuracy and 98% of the newcomer slots). On the test it costs 0.033 NDCG@5 (6.2%; NDCG@5 0.495 against 0.528) and stays far above today's BOING (0.131) and above the design that uses no statistics about others (0.424). A small m works best: clipping to 3 groups leaves out 26% of the memberships but lets the noise be much smaller. In plain words: whatever the suggestions are, they were at most e^2 = 7.4 times more likely with any one member in the data than without them, for one release of the statistics.",
+  "odds_bound_e_to_eps": 7.389,
+  "noise_scale_sizes": 6.0,
+  "noise_scale_pairs": 2.0,
+  "memberships_kept_by_clipping": 0.7441,
+  "quiz": {
+    "ndcg@5": 0.4227,
+    "ndcg@5 sd": 0.0045,
+    "newcomer_share": 0.1926,
+    "accuracy kept": 0.9092,
+    "newcomer slots kept": 0.9544,
+    "ndcg@5 no privacy": 0.465,
+    "newcomer_share no privacy": 0.2018,
+    "ndcg@5 no statistics about others": 0.3767
+  },
+  "test": {
+    "ndcg@5": 0.4951,
+    "ndcg@5 sd": 0.003,
+    "newcomer_share": 0.1777,
+    "newcomer_share sd": 0.0184,
+    "hit_rate": 0.6213,
+    "coverage": 122.4,
+    "gini": 0.5045,
+    "ndcg@5 no privacy": 0.5281,
+    "newcomer_share no privacy": 0.2027,
+    "cost": 0.033,
+    "cost low": 0.0248,
+    "cost high": 0.0406,
+    "relative cost": 0.0625,
+    "ndcg@5 no statistics about others": 0.4239,
+    "ndcg@5 popularity": 0.1311
+  },
+  "small_groups_found_by_noisy_sizes": {
+    "truly new or small": 53.0,
+    "look new or small": 57.4,
+    "found (of the true ones)": 0.9094,
+    "right (of those that look it)": 0.8411
+  },
+  "opt_in_25%": {
+    "everyone counts, no privacy": {
+      "ndcg@5 (opted in)": 0.5235,
+      "ndcg@5 (all tested)": 0.1706
+    },
+    "only opted-in members count, no privacy": {
+      "ndcg@5 (opted in)": 0.475,
+      "ndcg@5 (all tested)": 0.1494
+    },
+    "everyone counts, epsilon = 2, m = 3": {
+      "ndcg@5 (opted in)": 0.4895,
+      "ndcg@5 (all tested)": 0.162
+    },
+    "only opted-in members count, epsilon = 2, m = 3": {
+      "ndcg@5 (opted in)": 0.2826,
+      "ndcg@5 (all tested)": 0.1013
+    }
+  },
+  "opt_in_reading": "Everyone counts (under the noise) serves the members who opt in much better when few do: at 25% opt-in and epsilon = 2, they get NDCG@5 0.489 when everyone counts and 0.283 when only opted-in members count (without privacy 0.524 and 0.475). The noise has the same size whoever counts, so with a quarter of the members it drowns counts that are four times smaller. Counting only opted-in members would give the others complete protection instead of epsilon = 2; counting everyone, they are still never profiled (their own list is the default one) and appear only inside noisy totals. Without privacy, counting a quarter of the members also makes most groups look small, so the newcomer quota goes to groups that only look small (newcomer share 4.5% against 20.3%).",
+  "reasons": {
+    "test, no privacy": {
+      "shared-members reasons": 0.5607,
+      "shares nobody": 0.0,
+      "median error of the count": 0.0,
+      "quoted / true (median)": 1.0
+    },
+    "test, clipping only": {
+      "shared-members reasons": 0.5155,
+      "shares nobody": 0.0,
+      "median error of the count": 27.0,
+      "quoted / true (median)": 0.4898
+    },
+    "test, chosen setting": {
+      "shared-members reasons": 0.5446,
+      "shares nobody": 0.2626,
+      "median error of the count": 12.9,
+      "quoted / true (median)": 0.5245,
+      "shares nobody sd": 0.0207,
+      "count below 3b": 0.1679,
+      "shares nobody, count 3b or more": 0.1537
+    },
+    "floor_t": 0,
+    "floor_rule": "on the practice quiz, the strongest floor t (each noisy pair count loses t times the pair noise scale, stopping at 0) that still keeps 90% of the accuracy and of the newcomer share of the design without privacy",
+    "practice quiz, by floor t": {
+      "t = 0": {
+        "ndcg@5": 0.4227,
+        "accuracy kept": 0.9092,
+        "newcomer_share": 0.1926,
+        "newcomer slots kept": 0.9544,
+        "shares nobody": 0.3111
+      },
+      "t = 1": {
+        "ndcg@5": 0.4317,
+        "accuracy kept": 0.9285,
+        "newcomer_share": 0.1594,
+        "newcomer slots kept": 0.79,
+        "shares nobody": 0.2226
+      },
+      "t = 2": {
+        "ndcg@5": 0.4348,
+        "accuracy kept": 0.9351,
+        "newcomer_share": 0.1495,
+        "newcomer slots kept": 0.7405,
+        "shares nobody": 0.1419
+      },
+      "t = 3": {
+        "ndcg@5": 0.4355,
+        "accuracy kept": 0.9366,
+        "newcomer_share": 0.149,
+        "newcomer slots kept": 0.738,
+        "shares nobody": 0.077
+      }
+    },
+    "advice": "With privacy on, word a \"shared members\" reason as an estimate, and quote a count only when it is at least 3 noise scales (6 members at the chosen setting). That rule alone does not remove the invented links (on the test 26% of these reasons name two groups that share nobody, and 15% of those quoting 6 or more), because the recommender picks the largest noisy overlaps and so selects the noise's extremes. The counts it quotes are also low (clipping leaves out the groups beyond each member's m)."
+  }
+}

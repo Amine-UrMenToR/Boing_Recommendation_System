@@ -1,0 +1,386 @@
+{
+  "Final design, all members": {
+    "members": 1983,
+    "suggestions": 9915,
+    "relaxed": {
+      "quota": 0,
+      "topic cap": 0,
+      "global cap": 0
+    },
+    "hard_violations": 0,
+    "dial_checks_passed": true,
+    "faithful to the computed score (fidelity)": {
+      "top part": {
+        "shown": 8355,
+        "true": 8355
+      },
+      "quota slot": {
+        "shown": 1508,
+        "true": 1508
+      },
+      "fallback": {
+        "shown": 52,
+        "true": 52
+      }
+    },
+    "true to the raw data": {
+      "shared_members": {
+        "shown": 528,
+        "true": 264
+      },
+      "similar_group (AI model)": {
+        "shown": 2424,
+        "true": 2424
+      },
+      "similar_group (descriptions)": {
+        "shown": 818,
+        "true": 818
+      },
+      "friend": {
+        "shown": 4415,
+        "true": 4415
+      },
+      "new_group (new)": {
+        "shown": 641,
+        "true": 641
+      },
+      "new_group (small)": {
+        "shown": 969,
+        "true": 969
+      },
+      "active (this week)": {
+        "shown": 76,
+        "true": 76
+      },
+      "active (this month)": {
+        "shown": 44,
+        "true": 44
+      }
+    },
+    "true to the raw data, personalised lists": {
+      "shown": 9745,
+      "true": 9481
+    },
+    "true to the raw data, default lists": {
+      "shown": 170,
+      "true": 170
+    },
+    "quota": {
+      "lists": 1983,
+      "lists below the quota": 0,
+      "lists below the quota (count Discover shows)": 34,
+      "quota slots": 1508,
+      "quota slots in groups truly new or small": 1508,
+      "quota slots in groups new or small by the count Discover shows": 1481
+    },
+    "\"small group\" reasons": {
+      "\"small group\" reasons": 969,
+      "true by the design's definition": 969,
+      "true by the count Discover shows": 942
+    },
+    "checks": {
+      "reason_parts": {
+        "rule": "R6",
+        "hard": true,
+        "checked": 9915,
+        "violations": 0
+      },
+      "reason_fidelity": {
+        "rule": "R6",
+        "hard": true,
+        "checked": 9915,
+        "violations": 0
+      },
+      "reason_details": {
+        "rule": "R6",
+        "hard": true,
+        "checked": 9915,
+        "violations": 0
+      },
+      "names_private": {
+        "rule": "R6, R8",
+        "hard": true,
+        "checked": 4415,
+        "violations": 0
+      },
+      "names_blocked": {
+        "rule": "R6, R8",
+        "hard": true,
+        "checked": 4415,
+        "violations": 0
+      },
+      "names_suspended": {
+        "rule": "R6, R8",
+        "hard": true,
+        "checked": 4415,
+        "violations": 0
+      },
+      "names_other": {
+        "rule": "R6, R9",
+        "hard": true,
+        "checked": 4415,
+        "violations": 0
+      },
+      "hidden_by_mods": {
+        "rule": "R8",
+        "hard": true,
+        "checked": 9915,
+        "violations": 0
+      },
+      "closed_group": {
+        "rule": "R8",
+        "hard": true,
+        "checked": 9915,
+        "violations": 0
+      },
+      "already_joined": {
+        "rule": "R7",
+        "hard": true,
+        "checked": 9915,
+        "violations": 0
+      },
+      "not_interested": {
+        "rule": "R7",
+        "hard": true,
+        "checked": 9915,
+        "violations": 0
+      },
+      "not_a_group": {
+        "rule": "R8",
+        "hard": true,
+        "checked": 9915,
+        "violations": 0
+      },
+      "list_length": {
+        "rule": "R11",
+        "hard": true,
+        "checked": 1983,
+        "violations": 0
+      },
+      "empty_list": {
+        "rule": "R1",
+        "hard": true,
+        "checked": 1983,
+        "violations": 0
+      },
+      "allow_list": {
+        "rule": "R2",
+        "hard": true,
+        "checked": 33,
+        "violations": 0
+      },
+      "private_data": {
+        "rule": "R2",
+        "hard": true,
+        "checked": 29745,
+        "violations": 0
+      },
+      "paid_budget": {
+        "rule": "R3",
+        "hard": true,
+        "checked": 9915,
+        "violations": 0
+      },
+      "quota": {
+        "rule": "R4, dial q",
+        "hard": false,
+        "checked": 1983,
+        "violations": 0
+      },
+      "global_cap": {
+        "rule": "R4, dial c",
+        "hard": false,
+        "checked": 129,
+        "violations": 0
+      },
+      "topic_cap": {
+        "rule": "R5, dial n",
+        "hard": false,
+        "checked": 1983,
+        "violations": 0
+      }
+    }
+  },
+  "Personalisation off, all members": {
+    "members": 1983,
+    "suggestions": 9915,
+    "relaxed": {
+      "quota": 0,
+      "topic cap": 0,
+      "global cap": 0
+    },
+    "hard_violations": 0,
+    "dial_checks_passed": true,
+    "faithful to the computed score (fidelity)": {
+      "top part": {
+        "shown": 9915,
+        "true": 9915
+      },
+      "quota slot": {
+        "shown": 0,
+        "true": 0
+      },
+      "fallback": {
+        "shown": 0,
+        "true": 0
+      }
+    },
+    "true to the raw data": {
+      "new_group (new)": {
+        "shown": 4331,
+        "true": 4331
+      },
+      "active (this week)": {
+        "shown": 3605,
+        "true": 3605
+      },
+      "active (this month)": {
+        "shown": 1979,
+        "true": 1979
+      }
+    },
+    "true to the raw data, personalised lists": {
+      "shown": 0,
+      "true": 0
+    },
+    "true to the raw data, default lists": {
+      "shown": 9915,
+      "true": 9915
+    },
+    "quota": {
+      "lists": 1983,
+      "lists below the quota": 0,
+      "lists below the quota (count Discover shows)": 0,
+      "quota slots": 0,
+      "quota slots in groups truly new or small": 0,
+      "quota slots in groups new or small by the count Discover shows": 0
+    },
+    "\"small group\" reasons": {
+      "\"small group\" reasons": 0,
+      "true by the design's definition": 0,
+      "true by the count Discover shows": 0
+    },
+    "checks": {
+      "reason_parts": {
+        "rule": "R6",
+        "hard": true,
+        "checked": 9915,
+        "violations": 0
+      },
+      "reason_fidelity": {
+        "rule": "R6",
+        "hard": true,
+        "checked": 9915,
+        "violations": 0
+      },
+      "reason_details": {
+        "rule": "R6",
+        "hard": true,
+        "checked": 9915,
+        "violations": 0
+      },
+      "names_private": {
+        "rule": "R6, R8",
+        "hard": true,
+        "checked": 0,
+        "violations": 0
+      },
+      "names_blocked": {
+        "rule": "R6, R8",
+        "hard": true,
+        "checked": 0,
+        "violations": 0
+      },
+      "names_suspended": {
+        "rule": "R6, R8",
+        "hard": true,
+        "checked": 0,
+        "violations": 0
+      },
+      "names_other": {
+        "rule": "R6, R9",
+        "hard": true,
+        "checked": 0,
+        "violations": 0
+      },
+      "hidden_by_mods": {
+        "rule": "R8",
+        "hard": true,
+        "checked": 9915,
+        "violations": 0
+      },
+      "closed_group": {
+        "rule": "R8",
+        "hard": true,
+        "checked": 9915,
+        "violations": 0
+      },
+      "already_joined": {
+        "rule": "R7",
+        "hard": true,
+        "checked": 9915,
+        "violations": 0
+      },
+      "not_interested": {
+        "rule": "R7",
+        "hard": true,
+        "checked": 9915,
+        "violations": 0
+      },
+      "not_a_group": {
+        "rule": "R8",
+        "hard": true,
+        "checked": 9915,
+        "violations": 0
+      },
+      "list_length": {
+        "rule": "R11",
+        "hard": true,
+        "checked": 1983,
+        "violations": 0
+      },
+      "empty_list": {
+        "rule": "R1",
+        "hard": true,
+        "checked": 1983,
+        "violations": 0
+      },
+      "allow_list": {
+        "rule": "R2",
+        "hard": true,
+        "checked": 33,
+        "violations": 0
+      },
+      "private_data": {
+        "rule": "R2",
+        "hard": true,
+        "checked": 29745,
+        "violations": 0
+      },
+      "paid_budget": {
+        "rule": "R3",
+        "hard": true,
+        "checked": 9915,
+        "violations": 0
+      },
+      "quota": {
+        "rule": "R4, dial q",
+        "hard": false,
+        "checked": 1983,
+        "violations": 0
+      },
+      "global_cap": {
+        "rule": "R4, dial c",
+        "hard": false,
+        "checked": 23,
+        "violations": 0
+      },
+      "topic_cap": {
+        "rule": "R5, dial n",
+        "hard": false,
+        "checked": 1983,
+        "violations": 0
+      }
+    }
+  }
+}

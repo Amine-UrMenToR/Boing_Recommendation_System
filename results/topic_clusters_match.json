@@ -1,0 +1,7 @@
+{
+  "clusters": 10,
+  "seed": 0,
+  "purity": 0.4867,
+  "normalized_mutual_info": 0.4263,
+  "adjusted_rand_index": 0.1888
+}

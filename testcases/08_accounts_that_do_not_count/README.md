@@ -1,0 +1,3 @@
+# Suspended and low-level accounts are ignored (R8, R9)
+
+Accounts that must not count: 4 suspended accounts (users 101-104) and 4 level-1 accounts (users 105-108) joined Spanish evening chat (user 1's group) and GRE study hall, and are user 1's public friends. With L = 3 (this case keeps L >= 3) none of them counts in any statistic: their joins change no group size, "also joined" count, or which groups count as small, or activity, and no reason names them (R8, R9). Suspended accounts are not served. The level-1 accounts still get their own suggestions, and those take slots under the shared cap c, so other members' lists can still shift when they join (the cap is shared, not a statistic).

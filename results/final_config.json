@@ -1,0 +1,758 @@
+{
+  "design": "The final design of the BOING group recommender (ECSE 557, Group 14), notebook 11, after the two reviews of 1 November",
+  "config": {
+    "alpha": 0.2,
+    "beta": 0.2,
+    "gamma": 0.3,
+    "delta": 0.3,
+    "k": 10,
+    "topic_weight": 0.0,
+    "personal": true,
+    "off_new_w": 0.5,
+    "q": 0.2,
+    "c": 0.05,
+    "n": 2,
+    "lam": 0.8,
+    "clusters": 8,
+    "L": 3,
+    "burst_w": 0.0,
+    "young_days": 30,
+    "eps": 1.5,
+    "m": 3,
+    "size_share": 0.1,
+    "noise_seed": null,
+    "seed": 0,
+    "small_from": "r9",
+    "r9_scope": "all",
+    "act_eps": null,
+    "count_under_noise": false
+  },
+  "in BOING": {
+    "default for every member (R1)": "personalisation off: this config with personal = false (same statistics and re-ranking, no profile)",
+    "when a member switches personalisation on": "this config",
+    "seed": "in BOING the clipping hash and the noise must draw from a secret seed; noise_seed here only makes the experiments repeatable",
+    "statistics": "group sizes, pair counts and the AI model are recomputed from the allowed data in one batch job; each release of the noisy statistics spends epsilon again (basic composition), so release them rarely (for example once a week) or split epsilon across releases",
+    "list": "5 suggestions, each with its reason from a fixed template; with the noise on, a \"shared members\" reason states no count (the noisy count is often far from the truth); without noise, \"About\" marks a clipped count"
+  },
+  "privacy guarantee": {
+    "covers": "one release of the group sizes and pair counts (X^T X), epsilon = 1.5, m = 3",
+    "odds bound e^eps": 4.481689,
+    "does not cover": [
+      "the friends signal (public friends' memberships, shown on their public profiles)",
+      "the member counts that decide \"small\" (members who count under R9; Discover shows every member)",
+      "the recent activity behind the default list (posts and like counts of open groups); act_eps failed the rule",
+      "the shared cap c (one member's own list can change which capped groups later members get)"
+    ],
+    "measured": {
+      "sensitivity": {
+        "members removed one at a time": 100,
+        "largest change, sizes": 3.0,
+        "largest change, pairs": 3.0,
+        "bound, sizes (m)": 3,
+        "bound, pairs (m(m-1)/2)": 3.0
+      },
+      "friends": {
+        "public friends that count, of tested members (pairs)": 6474,
+        "of them in more than m groups (counted in full)": 3437
+      },
+      "activity": {
+        "member removed": 1420,
+        "their recent posts": 4,
+        "counts X^T X unchanged": true,
+        "other members whose default list changed": 1768
+      },
+      "shared cap": {
+        "trials": 30,
+        "statistics unchanged in every trial": true,
+        "other members whose list changed (default + personalised), mean": 0.166667,
+        "the same, most in one trial": 5,
+        "trials where some other list changed": 1,
+        "members served": 1983
+      }
+    }
+  },
+  "dials": {
+    "alpha": {
+      "value": 0.2,
+      "what it does": "weight of \"also joined\" (collaborative filtering)",
+      "chosen in": "notebook 06, re-chosen in notebook 11 (section 2) under the final statistics",
+      "file": "results/final_rounds.csv",
+      "value chosen there": 0.2
+    },
+    "beta": {
+      "value": 0.2,
+      "what it does": "weight of similar descriptions (TF-IDF)",
+      "chosen in": "notebook 06, re-chosen in notebook 11 (section 2) under the final statistics",
+      "file": "results/final_rounds.csv",
+      "value chosen there": 0.2
+    },
+    "gamma": {
+      "value": 0.3,
+      "what it does": "weight of friends (public friends who are members)",
+      "chosen in": "notebook 06, re-chosen in notebook 11 (section 2) under the final statistics",
+      "file": "results/final_rounds.csv",
+      "value chosen there": 0.3
+    },
+    "delta": {
+      "value": 0.3,
+      "what it does": "weight of hidden tastes (the AI model)",
+      "chosen in": "notebook 06, re-chosen in notebook 11 (section 2) under the final statistics",
+      "file": "results/final_rounds.csv",
+      "value chosen there": 0.3
+    },
+    "k": {
+      "value": 10,
+      "what it does": "the AI model's number of hidden tastes",
+      "chosen in": "notebook 05: the AI model",
+      "file": "results/t9_validation.csv",
+      "value chosen there": 10
+    },
+    "topic_weight": {
+      "value": 0.0,
+      "what it does": "how much a member's chosen topics count in similar descriptions",
+      "chosen in": "notebook 04: similar descriptions",
+      "file": "results/t6_validation.csv",
+      "value chosen there": 0.0
+    },
+    "off_new_w": {
+      "value": 0.5,
+      "what it does": "personalisation off: weight of newness (the rest is recent activity)",
+      "chosen in": "notebook 06: personalisation off",
+      "file": "results/off_validation.csv",
+      "value chosen there": 0.5
+    },
+    "q": {
+      "value": 0.2,
+      "what it does": "R4: at least ceil(q x 5) slots of each list go to new or small groups",
+      "chosen in": "E2, notebook 07: fair exposure and variety",
+      "file": "results/e2_recommendation.json",
+      "value chosen there": 0.2
+    },
+    "c": {
+      "value": 0.05,
+      "what it does": "R4: no group gets more than c of all slots (null: no cap)",
+      "chosen in": "E2, notebook 07: fair exposure and variety",
+      "file": "results/e2_recommendation.json",
+      "value chosen there": 0.05
+    },
+    "n": {
+      "value": 2,
+      "what it does": "R5: at most n groups of one public topic cluster per list (null: no limit)",
+      "chosen in": "E2, notebook 07: fair exposure and variety",
+      "file": "results/e2_recommendation.json",
+      "value chosen there": 2
+    },
+    "lam": {
+      "value": 0.8,
+      "what it does": "R5: MMR, lam x relevance - (1 - lam) x similarity to the groups already picked",
+      "chosen in": "E2, notebook 07: fair exposure and variety",
+      "file": "results/e2_recommendation.json",
+      "value chosen there": 0.8
+    },
+    "small_from": {
+      "value": "r9",
+      "what it does": "R4: 'r9' = a group is small if fewer than 10 of its members are accounts that count under R9 (level L or more, at least young_days old when burst_w = 0), no clipping, no noise; 'public' = if the member count Discover shows is under 10; 'counted' = from the recommender's own (clipped, noisy) counts",
+      "chosen in": "notebook 11, sections 2 and 6: \"small\" from the member count, of the accounts R9 counts",
+      "file": "results/final_config.json",
+      "value chosen there": "r9"
+    },
+    "clusters": {
+      "value": 8,
+      "what it does": "number of public topic clusters (KMeans on the group texts)",
+      "chosen in": "notebook 11, section 2: the number of public topic clusters",
+      "file": "results/final_topic_clusters.csv",
+      "value chosen there": 8
+    },
+    "L": {
+      "value": 3,
+      "what it does": "R9: only accounts at level L or more count",
+      "chosen in": "E4, notebook 09: fake accounts",
+      "file": "results/e4_recommendation.json",
+      "value chosen there": 3
+    },
+    "burst_w": {
+      "value": 0.0,
+      "what it does": "R9: weight of the joins of accounts younger than young_days (0: they count once they are older)",
+      "chosen in": "E4, notebook 09: fake accounts",
+      "file": "results/e4_recommendation.json",
+      "value chosen there": 0.0
+    },
+    "young_days": {
+      "value": 30,
+      "what it does": "R9: an account is young for this many days",
+      "chosen in": "E4, notebook 09: fake accounts",
+      "file": "results/e4_recommendation.json",
+      "value chosen there": 30
+    },
+    "r9_scope": {
+      "value": "all",
+      "what it does": "R9: 'all' = the level bar and the young-account wait apply to posts, likes and friends too; 'joins' = to memberships only",
+      "chosen in": "E4, notebook 09: fake accounts",
+      "file": "results/e4_recommendation.json",
+      "value chosen there": "all"
+    },
+    "eps": {
+      "value": 1.5,
+      "what it does": "R10: differential-privacy budget epsilon (null or inf: no noise)",
+      "chosen in": "E3, notebook 08: privacy, for notebook 06's design",
+      "file": "results/e3_recommendation.json",
+      "value chosen there": 2.0
+    },
+    "m": {
+      "value": 3,
+      "what it does": "R10: each member counts for at most m groups (null: no clipping)",
+      "chosen in": "E3, notebook 08: privacy, for notebook 06's design",
+      "file": "results/e3_recommendation.json",
+      "value chosen there": 3
+    },
+    "size_share": {
+      "value": 0.1,
+      "what it does": "R10: share of epsilon spent on the group sizes (the rest on the pair counts)",
+      "chosen in": "E3, notebook 08: privacy, for notebook 06's design",
+      "file": "results/e3_recommendation.json",
+      "value chosen there": 0.25
+    },
+    "act_eps": {
+      "value": null,
+      "what it does": "R10 for the recent activity: privacy budget of the active-member counts (null: activity counts posts and likes, no noise)",
+      "chosen in": "notebook 11, section 2: privacy for the recent activity (none passed the rule)",
+      "file": "results/final_activity_privacy.csv",
+      "value chosen there": null
+    },
+    "count_under_noise": {
+      "value": false,
+      "what it does": "R6: with the noise on, a \"shared members\" reason states its noisy count (true) or names the group only (false)",
+      "chosen in": "notebook 11, section 3: with the noise on, reasons name the group without the noisy count",
+      "file": "results/final_reasons.csv",
+      "value chosen there": false
+    }
+  },
+  "changed when the dials were combined": {
+    "weights": {
+      "from": [
+        0.4,
+        0.1,
+        0.3,
+        0.2
+      ],
+      "to": [
+        0.2,
+        0.2,
+        0.3,
+        0.3
+      ],
+      "why": "notebook 06's protocol, re-run under the final noisy statistics: another mix beat notebook 06's beyond the noise, so the choices ran again with it (rounds), until the weights held"
+    },
+    "size_share": {
+      "from": 0.25,
+      "to": 0.1,
+      "why": "stage 1 of E3's rule (notebook 08's grid), applied on the practice quiz to the design with every other dial on: with 'small' judged from a member count, the noisy sizes matter less and more of the budget goes to the pair counts"
+    },
+    "eps": {
+      "from": 2.0,
+      "to": 1.5,
+      "why": "stage 2: the smallest epsilon whose 95% range over five practice quizzes (20 fresh noise draws on each) keeps 90% of the accuracy and of the newcomer slots"
+    }
+  },
+  "changed after the reviews": {
+    "small_from": {
+      "from": "counted",
+      "to": "r9",
+      "why": "first review: the quota held only on the clipped, noisy counts, so 'small' came from the count Discover shows; second review: that count includes accounts R9 ignores, so cheap fake accounts could push rival small groups over the line and lift another group; now only the accounts R9 counts are counted"
+    },
+    "r9_scope": {
+      "from": "joins",
+      "to": "all",
+      "why": "fake accounts that post and like moved the default list"
+    },
+    "eps": {
+      "from": 5.0,
+      "to": 1.5,
+      "why": "the first choice rested on a coarse grid and 5 draws, inside the noise; the second (epsilon 1) passed the rule only on one practice quiz with the draws that also picked the weights; the rule now runs on five quizzes with fresh draws"
+    },
+    "weights": {
+      "from": [
+        0.4,
+        0.1,
+        0.3,
+        0.2
+      ],
+      "to": [
+        0.2,
+        0.2,
+        0.3,
+        0.3
+      ],
+      "why": "notebook 06 chose them without noise; under the final statistics another mix is better"
+    },
+    "size_share": {
+      "from": 0.25,
+      "to": 0.1,
+      "why": "stage 1 of the rule, with \"small\" from a member count"
+    },
+    "clusters": {
+      "from": 10,
+      "to": 8,
+      "why": "chosen on five practice quizzes (member-chosen topics)"
+    },
+    "count_under_noise": {
+      "from": true,
+      "to": false,
+      "why": "with the noise on, few stated counts were close to the truth (section 3)"
+    }
+  },
+  "checks on the practice quiz": {
+    "E2's budget: share of the hybrid's NDCG@5 kept without privacy": 0.969772,
+    "R9's NDCG@5 cost": {
+      "cost": 0.001107,
+      "low": -0.003507,
+      "high": 0.00576
+    },
+    "\"small\": the recommender's own counts, the count Discover shows, the members who count": {
+      "its own counts (before the first review)": {
+        "ndcg@5": 0.434599,
+        "newcomer_share": 0.135853,
+        "lists below the quota (members who count)": 431.0,
+        "lists below the quota (count Discover shows)": 431.0
+      },
+      "the count Discover shows (the first fix)": {
+        "ndcg@5": 0.433338,
+        "newcomer_share": 0.208183,
+        "lists below the quota (members who count)": 0.0,
+        "lists below the quota (count Discover shows)": 0.0
+      },
+      "the members who count (final)": {
+        "ndcg@5": 0.433338,
+        "newcomer_share": 0.208183,
+        "lists below the quota (members who count)": 0.0,
+        "lists below the quota (count Discover shows)": 0.0
+      }
+    },
+    "rounds": {
+      "1": {
+        "alpha": 0.4,
+        "beta": 0.1,
+        "gamma": 0.3,
+        "delta": 0.2,
+        "clusters": 8,
+        "m": 3,
+        "size_share": 0.1,
+        "eps": 2.0,
+        "accuracy kept low (eps)": 0.908325,
+        "rank of the mix": 14,
+        "best mix": "(0.2, 0.2, 0.3, 0.3)",
+        "best minus the mix": 0.012057,
+        "best minus the mix, low": 0.006154,
+        "best minus the mix, high": 0.017959,
+        "keep the mix": false,
+        "minutes": 5.818711
+      },
+      "2": {
+        "alpha": 0.2,
+        "beta": 0.2,
+        "gamma": 0.3,
+        "delta": 0.3,
+        "clusters": 8,
+        "m": 3,
+        "size_share": 0.1,
+        "eps": 1.5,
+        "accuracy kept low (eps)": 0.919237,
+        "rank of the mix": 1,
+        "best mix": "(0.2, 0.2, 0.3, 0.3)",
+        "best minus the mix": 0.0,
+        "best minus the mix, low": 0.0,
+        "best minus the mix, high": 0.0,
+        "keep the mix": true,
+        "minutes": 5.322234
+      }
+    },
+    "topic clusters": {
+      "chosen": 8,
+      "the rule on each quiz alone": {
+        "0": 15,
+        "1": null,
+        "2": 10,
+        "3": 25,
+        "4": 5
+      },
+      "table": "results/final_topic_clusters.csv"
+    },
+    "E3's rule, re-applied": {
+      "stage 1 (notebook 08 grid, quiz 0, 5 draws)": {
+        "size_share": 0.1,
+        "m": 3
+      },
+      "stage 2 (5 quizzes x 20 fresh draws; range over the quizzes)": {
+        "0.5": {
+          "quizzes": 5,
+          "runs": 100,
+          "ndcg@5": 0.3584,
+          "newcomer_share": 0.217336,
+          "accuracy kept": 0.810271,
+          "accuracy kept low": 0.795381,
+          "accuracy kept high": 0.825161,
+          "newcomer slots kept": 1.086186,
+          "newcomer slots kept low": 1.077274,
+          "newcomer slots kept high": 1.095097,
+          "passes": false,
+          "straddles the bar": false,
+          "quizzes passing alone": 0,
+          "single releases below 90%": 1.0,
+          "accuracy kept, quiz 0": 0.813185,
+          "accuracy kept, quiz 1": 0.792515,
+          "accuracy kept, quiz 2": 0.816002,
+          "accuracy kept, quiz 3": 0.824237,
+          "accuracy kept, quiz 4": 0.805415
+        },
+        "1.0": {
+          "quizzes": 5,
+          "runs": 100,
+          "ndcg@5": 0.39672,
+          "newcomer_share": 0.209752,
+          "accuracy kept": 0.896925,
+          "accuracy kept low": 0.887179,
+          "accuracy kept high": 0.906672,
+          "newcomer slots kept": 1.048216,
+          "newcomer slots kept low": 1.044099,
+          "newcomer slots kept high": 1.052333,
+          "passes": false,
+          "straddles the bar": true,
+          "quizzes passing alone": 0,
+          "single releases below 90%": 0.59,
+          "accuracy kept, quiz 0": 0.8986,
+          "accuracy kept, quiz 1": 0.888613,
+          "accuracy kept, quiz 2": 0.9035,
+          "accuracy kept, quiz 3": 0.90506,
+          "accuracy kept, quiz 4": 0.888853
+        },
+        "1.5": {
+          "quizzes": 5,
+          "runs": 100,
+          "ndcg@5": 0.41067,
+          "newcomer_share": 0.205963,
+          "accuracy kept": 0.928436,
+          "accuracy kept low": 0.919237,
+          "accuracy kept high": 0.937634,
+          "newcomer slots kept": 1.029255,
+          "newcomer slots kept low": 1.027758,
+          "newcomer slots kept high": 1.030752,
+          "passes": true,
+          "straddles the bar": false,
+          "quizzes passing alone": 5,
+          "single releases below 90%": 0.08,
+          "accuracy kept, quiz 0": 0.935245,
+          "accuracy kept, quiz 1": 0.92321,
+          "accuracy kept, quiz 2": 0.931453,
+          "accuracy kept, quiz 3": 0.934078,
+          "accuracy kept, quiz 4": 0.918192
+        },
+        "2.0": {
+          "quizzes": 5,
+          "runs": 100,
+          "ndcg@5": 0.417553,
+          "newcomer_share": 0.204782,
+          "accuracy kept": 0.944002,
+          "accuracy kept low": 0.935535,
+          "accuracy kept high": 0.952469,
+          "newcomer slots kept": 1.02335,
+          "newcomer slots kept low": 1.021751,
+          "newcomer slots kept high": 1.024948,
+          "passes": true,
+          "straddles the bar": false,
+          "quizzes passing alone": 5,
+          "single releases below 90%": 0.0,
+          "accuracy kept, quiz 0": 0.951622,
+          "accuracy kept, quiz 1": 0.941955,
+          "accuracy kept, quiz 2": 0.944153,
+          "accuracy kept, quiz 3": 0.948467,
+          "accuracy kept, quiz 4": 0.933815
+        },
+        "2.5": {
+          "quizzes": 5,
+          "runs": 100,
+          "ndcg@5": 0.421867,
+          "newcomer_share": 0.204204,
+          "accuracy kept": 0.95376,
+          "accuracy kept low": 0.946163,
+          "accuracy kept high": 0.961358,
+          "newcomer slots kept": 1.020424,
+          "newcomer slots kept low": 1.017518,
+          "newcomer slots kept high": 1.02333,
+          "passes": true,
+          "straddles the bar": false,
+          "quizzes passing alone": 5,
+          "single releases below 90%": 0.0,
+          "accuracy kept, quiz 0": 0.961254,
+          "accuracy kept, quiz 1": 0.950643,
+          "accuracy kept, quiz 2": 0.953592,
+          "accuracy kept, quiz 3": 0.95778,
+          "accuracy kept, quiz 4": 0.945533
+        },
+        "3.0": {
+          "quizzes": 5,
+          "runs": 100,
+          "ndcg@5": 0.424339,
+          "newcomer_share": 0.203706,
+          "accuracy kept": 0.959344,
+          "accuracy kept low": 0.950673,
+          "accuracy kept high": 0.968016,
+          "newcomer slots kept": 1.017941,
+          "newcomer slots kept low": 1.015522,
+          "newcomer slots kept high": 1.02036,
+          "passes": true,
+          "straddles the bar": false,
+          "quizzes passing alone": 5,
+          "single releases below 90%": 0.0,
+          "accuracy kept, quiz 0": 0.968635,
+          "accuracy kept, quiz 1": 0.956201,
+          "accuracy kept, quiz 2": 0.955896,
+          "accuracy kept, quiz 3": 0.964452,
+          "accuracy kept, quiz 4": 0.951539
+        },
+        "3.5": {
+          "quizzes": 5,
+          "runs": 100,
+          "ndcg@5": 0.425858,
+          "newcomer_share": 0.20338,
+          "accuracy kept": 0.962793,
+          "accuracy kept low": 0.955216,
+          "accuracy kept high": 0.970371,
+          "newcomer slots kept": 1.01632,
+          "newcomer slots kept low": 1.014436,
+          "newcomer slots kept high": 1.018204,
+          "passes": true,
+          "straddles the bar": false,
+          "quizzes passing alone": 5,
+          "single releases below 90%": 0.0,
+          "accuracy kept, quiz 0": 0.970336,
+          "accuracy kept, quiz 1": 0.958341,
+          "accuracy kept, quiz 2": 0.96004,
+          "accuracy kept, quiz 3": 0.968308,
+          "accuracy kept, quiz 4": 0.956942
+        },
+        "4.0": {
+          "quizzes": 5,
+          "runs": 100,
+          "ndcg@5": 0.42715,
+          "newcomer_share": 0.203283,
+          "accuracy kept": 0.965728,
+          "accuracy kept low": 0.958797,
+          "accuracy kept high": 0.972659,
+          "newcomer slots kept": 1.015852,
+          "newcomer slots kept low": 1.015045,
+          "newcomer slots kept high": 1.016659,
+          "passes": true,
+          "straddles the bar": false,
+          "quizzes passing alone": 5,
+          "single releases below 90%": 0.0,
+          "accuracy kept, quiz 0": 0.972244,
+          "accuracy kept, quiz 1": 0.962321,
+          "accuracy kept, quiz 2": 0.96163,
+          "accuracy kept, quiz 3": 0.971385,
+          "accuracy kept, quiz 4": 0.961061
+        },
+        "5.0": {
+          "quizzes": 5,
+          "runs": 100,
+          "ndcg@5": 0.428788,
+          "newcomer_share": 0.202991,
+          "accuracy kept": 0.969438,
+          "accuracy kept low": 0.960741,
+          "accuracy kept high": 0.978134,
+          "newcomer slots kept": 1.0144,
+          "newcomer slots kept low": 1.013115,
+          "newcomer slots kept high": 1.015686,
+          "passes": true,
+          "straddles the bar": false,
+          "quizzes passing alone": 5,
+          "single releases below 90%": 0.0,
+          "accuracy kept, quiz 0": 0.977065,
+          "accuracy kept, quiz 1": 0.966819,
+          "accuracy kept, quiz 2": 0.961524,
+          "accuracy kept, quiz 3": 0.976562,
+          "accuracy kept, quiz 4": 0.965219
+        }
+      },
+      "chosen": {
+        "clusters": 8,
+        "eps": 1.5,
+        "size_share": 0.1,
+        "m": 3
+      },
+      "bar": 0.9,
+      "reference ndcg@5": 0.456419,
+      "reference newcomer_share": 0.203119
+    },
+    "privacy for the recent activity": {
+      "chosen": null,
+      "table": "results/final_activity_privacy.csv"
+    },
+    "the hybrid's weights under the final statistics": {
+      "chosen mix rank": 1,
+      "best mix": [
+        0.2,
+        0.2,
+        0.3,
+        0.3
+      ],
+      "best minus chosen": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "keep the chosen mix": true
+    }
+  },
+  "test (1,406 members)": {
+    "Popularity (BOING today)": {
+      "hit_rate": 0.220484,
+      "ndcg@5": 0.131126,
+      "ndcg@5 low": 0.117392,
+      "ndcg@5 high": 0.14551,
+      "ndcg@5 sd": null,
+      "newcomer_share": 0.0,
+      "newcomer_share (members who count)": 0.0,
+      "gini": 0.953354,
+      "coverage": 10.0,
+      "topics_per_list": 3.228307,
+      "lists below the quota (members who count)": 1406.0,
+      "lists below the quota (count Discover shows)": 1406.0,
+      "lists with 3+ of one hidden topic": 0.106686
+    },
+    "Hybrid, no re-ranking (component)": {
+      "hit_rate": 0.687055,
+      "ndcg@5": 0.54068,
+      "ndcg@5 low": 0.517049,
+      "ndcg@5 high": 0.563062,
+      "ndcg@5 sd": null,
+      "newcomer_share": 0.020057,
+      "newcomer_share (members who count)": 0.020626,
+      "gini": 0.640178,
+      "coverage": 106.0,
+      "topics_per_list": 2.554765,
+      "lists below the quota (members who count)": 1280.0,
+      "lists below the quota (count Discover shows)": 1284.0,
+      "lists with 3+ of one hidden topic": 0.667141
+    },
+    "Final design without privacy": {
+      "hit_rate": 0.637269,
+      "ndcg@5": 0.514642,
+      "ndcg@5 low": 0.491014,
+      "ndcg@5 high": 0.538617,
+      "ndcg@5 sd": null,
+      "newcomer_share": 0.19744,
+      "newcomer_share (members who count)": 0.204267,
+      "gini": 0.494582,
+      "coverage": 127.0,
+      "topics_per_list": 2.635135,
+      "lists below the quota (members who count)": 0.0,
+      "lists below the quota (count Discover shows)": 47.0,
+      "lists with 3+ of one hidden topic": 0.676387
+    },
+    "Final design (ε = 1.5, m = 3)": {
+      "hit_rate": 0.613229,
+      "ndcg@5": 0.488178,
+      "ndcg@5 low": 0.465975,
+      "ndcg@5 high": 0.509539,
+      "ndcg@5 sd": 0.008371,
+      "newcomer_share": 0.199417,
+      "newcomer_share (members who count)": 0.207809,
+      "gini": 0.531874,
+      "coverage": 127.1,
+      "topics_per_list": 3.13478,
+      "lists below the quota (members who count)": 0.0,
+      "lists below the quota (count Discover shows)": 55.2,
+      "lists with 3+ of one hidden topic": 0.465363
+    },
+    "Final design with ε = 0.5": {
+      "hit_rate": 0.557183,
+      "ndcg@5": 0.436443,
+      "ndcg@5 low": 0.416308,
+      "ndcg@5 high": 0.456915,
+      "ndcg@5 sd": 0.010425,
+      "newcomer_share": 0.206486,
+      "newcomer_share (members who count)": 0.214509,
+      "gini": 0.572469,
+      "coverage": 125.2,
+      "topics_per_list": 3.469488,
+      "lists below the quota (members who count)": 0.0,
+      "lists below the quota (count Discover shows)": 51.4,
+      "lists with 3+ of one hidden topic": 0.323115
+    },
+    "Final design with ε = 2": {
+      "hit_rate": 0.61771,
+      "ndcg@5": 0.492861,
+      "ndcg@5 low": 0.470858,
+      "ndcg@5 high": 0.514326,
+      "ndcg@5 sd": 0.007696,
+      "newcomer_share": 0.199815,
+      "newcomer_share (members who count)": 0.207681,
+      "gini": 0.525504,
+      "coverage": 127.2,
+      "topics_per_list": 3.076458,
+      "lists below the quota (members who count)": 0.0,
+      "lists below the quota (count Discover shows)": 52.8,
+      "lists with 3+ of one hidden topic": 0.490612
+    },
+    "Final design with ε = 5": {
+      "hit_rate": 0.626529,
+      "ndcg@5": 0.497371,
+      "ndcg@5 low": 0.474765,
+      "ndcg@5 high": 0.519096,
+      "ndcg@5 sd": 0.003829,
+      "newcomer_share": 0.197881,
+      "newcomer_share (members who count)": 0.204979,
+      "gini": 0.513934,
+      "coverage": 127.9,
+      "topics_per_list": 2.914794,
+      "lists below the quota (members who count)": 0.0,
+      "lists below the quota (count Discover shows)": 48.8,
+      "lists with 3+ of one hidden topic": 0.563087
+    },
+    "Final design before the review (ε = 5)": {
+      "hit_rate": 0.6399,
+      "ndcg@5": 0.510394,
+      "ndcg@5 low": 0.487677,
+      "ndcg@5 high": 0.532406,
+      "ndcg@5 sd": 0.003541,
+      "newcomer_share": 0.158108,
+      "newcomer_share (members who count)": 0.162461,
+      "gini": 0.514072,
+      "coverage": 124.5,
+      "topics_per_list": 3.08037,
+      "lists below the quota (members who count)": 443.5,
+      "lists below the quota (count Discover shows)": 470.4,
+      "lists with 3+ of one hidden topic": 0.481366
+    },
+    "Personalisation off (default list)": {
+      "hit_rate": 0.104552,
+      "ndcg@5": 0.058416,
+      "ndcg@5 low": 0.049114,
+      "ndcg@5 high": 0.068139,
+      "ndcg@5 sd": 0.0,
+      "newcomer_share": 0.441252,
+      "newcomer_share (members who count)": 0.441252,
+      "gini": 0.843435,
+      "coverage": 23.0,
+      "topics_per_list": 4.245377,
+      "lists below the quota (members who count)": 0.0,
+      "lists below the quota (count Discover shows)": 0.0,
+      "lists with 3+ of one hidden topic": 0.007112
+    }
+  },
+  "known issues": [
+    "epsilon holds for one release of the group sizes and pair counts; the friends signal, the member counts behind \"small\", the recent activity and the shared cap c are outside it (section 8)",
+    "41% of 'shared members' reasons (noise on) name two groups that truly share no member (31% to 52% across draws); so the reason states no count",
+    "the topic cap acts on text clusters: 47% of the final lists still hold 3 or more groups of one hidden topic",
+    "fake accounts that wait 30 days and reach level 3 (attacker D) still push a group up, at most to the cap c (351 of 7030 slots), and can push rival small groups over the 'small' line: 9 of them take Violin club from 126 lists to 17 and lift another group by 9",
+    "'small' counts only the members who count under R9: by the count Discover shows, 55 lists on average hold no group under 10 members",
+    "at launch nearly every account is young: with burst_w = 0 there is little to learn from until accounts are 30 days old",
+    "c must stay above 1 / (groups on Discover), or the cap cannot be met: the small test world has only 18 groups on Discover, so a 5% cap must be relaxed about 50 times per case there, and the quota and topic cap with it (testcases/README.md); cases 12 and 13 relax nothing"
+  ],
+  "files": {
+    "reasoning": "results/final_choices.md",
+    "headline table": "results/final_table.csv",
+    "every number": "results/summary.json",
+    "test cases": "testcases/README.md"
+  }
+}

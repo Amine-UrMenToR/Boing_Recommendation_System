@@ -1,0 +1,28 @@
+setting,attacker,k,statistics unchanged,target activity (posts + likes counted),default lists showing the target,personalised lists showing the target
+R9 off,no attack,0,True,32.0,0,69
+R9 off,"A · New accounts, level 1-2",20,False,152.0,703,73
+R9 off,"A · New accounts, level 1-2",100,False,632.0,703,99
+R9 off,"B · New accounts, levelled up to 5-6",20,False,152.0,703,73
+R9 off,"B · New accounts, levelled up to 5-6",100,False,632.0,703,99
+R9 off,"C · A month old, level 1-2",20,False,152.0,703,73
+R9 off,"C · A month old, level 1-2",100,False,632.0,703,99
+R9 off,D · A month old and levelled up,20,False,152.0,703,73
+R9 off,D · A month old and levelled up,100,False,632.0,703,99
+"L = 3 + burst 0, joins only",no attack,0,True,32.0,0,68
+"L = 3 + burst 0, joins only","A · New accounts, level 1-2",20,True,32.0,0,68
+"L = 3 + burst 0, joins only","A · New accounts, level 1-2",100,True,32.0,0,68
+"L = 3 + burst 0, joins only","B · New accounts, levelled up to 5-6",20,False,152.0,703,68
+"L = 3 + burst 0, joins only","B · New accounts, levelled up to 5-6",100,False,632.0,703,68
+"L = 3 + burst 0, joins only","C · A month old, level 1-2",20,True,32.0,0,68
+"L = 3 + burst 0, joins only","C · A month old, level 1-2",100,True,32.0,0,68
+"L = 3 + burst 0, joins only",D · A month old and levelled up,20,False,152.0,703,69
+"L = 3 + burst 0, joins only",D · A month old and levelled up,100,False,632.0,703,101
+"L = 3 + burst 0, joins, posts, likes and friends",no attack,0,True,31.0,0,68
+"L = 3 + burst 0, joins, posts, likes and friends","A · New accounts, level 1-2",20,True,31.0,0,68
+"L = 3 + burst 0, joins, posts, likes and friends","A · New accounts, level 1-2",100,True,31.0,0,68
+"L = 3 + burst 0, joins, posts, likes and friends","B · New accounts, levelled up to 5-6",20,True,31.0,0,68
+"L = 3 + burst 0, joins, posts, likes and friends","B · New accounts, levelled up to 5-6",100,True,31.0,0,68
+"L = 3 + burst 0, joins, posts, likes and friends","C · A month old, level 1-2",20,True,31.0,0,68
+"L = 3 + burst 0, joins, posts, likes and friends","C · A month old, level 1-2",100,True,31.0,0,68
+"L = 3 + burst 0, joins, posts, likes and friends",D · A month old and levelled up,20,False,151.0,703,69
+"L = 3 + burst 0, joins, posts, likes and friends",D · A month old and levelled up,100,False,631.0,703,101

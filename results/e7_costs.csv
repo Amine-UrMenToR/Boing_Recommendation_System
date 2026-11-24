@@ -1,0 +1,7 @@
+step,hit_rate,ndcg@5,cost,cost_low,cost_high
+No rules (score only),0.3927,0.1907,,,
+"+ Safety filters (R8: blocked either way, suspended, private)",0.3513,0.1667,0.0239,0.0159,0.0322
++ Age bands (R8),0.337,0.1605,0.0062,0.0017,0.0109
++ Consent (R1: only people who switched on and take requests),0.1571,0.0707,0.0898,0.0758,0.103
++ Variety (at most 2 people per named group): the BOING design,0.1577,0.0708,-0.0001,-0.0009,0.0008
+Every rule together,,0.0708,0.1199,0.1046,0.1349

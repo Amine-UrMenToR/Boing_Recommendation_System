@@ -1,0 +1,5 @@
+design,hit_rate,ndcg@5,hit_rate (reachable hidden groups),ndcg@5 (reachable hidden groups)
+Popularity (BOING today),0.2205,0.1311,0.2313,0.1379
+"Hybrid, no re-ranking (component)",0.6871,0.5407,0.7209,0.5698
+"Final design (ε = 1.5, m = 3)",0.6132,0.4882,0.6434,0.5141
+Personalisation off (default list),0.1046,0.0584,0.1097,0.0614

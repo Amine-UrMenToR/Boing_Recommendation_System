@@ -1,0 +1,43 @@
+group_id,setting,group,members,days old,no attack,attacked,gain
+123,R9 off,IELTS prep squad,1,27,18,319,301
+124,R9 off,Daily Digital painting,1,24,10,416,406
+126,R9 off,Morning Calisthenics,1,23,2,409,407
+127,R9 off,Arabic for beginners,1,21,4,446,442
+130,R9 off,Daily Sketching,2,19,3,332,329
+131,R9 off,JavaScript from zero,1,19,26,416,390
+132,R9 off,Learn Music theory together,1,18,3,436,433
+136,R9 off,Getting good at Freelancing,1,13,24,441,417
+137,R9 off,Reading club,0,13,3,451,448
+138,R9 off,Freelancing 101,0,12,0,412,412
+139,R9 off,Number theory without tears,1,11,17,414,397
+140,R9 off,Daily Italian,1,10,7,471,464
+141,R9 off,Finals prep squad,2,10,46,437,391
+142,R9 off,AP exams countdown,1,8,8,343,335
+143,R9 off,Guitar for beginners,1,8,49,465,416
+144,R9 off,Linear algebra study group,1,7,3,417,414
+146,R9 off,Linear algebra help desk,0,6,0,433,433
+147,R9 off,Digital painting club,2,5,9,431,422
+148,R9 off,Mastering Linear algebra,0,5,0,414,414
+149,R9 off,Calculus problem of the day,1,4,21,442,421
+150,R9 off,Mandarin conversation club,1,0,8,470,462
+123,L = 3 + burst 0,IELTS prep squad,1,27,18,18,0
+124,L = 3 + burst 0,Daily Digital painting,1,24,10,10,0
+126,L = 3 + burst 0,Morning Calisthenics,1,23,2,2,0
+127,L = 3 + burst 0,Arabic for beginners,1,21,5,5,0
+130,L = 3 + burst 0,Daily Sketching,2,19,3,3,0
+131,L = 3 + burst 0,JavaScript from zero,1,19,26,26,0
+132,L = 3 + burst 0,Learn Music theory together,1,18,3,3,0
+136,L = 3 + burst 0,Getting good at Freelancing,1,13,23,23,0
+137,L = 3 + burst 0,Reading club,0,13,2,2,0
+138,L = 3 + burst 0,Freelancing 101,0,12,0,0,0
+139,L = 3 + burst 0,Number theory without tears,1,11,18,18,0
+140,L = 3 + burst 0,Daily Italian,1,10,7,7,0
+141,L = 3 + burst 0,Finals prep squad,2,10,40,40,0
+142,L = 3 + burst 0,AP exams countdown,1,8,7,7,0
+143,L = 3 + burst 0,Guitar for beginners,1,8,46,46,0
+144,L = 3 + burst 0,Linear algebra study group,1,7,3,3,0
+146,L = 3 + burst 0,Linear algebra help desk,0,6,0,0,0
+147,L = 3 + burst 0,Digital painting club,2,5,8,8,0
+148,L = 3 + burst 0,Mastering Linear algebra,0,5,0,0,0
+149,L = 3 + burst 0,Calculus problem of the day,1,4,20,20,0
+150,L = 3 + burst 0,Mandarin conversation club,1,0,10,10,0

@@ -1,0 +1,7 @@
+method,members,hit_rate,ndcg@5,empty_lists
+Random,28,0.0357,0.0225,0.0
+Most connected,28,0.0,0.0,0.0
+Mutual friends only,28,0.1429,0.0601,0.4286
+Shared groups only,28,0.0357,0.0072,0.0
+BOING design,28,0.1786,0.0869,0.0
+BOING as built (w = 1),28,0.0714,0.0251,0.0

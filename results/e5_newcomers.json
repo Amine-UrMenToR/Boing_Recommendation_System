@@ -1,0 +1,71 @@
+{
+  "definitions": {
+    "new member or group": "created in the last 30 days (day 336 or later)",
+    "small group": "fewer than 10 members in the training data",
+    "few groups": "fewer than 3 in the training data"
+  },
+  "members": {
+    "3 or more groups": 1090,
+    "2 groups": 316,
+    "1 group": 357,
+    "No group yet": 122,
+    "New members": 202
+  },
+  "test set new members": 0,
+  "quiz": {
+    "memberships": 479,
+    "members": 479,
+    "default list (nothing to go on)": 30
+  },
+  "groups": {
+    "new": 30,
+    "older small": 37
+  },
+  "cost of re-ranking per kind of member (hybrid minus proposed, NDCG@5)": {
+    "3 or more groups": {
+      "members": 1090,
+      "hybrid": 0.5617,
+      "proposed": 0.5464,
+      "cost": 0.0153,
+      "cost low": 0.0101,
+      "cost high": 0.0206,
+      "relative cost": 0.0272
+    },
+    "2 groups": {
+      "members": 316,
+      "hybrid": 0.4682,
+      "proposed": 0.4649,
+      "cost": 0.0033,
+      "cost low": -0.0065,
+      "cost high": 0.0132,
+      "relative cost": 0.007
+    },
+    "1 group": {
+      "members": 357,
+      "hybrid": 0.4307,
+      "proposed": 0.3997,
+      "cost": 0.031,
+      "cost low": 0.0185,
+      "cost high": 0.0448,
+      "relative cost": 0.072
+    },
+    "No group yet": {
+      "members": 122,
+      "hybrid": 0.3323,
+      "proposed": 0.3256,
+      "cost": 0.0067,
+      "cost low": 0.0,
+      "cost high": 0.0169,
+      "relative cost": 0.0202
+    },
+    "New members": {
+      "members": 202,
+      "hybrid": 0.353,
+      "proposed": 0.343,
+      "cost": 0.01,
+      "cost low": -0.0015,
+      "cost high": 0.0224,
+      "relative cost": 0.0284
+    }
+  }
+}

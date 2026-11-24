@@ -1,0 +1,2 @@
+,users,hit_rate,precision@5,recall@5,ndcg@5,newcomer_share,gini,coverage,largest_share,topics_per_list,hit_rate low,hit_rate high,ndcg@5 low,ndcg@5 high,tastes
+Hidden tastes (AI model),1406,0.61,0.129,0.591,0.475,0.005,0.645,76,0.037,2.251,0.585,0.634,0.452,0.496,10

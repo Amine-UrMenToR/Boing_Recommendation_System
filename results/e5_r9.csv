@@ -1,0 +1,4 @@
+setting,ndcg@5 all tested,ndcg@5 2 groups (test),ndcg@5 new members (quiz),ndcg@5 no group yet (quiz),share new groups,newcomer share,found in new or small groups
+Proposed design (R9 off: L = 1),0.528,0.465,0.343,0.326,0.042,0.203,14.0
+Only level 3 or more counts (L = 3),0.526,0.464,0.336,0.314,0.042,0.203,14.0
+Young accounts count half (burst_w = 0.5),0.529,0.467,0.343,0.326,0.042,0.203,14.0

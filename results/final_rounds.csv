@@ -1,0 +1,3 @@
+round,alpha,beta,gamma,delta,clusters,m,size_share,eps,accuracy kept low (eps),rank of the mix,best mix,best minus the mix,"best minus the mix, low","best minus the mix, high",keep the mix,minutes
+1,0.4,0.1,0.3,0.2,8,3,0.1,2.0,0.9083,14,"(0.2, 0.2, 0.3, 0.3)",0.0121,0.0062,0.018,False,5.8187
+2,0.2,0.2,0.3,0.3,8,3,0.1,1.5,0.9192,1,"(0.2, 0.2, 0.3, 0.3)",0.0,0.0,0.0,True,5.3222

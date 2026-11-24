@@ -1,0 +1,501 @@
+user_id,rank,group_id,score,reason_code,reason_text
+1,1,10,0.304262,active,Active this month
+1,2,11,0.304262,active,Active this month
+1,3,3,0.273301,active,Active this week
+1,4,13,0.273301,active,Active this month
+1,5,14,0.000000,new_group,A small group: we show small groups so they get a fair chance
+2,1,5,0.353113,active,Active this week
+2,2,16,0.353113,active,Active this month
+2,3,10,0.304262,active,Active this month
+2,4,2,0.273301,active,Active this month
+2,5,9,0.000000,new_group,A small group: we show small groups so they get a fair chance
+3,1,5,0.353113,active,Active this week
+3,2,16,0.353113,active,Active this month
+3,3,4,0.304262,active,Active this month
+3,4,11,0.304262,active,Active this month
+3,5,14,0.000000,new_group,A small group: we show small groups so they get a fair chance
+4,1,5,0.353113,active,Active this week
+4,2,16,0.353113,active,Active this month
+4,3,10,0.304262,active,Active this month
+4,4,11,0.304262,active,Active this month
+4,5,14,0.000000,new_group,A small group: we show small groups so they get a fair chance
+5,1,12,0.500000,active,Active this week
+5,2,7,0.421966,active,Active this month
+5,3,6,0.421966,active,Active this month
+5,4,16,0.353113,active,Active this month
+5,5,14,0.000000,new_group,A small group: we show small groups so they get a fair chance
+6,1,12,0.500000,active,Active this week
+6,2,8,0.353113,active,Active this week
+6,3,16,0.353113,active,Active this month
+6,4,17,0.333333,new_group,A new group: we show new groups so they get a fair chance
+6,5,4,0.304262,active,Active this month
+7,1,10,0.304262,active,Active this month
+7,2,11,0.304262,active,Active this month
+7,3,3,0.273301,active,Active this week
+7,4,13,0.273301,active,Active this month
+7,5,14,0.000000,new_group,A small group: we show small groups so they get a fair chance
+8,1,1,0.000000,discover,Open to everyone on Discover
+8,2,15,0.000000,discover,Open to everyone on Discover
+8,3,9,0.000000,new_group,A small group: we show small groups so they get a fair chance
+8,4,12,0.500000,active,Active this week
+8,5,7,0.421966,active,Active this month
+9,1,12,0.500000,active,Active this week
+9,2,7,0.421966,active,Active this month
+9,3,6,0.421966,active,Active this month
+9,4,8,0.353113,active,Active this week
+9,5,17,0.333333,new_group,A new group: we show new groups so they get a fair chance
+10,1,7,0.421966,active,Active this month
+10,2,5,0.353113,active,Active this week
+10,3,8,0.353113,active,Active this week
+10,4,17,0.333333,new_group,A new group: we show new groups so they get a fair chance
+10,5,16,0.353113,active,Active this month
+11,1,5,0.353113,active,Active this week
+11,2,8,0.353113,active,Active this week
+11,3,17,0.333333,new_group,A new group: we show new groups so they get a fair chance
+11,4,16,0.353113,active,Active this month
+11,5,4,0.304262,active,Active this month
+12,1,12,0.500000,active,Active this week
+12,2,6,0.421966,active,Active this month
+12,3,8,0.353113,active,Active this week
+12,4,17,0.333333,new_group,A new group: we show new groups so they get a fair chance
+12,5,4,0.304262,active,Active this month
+13,1,2,0.273301,active,Active this month
+13,2,3,0.273301,active,Active this week
+13,3,9,0.000000,new_group,A small group: we show small groups so they get a fair chance
+13,4,18,0.000000,new_group,A small group: we show small groups so they get a fair chance
+13,5,1,0.000000,discover,Open to everyone on Discover
+14,1,12,0.500000,active,Active this week
+14,2,7,0.421966,active,Active this month
+14,3,6,0.421966,active,Active this month
+14,4,8,0.353113,active,Active this week
+14,5,17,0.333333,new_group,A new group: we show new groups so they get a fair chance
+15,1,3,0.273301,active,Active this week
+15,2,1,0.000000,discover,Open to everyone on Discover
+15,3,18,0.000000,new_group,A small group: we show small groups so they get a fair chance
+15,4,15,0.000000,discover,Open to everyone on Discover
+15,5,9,0.000000,new_group,A small group: we show small groups so they get a fair chance
+16,1,5,0.353113,active,Active this week
+16,2,4,0.304262,active,Active this month
+16,3,11,0.304262,active,Active this month
+16,4,10,0.304262,active,Active this month
+16,5,18,0.000000,new_group,A small group: we show small groups so they get a fair chance
+17,1,12,0.500000,active,Active this week
+17,2,7,0.421966,active,Active this month
+17,3,6,0.421966,active,Active this month
+17,4,8,0.353113,active,Active this week
+17,5,17,0.333333,new_group,A new group: we show new groups so they get a fair chance
+18,1,5,0.353113,active,Active this week
+18,2,16,0.353113,active,Active this month
+18,3,4,0.304262,active,Active this month
+18,4,11,0.304262,active,Active this month
+18,5,14,0.000000,new_group,A small group: we show small groups so they get a fair chance
+19,1,5,0.353113,active,Active this week
+19,2,4,0.304262,active,Active this month
+19,3,2,0.273301,active,Active this month
+19,4,13,0.273301,active,Active this month
+19,5,9,0.000000,new_group,A small group: we show small groups so they get a fair chance
+20,1,12,0.500000,active,Active this week
+20,2,7,0.421966,active,Active this month
+20,3,6,0.421966,active,Active this month
+20,4,8,0.353113,active,Active this week
+20,5,17,0.333333,new_group,A new group: we show new groups so they get a fair chance
+21,1,12,0.500000,active,Active this week
+21,2,7,0.421966,active,Active this month
+21,3,6,0.421966,active,Active this month
+21,4,8,0.353113,active,Active this week
+21,5,17,0.333333,new_group,A new group: we show new groups so they get a fair chance
+22,1,10,0.304262,active,Active this month
+22,2,11,0.304262,active,Active this month
+22,3,2,0.273301,active,Active this month
+22,4,13,0.273301,active,Active this month
+22,5,14,0.000000,new_group,A small group: we show small groups so they get a fair chance
+23,1,12,0.500000,active,Active this week
+23,2,7,0.421966,active,Active this month
+23,3,8,0.353113,active,Active this week
+23,4,16,0.353113,active,Active this month
+23,5,17,0.333333,new_group,A new group: we show new groups so they get a fair chance
+24,1,12,0.500000,active,Active this week
+24,2,7,0.421966,active,Active this month
+24,3,16,0.353113,active,Active this month
+24,4,17,0.333333,new_group,A new group: we show new groups so they get a fair chance
+24,5,4,0.304262,active,Active this month
+25,1,10,0.304262,active,Active this month
+25,2,11,0.304262,active,Active this month
+25,3,2,0.273301,active,Active this month
+25,4,13,0.273301,active,Active this month
+25,5,14,0.000000,new_group,A small group: we show small groups so they get a fair chance
+26,1,6,0.421966,active,Active this month
+26,2,7,0.421966,active,Active this month
+26,3,5,0.353113,active,Active this week
+26,4,4,0.304262,active,Active this month
+26,5,14,0.000000,new_group,A small group: we show small groups so they get a fair chance
+27,1,10,0.304262,active,Active this month
+27,2,2,0.273301,active,Active this month
+27,3,13,0.273301,active,Active this month
+27,4,18,0.000000,new_group,A small group: we show small groups so they get a fair chance
+27,5,15,0.000000,discover,Open to everyone on Discover
+28,1,12,0.500000,active,Active this week
+28,2,7,0.421966,active,Active this month
+28,3,6,0.421966,active,Active this month
+28,4,8,0.353113,active,Active this week
+28,5,17,0.333333,new_group,A new group: we show new groups so they get a fair chance
+29,1,4,0.304262,active,Active this month
+29,2,11,0.304262,active,Active this month
+29,3,10,0.304262,active,Active this month
+29,4,2,0.273301,active,Active this month
+29,5,14,0.000000,new_group,A small group: we show small groups so they get a fair chance
+30,1,12,0.500000,active,Active this week
+30,2,7,0.421966,active,Active this month
+30,3,6,0.421966,active,Active this month
+30,4,8,0.353113,active,Active this week
+30,5,5,0.353113,active,Active this week
+31,1,5,0.353113,active,Active this week
+31,2,16,0.353113,active,Active this month
+31,3,4,0.304262,active,Active this month
+31,4,11,0.304262,active,Active this month
+31,5,14,0.000000,new_group,A small group: we show small groups so they get a fair chance
+32,1,3,0.273301,active,Active this week
+32,2,1,0.000000,discover,Open to everyone on Discover
+32,3,18,0.000000,new_group,A small group: we show small groups so they get a fair chance
+32,4,15,0.000000,discover,Open to everyone on Discover
+32,5,9,0.000000,new_group,A small group: we show small groups so they get a fair chance
+33,1,2,0.273301,active,Active this month
+33,2,13,0.273301,active,Active this month
+33,3,3,0.273301,active,Active this week
+33,4,18,0.000000,new_group,A small group: we show small groups so they get a fair chance
+33,5,15,0.000000,discover,Open to everyone on Discover
+34,1,12,0.500000,active,Active this week
+34,2,7,0.421966,active,Active this month
+34,3,6,0.421966,active,Active this month
+34,4,8,0.353113,active,Active this week
+34,5,16,0.353113,active,Active this month
+35,1,6,0.421966,active,Active this month
+35,2,5,0.353113,active,Active this week
+35,3,4,0.304262,active,Active this month
+35,4,10,0.304262,active,Active this month
+35,5,9,0.000000,new_group,A small group: we show small groups so they get a fair chance
+36,1,16,0.353113,active,Active this month
+36,2,4,0.304262,active,Active this month
+36,3,11,0.304262,active,Active this month
+36,4,2,0.273301,active,Active this month
+36,5,14,0.000000,new_group,A small group: we show small groups so they get a fair chance
+37,1,12,0.500000,active,Active this week
+37,2,8,0.353113,active,Active this week
+37,3,16,0.353113,active,Active this month
+37,4,17,0.333333,new_group,A new group: we show new groups so they get a fair chance
+37,5,4,0.304262,active,Active this month
+38,1,12,0.500000,active,Active this week
+38,2,7,0.421966,active,Active this month
+38,3,6,0.421966,active,Active this month
+38,4,8,0.353113,active,Active this week
+38,5,17,0.333333,new_group,A new group: we show new groups so they get a fair chance
+39,1,3,0.273301,active,Active this week
+39,2,13,0.273301,active,Active this month
+39,3,1,0.000000,discover,Open to everyone on Discover
+39,4,18,0.000000,new_group,A small group: we show small groups so they get a fair chance
+39,5,15,0.000000,discover,Open to everyone on Discover
+40,1,4,0.304262,active,Active this month
+40,2,11,0.304262,active,Active this month
+40,3,10,0.304262,active,Active this month
+40,4,2,0.273301,active,Active this month
+40,5,14,0.000000,new_group,A small group: we show small groups so they get a fair chance
+41,1,10,0.304262,active,Active this month
+41,2,2,0.273301,active,Active this month
+41,3,13,0.273301,active,Active this month
+41,4,3,0.273301,active,Active this week
+41,5,18,0.000000,new_group,A small group: we show small groups so they get a fair chance
+42,1,1,0.000000,discover,Open to everyone on Discover
+42,2,6,0.421966,active,Active this month
+42,3,7,0.421966,active,Active this month
+42,4,16,0.353113,active,Active this month
+42,5,8,0.353113,active,Active this week
+43,1,5,0.353113,active,Active this week
+43,2,16,0.353113,active,Active this month
+43,3,4,0.304262,active,Active this month
+43,4,10,0.304262,active,Active this month
+43,5,9,0.000000,new_group,A small group: we show small groups so they get a fair chance
+44,1,5,0.353113,active,Active this week
+44,2,16,0.353113,active,Active this month
+44,3,4,0.304262,active,Active this month
+44,4,11,0.304262,active,Active this month
+44,5,14,0.000000,new_group,A small group: we show small groups so they get a fair chance
+45,1,12,0.500000,active,Active this week
+45,2,7,0.421966,active,Active this month
+45,3,6,0.421966,active,Active this month
+45,4,5,0.353113,active,Active this week
+45,5,9,0.000000,new_group,A small group: we show small groups so they get a fair chance
+46,1,10,0.304262,active,Active this month
+46,2,11,0.304262,active,Active this month
+46,3,2,0.273301,active,Active this month
+46,4,3,0.273301,active,Active this week
+46,5,18,0.000000,new_group,A small group: we show small groups so they get a fair chance
+47,1,3,0.273301,active,Active this week
+47,2,13,0.273301,active,Active this month
+47,3,1,0.000000,discover,Open to everyone on Discover
+47,4,18,0.000000,new_group,A small group: we show small groups so they get a fair chance
+47,5,15,0.000000,discover,Open to everyone on Discover
+48,1,11,0.304262,active,Active this month
+48,2,2,0.273301,active,Active this month
+48,3,13,0.273301,active,Active this month
+48,4,3,0.273301,active,Active this week
+48,5,18,0.000000,new_group,A small group: we show small groups so they get a fair chance
+49,1,1,0.000000,discover,Open to everyone on Discover
+49,2,15,0.000000,discover,Open to everyone on Discover
+49,3,9,0.000000,new_group,A small group: we show small groups so they get a fair chance
+49,4,7,0.421966,active,Active this month
+49,5,6,0.421966,active,Active this month
+50,1,10,0.304262,active,Active this month
+50,2,3,0.273301,active,Active this week
+50,3,1,0.000000,discover,Open to everyone on Discover
+50,4,18,0.000000,new_group,A small group: we show small groups so they get a fair chance
+50,5,15,0.000000,discover,Open to everyone on Discover
+51,1,12,0.500000,active,Active this week
+51,2,7,0.421966,active,Active this month
+51,3,8,0.353113,active,Active this week
+51,4,16,0.353113,active,Active this month
+51,5,17,0.333333,new_group,A new group: we show new groups so they get a fair chance
+52,1,10,0.304262,active,Active this month
+52,2,3,0.273301,active,Active this week
+52,3,9,0.000000,new_group,A small group: we show small groups so they get a fair chance
+52,4,15,0.000000,discover,Open to everyone on Discover
+52,5,18,0.000000,new_group,A small group: we show small groups so they get a fair chance
+53,1,12,0.500000,active,Active this week
+53,2,6,0.421966,active,Active this month
+53,3,8,0.353113,active,Active this week
+53,4,16,0.353113,active,Active this month
+53,5,17,0.333333,new_group,A new group: we show new groups so they get a fair chance
+54,1,5,0.353113,active,Active this week
+54,2,2,0.273301,active,Active this month
+54,3,13,0.273301,active,Active this month
+54,4,3,0.273301,active,Active this week
+54,5,9,0.000000,new_group,A small group: we show small groups so they get a fair chance
+55,1,1,0.000000,discover,Open to everyone on Discover
+55,2,15,0.000000,discover,Open to everyone on Discover
+55,3,7,0.421966,active,Active this month
+55,4,5,0.353113,active,Active this week
+55,5,8,0.353113,active,Active this week
+56,1,5,0.353113,active,Active this week
+56,2,2,0.273301,active,Active this month
+56,3,13,0.273301,active,Active this month
+56,4,3,0.273301,active,Active this week
+56,5,14,0.000000,new_group,A small group: we show small groups so they get a fair chance
+57,1,1,0.000000,discover,Open to everyone on Discover
+57,2,6,0.421966,active,Active this month
+57,3,7,0.421966,active,Active this month
+57,4,16,0.353113,active,Active this month
+57,5,8,0.353113,active,Active this week
+58,1,5,0.353113,active,Active this week
+58,2,16,0.353113,active,Active this month
+58,3,4,0.304262,active,Active this month
+58,4,11,0.304262,active,Active this month
+58,5,14,0.000000,new_group,A small group: we show small groups so they get a fair chance
+59,1,2,0.273301,active,Active this month
+59,2,13,0.273301,active,Active this month
+59,3,18,0.000000,new_group,A small group: we show small groups so they get a fair chance
+59,4,15,0.000000,discover,Open to everyone on Discover
+59,5,9,0.000000,new_group,A small group: we show small groups so they get a fair chance
+60,1,1,0.000000,discover,Open to everyone on Discover
+60,2,12,0.500000,active,Active this week
+60,3,6,0.421966,active,Active this month
+60,4,7,0.421966,active,Active this month
+60,5,8,0.353113,active,Active this week
+61,1,10,0.304262,active,Active this month
+61,2,11,0.304262,active,Active this month
+61,3,2,0.273301,active,Active this month
+61,4,13,0.273301,active,Active this month
+61,5,14,0.000000,new_group,A small group: we show small groups so they get a fair chance
+62,1,10,0.304262,active,Active this month
+62,2,2,0.273301,active,Active this month
+62,3,3,0.273301,active,Active this week
+62,4,9,0.000000,new_group,A small group: we show small groups so they get a fair chance
+62,5,18,0.000000,new_group,A small group: we show small groups so they get a fair chance
+63,1,11,0.304262,active,Active this month
+63,2,2,0.273301,active,Active this month
+63,3,13,0.273301,active,Active this month
+63,4,3,0.273301,active,Active this week
+63,5,18,0.000000,new_group,A small group: we show small groups so they get a fair chance
+64,1,9,0.000000,new_group,A small group: we show small groups so they get a fair chance
+64,2,15,0.000000,discover,Open to everyone on Discover
+64,3,12,0.500000,active,Active this week
+64,4,7,0.421966,active,Active this month
+64,5,8,0.353113,active,Active this week
+65,1,6,0.421966,active,Active this month
+65,2,5,0.353113,active,Active this week
+65,3,10,0.304262,active,Active this month
+65,4,2,0.273301,active,Active this month
+65,5,14,0.000000,new_group,A small group: we show small groups so they get a fair chance
+66,1,5,0.353113,active,Active this week
+66,2,16,0.353113,active,Active this month
+66,3,4,0.304262,active,Active this month
+66,4,11,0.304262,active,Active this month
+66,5,14,0.000000,new_group,A small group: we show small groups so they get a fair chance
+67,1,5,0.353113,active,Active this week
+67,2,16,0.353113,active,Active this month
+67,3,10,0.304262,active,Active this month
+67,4,11,0.304262,active,Active this month
+67,5,14,0.000000,new_group,A small group: we show small groups so they get a fair chance
+68,1,10,0.304262,active,Active this month
+68,2,11,0.304262,active,Active this month
+68,3,2,0.273301,active,Active this month
+68,4,13,0.273301,active,Active this month
+68,5,18,0.000000,new_group,A small group: we show small groups so they get a fair chance
+69,1,3,0.273301,active,Active this week
+69,2,13,0.273301,active,Active this month
+69,3,1,0.000000,discover,Open to everyone on Discover
+69,4,18,0.000000,new_group,A small group: we show small groups so they get a fair chance
+69,5,15,0.000000,discover,Open to everyone on Discover
+70,1,1,0.000000,discover,Open to everyone on Discover
+70,2,15,0.000000,discover,Open to everyone on Discover
+70,3,9,0.000000,new_group,A small group: we show small groups so they get a fair chance
+70,4,12,0.500000,active,Active this week
+70,5,7,0.421966,active,Active this month
+71,1,6,0.421966,active,Active this month
+71,2,7,0.421966,active,Active this month
+71,3,5,0.353113,active,Active this week
+71,4,4,0.304262,active,Active this month
+71,5,9,0.000000,new_group,A small group: we show small groups so they get a fair chance
+72,1,12,0.500000,active,Active this week
+72,2,16,0.353113,active,Active this month
+72,3,5,0.353113,active,Active this week
+72,4,4,0.304262,active,Active this month
+72,5,14,0.000000,new_group,A small group: we show small groups so they get a fair chance
+73,1,12,0.500000,active,Active this week
+73,2,7,0.421966,active,Active this month
+73,3,6,0.421966,active,Active this month
+73,4,8,0.353113,active,Active this week
+73,5,17,0.333333,new_group,A new group: we show new groups so they get a fair chance
+74,1,3,0.273301,active,Active this week
+74,2,13,0.273301,active,Active this month
+74,3,1,0.000000,discover,Open to everyone on Discover
+74,4,18,0.000000,new_group,A small group: we show small groups so they get a fair chance
+74,5,15,0.000000,discover,Open to everyone on Discover
+75,1,5,0.353113,active,Active this week
+75,2,16,0.353113,active,Active this month
+75,3,2,0.273301,active,Active this month
+75,4,3,0.273301,active,Active this week
+75,5,14,0.000000,new_group,A small group: we show small groups so they get a fair chance
+76,1,12,0.500000,active,Active this week
+76,2,7,0.421966,active,Active this month
+76,3,6,0.421966,active,Active this month
+76,4,5,0.353113,active,Active this week
+76,5,17,0.333333,new_group,A new group: we show new groups so they get a fair chance
+77,1,1,0.000000,discover,Open to everyone on Discover
+77,2,15,0.000000,discover,Open to everyone on Discover
+77,3,9,0.000000,new_group,A small group: we show small groups so they get a fair chance
+77,4,7,0.421966,active,Active this month
+77,5,6,0.421966,active,Active this month
+78,1,1,0.000000,discover,Open to everyone on Discover
+78,2,15,0.000000,discover,Open to everyone on Discover
+78,3,9,0.000000,new_group,A small group: we show small groups so they get a fair chance
+78,4,12,0.500000,active,Active this week
+78,5,7,0.421966,active,Active this month
+79,1,1,0.000000,discover,Open to everyone on Discover
+79,2,15,0.000000,discover,Open to everyone on Discover
+79,3,9,0.000000,new_group,A small group: we show small groups so they get a fair chance
+79,4,7,0.421966,active,Active this month
+79,5,6,0.421966,active,Active this month
+80,1,1,0.000000,discover,Open to everyone on Discover
+80,2,12,0.500000,active,Active this week
+80,3,6,0.421966,active,Active this month
+80,4,7,0.421966,active,Active this month
+80,5,8,0.353113,active,Active this week
+81,1,16,0.353113,active,Active this month
+81,2,11,0.304262,active,Active this month
+81,3,3,0.273301,active,Active this week
+81,4,13,0.273301,active,Active this month
+81,5,14,0.000000,new_group,A small group: we show small groups so they get a fair chance
+82,1,12,0.500000,active,Active this week
+82,2,7,0.421966,active,Active this month
+82,3,6,0.421966,active,Active this month
+82,4,8,0.353113,active,Active this week
+82,5,17,0.333333,new_group,A new group: we show new groups so they get a fair chance
+83,1,6,0.421966,active,Active this month
+83,2,7,0.421966,active,Active this month
+83,3,16,0.353113,active,Active this month
+83,4,8,0.353113,active,Active this week
+83,5,17,0.333333,new_group,A new group: we show new groups so they get a fair chance
+84,1,12,0.500000,active,Active this week
+84,2,7,0.421966,active,Active this month
+84,3,8,0.353113,active,Active this week
+84,4,17,0.333333,new_group,A new group: we show new groups so they get a fair chance
+84,5,11,0.304262,active,Active this month
+85,1,10,0.304262,active,Active this month
+85,2,13,0.273301,active,Active this month
+85,3,18,0.000000,new_group,A small group: we show small groups so they get a fair chance
+85,4,15,0.000000,discover,Open to everyone on Discover
+85,5,9,0.000000,new_group,A small group: we show small groups so they get a fair chance
+86,1,12,0.500000,active,Active this week
+86,2,7,0.421966,active,Active this month
+86,3,6,0.421966,active,Active this month
+86,4,8,0.353113,active,Active this week
+86,5,9,0.000000,new_group,A small group: we show small groups so they get a fair chance
+87,1,4,0.304262,active,Active this month
+87,2,11,0.304262,active,Active this month
+87,3,10,0.304262,active,Active this month
+87,4,2,0.273301,active,Active this month
+87,5,14,0.000000,new_group,A small group: we show small groups so they get a fair chance
+88,1,5,0.353113,active,Active this week
+88,2,4,0.304262,active,Active this month
+88,3,11,0.304262,active,Active this month
+88,4,10,0.304262,active,Active this month
+88,5,14,0.000000,new_group,A small group: we show small groups so they get a fair chance
+89,1,1,0.000000,discover,Open to everyone on Discover
+89,2,18,0.000000,new_group,A small group: we show small groups so they get a fair chance
+89,3,15,0.000000,discover,Open to everyone on Discover
+89,4,9,0.000000,new_group,A small group: we show small groups so they get a fair chance
+89,5,12,0.500000,active,Active this week
+90,1,9,0.000000,new_group,A small group: we show small groups so they get a fair chance
+90,2,15,0.000000,discover,Open to everyone on Discover
+90,3,7,0.421966,active,Active this month
+90,4,6,0.421966,active,Active this month
+90,5,16,0.353113,active,Active this month
+91,1,6,0.421966,active,Active this month
+91,2,7,0.421966,active,Active this month
+91,3,16,0.353113,active,Active this month
+91,4,8,0.353113,active,Active this week
+91,5,17,0.333333,new_group,A new group: we show new groups so they get a fair chance
+92,1,2,0.273301,active,Active this month
+92,2,13,0.273301,active,Active this month
+92,3,3,0.273301,active,Active this week
+92,4,18,0.000000,new_group,A small group: we show small groups so they get a fair chance
+92,5,15,0.000000,discover,Open to everyone on Discover
+93,1,10,0.304262,active,Active this month
+93,2,3,0.273301,active,Active this week
+93,3,13,0.273301,active,Active this month
+93,4,1,0.000000,discover,Open to everyone on Discover
+93,5,18,0.000000,new_group,A small group: we show small groups so they get a fair chance
+94,1,12,0.500000,active,Active this week
+94,2,7,0.421966,active,Active this month
+94,3,6,0.421966,active,Active this month
+94,4,8,0.353113,active,Active this week
+94,5,17,0.333333,new_group,A new group: we show new groups so they get a fair chance
+95,1,12,0.500000,active,Active this week
+95,2,6,0.421966,active,Active this month
+95,3,8,0.353113,active,Active this week
+95,4,17,0.333333,new_group,A new group: we show new groups so they get a fair chance
+95,5,4,0.304262,active,Active this month
+96,1,1,0.000000,discover,Open to everyone on Discover
+96,2,6,0.421966,active,Active this month
+96,3,7,0.421966,active,Active this month
+96,4,16,0.353113,active,Active this month
+96,5,8,0.353113,active,Active this week
+97,1,3,0.273301,active,Active this week
+97,2,13,0.273301,active,Active this month
+97,3,1,0.000000,discover,Open to everyone on Discover
+97,4,18,0.000000,new_group,A small group: we show small groups so they get a fair chance
+97,5,15,0.000000,discover,Open to everyone on Discover
+98,1,6,0.421966,active,Active this month
+98,2,7,0.421966,active,Active this month
+98,3,8,0.353113,active,Active this week
+98,4,17,0.333333,new_group,A new group: we show new groups so they get a fair chance
+98,5,4,0.304262,active,Active this month
+99,1,12,0.500000,active,Active this week
+99,2,7,0.421966,active,Active this month
+99,3,6,0.421966,active,Active this month
+99,4,8,0.353113,active,Active this week
+99,5,9,0.000000,new_group,A small group: we show small groups so they get a fair chance
+100,1,2,0.273301,active,Active this month
+100,2,13,0.273301,active,Active this month
+100,3,3,0.273301,active,Active this week
+100,4,18,0.000000,new_group,A small group: we show small groups so they get a fair chance
+100,5,15,0.000000,discover,Open to everyone on Discover

@@ -1,0 +1,130 @@
+group_id,name,members,created_day,new_or_small,Popularity (today),Random (floor)
+10,Weightlifting for beginners,295,0,0,1155,49
+4,Finals countdown,286,0,0,1175,47
+7,Korean conversation club,275,0,0,1183,48
+23,Midterms countdown,221,56,0,1217,50
+15,Japanese in 90 days,220,32,0,1225,46
+25,Algorithms study group,219,58,0,688,59
+13,Spanish for beginners,206,30,0,265,61
+18,Algorithms from zero,200,38,0,100,47
+8,Mastering Probability,188,0,0,20,62
+37,30 days of Cycling,169,97,0,2,60
+5,Guitar club,159,0,0,0,51
+29,SAT prep squad,151,64,0,0,56
+1,3D modelling club,149,0,0,0,56
+16,Calculus help desk,145,33,0,0,51
+6,Journaling streak,124,0,0,0,67
+22,Drums practice room,124,53,0,0,40
+32,Spanish evening chat,121,68,0,0,52
+44,Stretching for beginners,116,118,0,0,54
+9,Networking club,110,0,0,0,43
+43,SQL from zero,109,114,0,0,46
+2,Astronomy club,108,0,0,0,60
+14,Violin practice room,108,30,0,0,50
+24,Geometry without tears,95,57,0,0,65
+19,30 days of Reading,91,40,0,0,49
+12,Networking 101,87,20,0,0,64
+36,MCAT countdown,86,91,0,0,48
+26,Pixel art sketchbook,85,59,0,0,47
+30,Daily Photography,80,66,0,0,57
+17,Curious about Thermodynamics,72,37,0,0,46
+35,Geometry problem of the day,70,91,0,0,43
+11,Getting good at Job interviews,65,19,0,0,48
+20,SQL project club,62,48,0,0,60
+39,Daily Pixel art,61,99,0,0,45
+52,Morning Cycling,59,154,0,0,54
+76,App building study group,58,212,0,0,50
+28,Freelancing club,56,64,0,0,54
+41,Daily Drums,53,107,0,0,41
+42,French evening chat,50,109,0,0,47
+68,Calculus study group,49,194,0,0,59
+48,Arabic in 90 days,48,133,0,0,60
+57,Drawing for fun,47,169,0,0,45
+47,Entrance exams accountability group,46,130,0,0,52
+49,Meditation together,45,135,0,0,68
+38,Curious about Astronomy,44,99,0,0,55
+31,Public speaking club,42,67,0,0,51
+74,Cycling every day,41,206,0,0,41
+27,Public speaking help,40,60,0,0,51
+51,Daily JavaScript,39,152,0,0,56
+58,Better Journaling,39,170,0,0,56
+45,Beat the IELTS,36,124,0,0,54
+46,Finals accountability group,33,125,0,0,52
+71,Web dev project club,30,197,0,0,51
+61,Discrete maths help desk,29,180,0,0,54
+59,Morning Stretching,27,175,0,0,48
+78,Beat the Finals,26,213,0,0,60
+55,Music theory for beginners,25,163,0,0,63
+77,Focus sessions club,25,212,0,0,52
+83,Calisthenics crew,25,233,0,0,67
+67,Python project club,24,193,0,0,56
+60,Arabic evening chat,23,178,0,0,43
+63,Arabic conversation club,23,184,0,0,67
+75,Swimming for beginners,23,206,0,0,60
+62,Web dev study group,22,180,0,0,67
+53,Morning Yoga,21,156,0,0,52
+92,Thermodynamics explained,17,255,0,0,66
+70,Calisthenics every day,16,197,0,0,47
+97,Sketching club,16,264,0,0,57
+56,Rust project club,15,166,0,0,46
+66,GRE prep squad,15,193,0,0,68
+82,MCAT accountability group,14,228,0,0,64
+72,Beat the MCAT,13,198,0,0,55
+73,Rust study group,11,205,0,0,53
+81,Digital painting challenge,11,225,0,0,64
+86,Daily SQL,11,241,0,0,46
+100,30 days of Journaling,11,274,0,0,57
+85,Learn Music production together,10,239,0,0,66
+89,Reading together,9,248,1,0,51
+64,Beat the AP exams,8,189,1,0,54
+96,Learn Beatmaking together,8,262,1,0,59
+99,Stretching crew,8,269,1,0,56
+112,German for beginners,8,314,1,0,58
+91,Mandarin evening chat,7,251,1,0,65
+101,Learn Rust together,7,279,1,0,50
+65,GRE study hall,6,192,1,0,50
+69,Running for beginners,6,195,1,0,51
+90,Calisthenics for beginners,6,250,1,0,48
+102,Quantum physics study group,5,280,1,0,53
+135,Electromagnetism explained,5,351,1,0,49
+80,C++ project club,4,225,1,0,68
+88,Getting good at Portfolios,4,247,1,0,41
+98,Swimming crew,4,264,1,0,53
+106,Python study group,4,288,1,0,45
+107,Spanish conversation club,4,289,1,0,46
+108,AP exams prep squad,4,294,1,0,47
+110,German evening chat,4,308,1,0,49
+115,Daily Arabic,4,319,1,0,63
+133,Linear algebra problem of the day,4,349,1,0,52
+111,SAT accountability group,3,311,1,0,57
+113,English for beginners,3,315,1,0,48
+117,Daily Drawing,3,326,1,0,62
+79,Getting good at Startups,2,214,1,0,66
+95,Web dev from zero,2,261,1,0,57
+103,Daily Game dev,2,281,1,0,55
+116,Daily Spanish,2,319,1,0,44
+118,Daily Python,2,329,1,0,59
+120,Game dev study group,2,330,1,0,73
+130,Daily Sketching,2,346,1,0,61
+141,Finals prep squad,2,355,1,0,45
+147,Digital painting club,2,360,1,0,71
+87,Violin club,1,244,1,0,62
+114,Daily Algorithms,1,316,1,0,53
+123,IELTS prep squad,1,338,1,0,50
+124,Daily Digital painting,1,341,1,0,54
+126,Morning Calisthenics,1,342,1,0,70
+127,Arabic for beginners,1,344,1,0,60
+131,JavaScript from zero,1,346,1,0,60
+132,Learn Music theory together,1,347,1,0,54
+136,Getting good at Freelancing,1,352,1,0,51
+139,Number theory without tears,1,354,1,0,55
+140,Daily Italian,1,355,1,0,54
+142,AP exams countdown,1,357,1,0,49
+143,Guitar for beginners,1,357,1,0,66
+144,Linear algebra study group,1,358,1,0,65
+149,Calculus problem of the day,1,361,1,0,52
+150,Mandarin conversation club,1,365,1,0,47
+137,Reading club,0,352,1,0,46
+138,Freelancing 101,0,353,1,0,65
+146,Linear algebra help desk,0,359,1,0,61
+148,Mastering Linear algebra,0,360,1,0,48

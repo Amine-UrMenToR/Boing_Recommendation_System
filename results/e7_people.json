@@ -1,0 +1,135 @@
+{
+ "assumptions": {
+  "unknown": 0.05,
+  "opt_in": 0.25,
+  "no_requests": 0.05,
+  "test_frac": 0.2,
+  "courses": 160,
+  "per_member": 5,
+  "class_friends": 1000,
+  "age_shares": {
+   "13": 0.005,
+   "14": 0.005,
+   "15": 0.005,
+   "16": 0.005,
+   "17": 0.06,
+   "18": 0.15,
+   "19": 0.15,
+   "20": 0.15,
+   "21": 0.08,
+   "22": 0.08,
+   "23": 0.08,
+   "24": 0.08,
+   "25": 0.02,
+   "26": 0.02,
+   "27": 0.02,
+   "28": 0.02,
+   "29": 0.02
+  },
+  "seed": 0
+ },
+ "community": {
+  "members": 2000,
+  "friendships": 9374,
+  "first_world_friendships": 6374,
+  "course_rooms": 160,
+  "bands": {
+   "under 14": 12,
+   "14-17 or unknown": 256,
+   "18-20": 870,
+   "21 and over": 862
+  },
+  "no_birth_year": 102
+ },
+ "test": {
+  "hidden_friendships": 1875,
+  "members_tested": 1617,
+  "best_possible_hit_rate": 0.3209647495361781,
+  "minors_tested": 201
+ },
+ "design": {
+  "hit_rate": 0.15769944341372913,
+  "hit_low": 0.14038342609771182,
+  "hit_high": 0.1756338899196042,
+  "ndcg@5": 0.07076844424422979,
+  "ndcg_low": 0.061750063368333365,
+  "ndcg_high": 0.08010112860551431,
+  "gini": 0.39763649361093734,
+  "top10_share": 0.24838709677419354,
+  "coverage": 0.961218836565097,
+  "newcomers_share_of_slots": 0.05443548387096774,
+  "newcomers_share_of_pool": 0.1523545706371191
+ },
+ "baselines": {
+  "random": {
+   "hit_rate": 0.008039579468150896,
+   "ndcg@5": 0.0021554052320943537,
+   "gini": 0.2422527030649629
+  },
+  "popular": {
+   "hit_rate": 0.00927643784786642,
+   "ndcg@5": 0.0029413469088327465,
+   "gini": 0.9823049772138326
+  },
+  "mutual": {
+   "hit_rate": 0.1292517006802721,
+   "ndcg@5": 0.058065086909071466,
+   "gini": 0.4795301979497341
+  },
+  "groups": {
+   "hit_rate": 0.03153988868274583,
+   "ndcg@5": 0.010898754399581054,
+   "gini": 0.5548320078634618
+  }
+ },
+ "no_rules": {
+  "hit_rate": 0.39270253555967843,
+  "ndcg@5": 0.19065311679746433
+ },
+ "cost_every_rule": {
+  "ndcg@5": 0.11988467255323448,
+  "relative": 0.6288104520241913
+ },
+ "triangle_share": {
+  "main world": 0.7292511201194795,
+  "first world": 0.04361468465641669
+ },
+ "weight_w": 0.05,
+ "clustering": {
+  "main": 0.1529112458229065,
+  "first": 0.006593725178390741
+ },
+ "closure_friendships": 3000,
+ "built_w1": {
+  "hit_rate": 0.0735930735930736,
+  "ndcg@5": 0.031172504312366473
+ },
+ "few_friends": {
+  "members": 28,
+  "random": {
+   "hit_rate": 0.03571428571428571
+  },
+  "popular": {
+   "hit_rate": 0.0
+  },
+  "mutual": {
+   "hit_rate": 0.14285714285714285
+  },
+  "groups": {
+   "hit_rate": 0.03571428571428571
+  },
+  "boing": {
+   "hit_rate": 0.17857142857142858
+  },
+  "built": {
+   "hit_rate": 0.07142857142857142
+  }
+ },
+ "rules": {
+  "total_checks": 72440,
+  "violations": 0,
+  "age_cases": 243,
+  "faults": 18,
+  "faults_caught": 18
+ }
+}

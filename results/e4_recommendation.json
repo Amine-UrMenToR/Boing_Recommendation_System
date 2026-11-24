@@ -1,0 +1,545 @@
+{
+  "L": 3,
+  "burst_w": 0.0,
+  "young_days": 30,
+  "r9_scope": "all",
+  "r9_scope_why": "with R9 on joins only, young levelled-up fake accounts that post and like push a group into the default list (section 10); with R9 on joins, posts, likes and friends they change no statistic",
+  "activity_attack": {
+    "target_group": {
+      "group_id": 1,
+      "name": "3D modelling club",
+      "members": 149,
+      "days_old": 365
+    },
+    "default_lists_showing_target": {
+      "R9 off": {
+        "fresh": {
+          "20": 703,
+          "100": 703
+        },
+        "levelled": {
+          "20": 703,
+          "100": 703
+        },
+        "aged": {
+          "20": 703,
+          "100": 703
+        },
+        "both": {
+          "20": 703,
+          "100": 703
+        }
+      },
+      "L = 3 + burst 0, joins only": {
+        "fresh": {
+          "20": 0,
+          "100": 0
+        },
+        "levelled": {
+          "20": 703,
+          "100": 703
+        },
+        "aged": {
+          "20": 0,
+          "100": 0
+        },
+        "both": {
+          "20": 703,
+          "100": 703
+        }
+      },
+      "L = 3 + burst 0, joins, posts, likes and friends": {
+        "fresh": {
+          "20": 0,
+          "100": 0
+        },
+        "levelled": {
+          "20": 0,
+          "100": 0
+        },
+        "aged": {
+          "20": 0,
+          "100": 0
+        },
+        "both": {
+          "20": 703,
+          "100": 703
+        }
+      }
+    },
+    "personalised_lists_showing_target": {
+      "R9 off": {
+        "fresh": {
+          "20": 73,
+          "100": 99
+        },
+        "levelled": {
+          "20": 73,
+          "100": 99
+        },
+        "aged": {
+          "20": 73,
+          "100": 99
+        },
+        "both": {
+          "20": 73,
+          "100": 99
+        }
+      },
+      "L = 3 + burst 0, joins only": {
+        "fresh": {
+          "20": 68,
+          "100": 68
+        },
+        "levelled": {
+          "20": 68,
+          "100": 68
+        },
+        "aged": {
+          "20": 68,
+          "100": 68
+        },
+        "both": {
+          "20": 69,
+          "100": 101
+        }
+      },
+      "L = 3 + burst 0, joins, posts, likes and friends": {
+        "fresh": {
+          "20": 68,
+          "100": 68
+        },
+        "levelled": {
+          "20": 68,
+          "100": 68
+        },
+        "aged": {
+          "20": 68,
+          "100": 68
+        },
+        "both": {
+          "20": 69,
+          "100": 101
+        }
+      }
+    },
+    "statistics_unchanged": {
+      "R9 off": {
+        "fresh": {
+          "20": false,
+          "100": false
+        },
+        "levelled": {
+          "20": false,
+          "100": false
+        },
+        "aged": {
+          "20": false,
+          "100": false
+        },
+        "both": {
+          "20": false,
+          "100": false
+        }
+      },
+      "L = 3 + burst 0, joins only": {
+        "fresh": {
+          "20": true,
+          "100": true
+        },
+        "levelled": {
+          "20": false,
+          "100": false
+        },
+        "aged": {
+          "20": true,
+          "100": true
+        },
+        "both": {
+          "20": false,
+          "100": false
+        }
+      },
+      "L = 3 + burst 0, joins, posts, likes and friends": {
+        "fresh": {
+          "20": true,
+          "100": true
+        },
+        "levelled": {
+          "20": true,
+          "100": true
+        },
+        "aged": {
+          "20": true,
+          "100": true
+        },
+        "both": {
+          "20": false,
+          "100": false
+        }
+      }
+    },
+    "no_attack_default_lists": {
+      "R9 off": 0,
+      "L = 3 + burst 0, joins only": 0,
+      "L = 3 + burst 0, joins, posts, likes and friends": 0
+    }
+  },
+  "chosen_on": "practice quiz (validation split of the training data); reported on the test",
+  "rule": "lowest L, then largest burst_w, such that with up to 100 fake accounts (attackers A, B, C) the target is shown to no more members than the most-shown honest new group with no attack; check: NDCG@5 cost within the 95% range",
+  "target_group": {
+    "group_id": 149,
+    "name": "Calculus problem of the day",
+    "members": 1,
+    "days_old": 4
+  },
+  "bait_groups": [
+    {
+      "group_id": 10,
+      "name": "Weightlifting for beginners",
+      "members": 295
+    },
+    {
+      "group_id": 4,
+      "name": "Finals countdown",
+      "members": 286
+    },
+    {
+      "group_id": 7,
+      "name": "Korean conversation club",
+      "members": 275
+    }
+  ],
+  "practice_quiz": {
+    "settings_passing": [
+      "L = 3 + burst 0",
+      "L = 5 + burst 0"
+    ],
+    "members_quizzed": 1090,
+    "worst_target_exposure_up_to_100_fakes": {
+      "R9 off": {
+        "A": 369,
+        "B": 369,
+        "C": 369,
+        "bar": 39
+      },
+      "burst 0.5": {
+        "A": 273,
+        "B": 273,
+        "C": 369,
+        "bar": 39
+      },
+      "burst 0.25": {
+        "A": 157,
+        "B": 157,
+        "C": 369,
+        "bar": 38
+      },
+      "burst 0.1": {
+        "A": 45,
+        "B": 45,
+        "C": 367,
+        "bar": 38
+      },
+      "burst 0": {
+        "A": 14,
+        "B": 14,
+        "C": 367,
+        "bar": 38
+      },
+      "L = 3": {
+        "A": 14,
+        "B": 369,
+        "C": 14,
+        "bar": 39
+      },
+      "L = 3 + burst 0.5": {
+        "A": 14,
+        "B": 270,
+        "C": 14,
+        "bar": 39
+      },
+      "L = 3 + burst 0.25": {
+        "A": 14,
+        "B": 157,
+        "C": 14,
+        "bar": 38
+      },
+      "L = 3 + burst 0.1": {
+        "A": 14,
+        "B": 45,
+        "C": 14,
+        "bar": 38
+      },
+      "L = 3 + burst 0": {
+        "A": 14,
+        "B": 14,
+        "C": 14,
+        "bar": 38
+      },
+      "L = 5": {
+        "A": 15,
+        "B": 364,
+        "C": 15,
+        "bar": 39
+      },
+      "L = 5 + burst 0.5": {
+        "A": 15,
+        "B": 271,
+        "C": 15,
+        "bar": 39
+      },
+      "L = 5 + burst 0.25": {
+        "A": 15,
+        "B": 158,
+        "C": 15,
+        "bar": 38
+      },
+      "L = 5 + burst 0.1": {
+        "A": 15,
+        "B": 46,
+        "C": 15,
+        "bar": 38
+      },
+      "L = 5 + burst 0": {
+        "A": 15,
+        "B": 15,
+        "C": 15,
+        "bar": 38
+      }
+    },
+    "ndcg@5_r9_off": 0.465,
+    "ndcg@5_chosen": 0.4607,
+    "ndcg@5_cost": 0.0043,
+    "ndcg@5_cost_95": [
+      0.0004,
+      0.0082
+    ]
+  },
+  "test": {
+    "members_tested": 1406,
+    "bar_top_honest_new_group": 49,
+    "target_exposure": {
+      "fresh": {
+        "R9 off": {
+          "0": 21,
+          "10": 31,
+          "20": 98,
+          "50": 269,
+          "100": 442,
+          "200": 521
+        },
+        "L = 3 + burst 0": {
+          "0": 20,
+          "10": 20,
+          "20": 20,
+          "50": 20,
+          "100": 20,
+          "200": 20
+        }
+      },
+      "levelled": {
+        "R9 off": {
+          "0": 21,
+          "10": 31,
+          "20": 98,
+          "50": 269,
+          "100": 442,
+          "200": 521
+        },
+        "L = 3 + burst 0": {
+          "0": 20,
+          "10": 20,
+          "20": 20,
+          "50": 20,
+          "100": 20,
+          "200": 20
+        }
+      },
+      "aged": {
+        "R9 off": {
+          "0": 21,
+          "10": 31,
+          "20": 98,
+          "50": 269,
+          "100": 442,
+          "200": 521
+        },
+        "L = 3 + burst 0": {
+          "0": 20,
+          "10": 20,
+          "20": 20,
+          "50": 20,
+          "100": 20,
+          "200": 20
+        }
+      },
+      "both": {
+        "R9 off": {
+          "0": 21,
+          "10": 31,
+          "20": 98,
+          "50": 269,
+          "100": 442,
+          "200": 521
+        },
+        "L = 3 + burst 0": {
+          "0": 20,
+          "10": 29,
+          "20": 98,
+          "50": 263,
+          "100": 433,
+          "200": 515
+        }
+      }
+    },
+    "places_per_fake_A": {
+      "R9 off": {
+        "10": 1.572,
+        "20": 1.033,
+        "50": 0.46,
+        "100": 0.24,
+        "200": 0.126
+      },
+      "L = 3 + burst 0": {
+        "10": 0.0,
+        "20": 0.0,
+        "50": 0.0,
+        "100": 0.0,
+        "200": 0.0
+      }
+    },
+    "target_avg_rank_A": {
+      "R9 off": {
+        "0": 86.1,
+        "10": 70.4,
+        "20": 65.4,
+        "50": 63.1,
+        "100": 62.1,
+        "200": 60.9
+      },
+      "L = 3 + burst 0": {
+        "0": 85.6,
+        "10": 85.6,
+        "20": 85.6,
+        "50": 85.6,
+        "100": 85.6,
+        "200": 85.6
+      }
+    },
+    "ndcg@5_A": {
+      "R9 off": {
+        "0": 0.5281,
+        "10": 0.529,
+        "20": 0.5277,
+        "50": 0.5265,
+        "100": 0.5254,
+        "200": 0.5247
+      },
+      "L = 3 + burst 0": {
+        "0": 0.5267,
+        "10": 0.5267,
+        "20": 0.5267,
+        "50": 0.5267,
+        "100": 0.5267,
+        "200": 0.5267
+      }
+    },
+    "honest_newcomer_slots_A": {
+      "R9 off": {
+        "0": 1404,
+        "10": 1393,
+        "20": 1327,
+        "50": 1155,
+        "100": 981,
+        "200": 905
+      },
+      "L = 3 + burst 0": {
+        "0": 1348,
+        "10": 1348,
+        "20": 1348,
+        "50": 1348,
+        "100": 1348,
+        "200": 1348
+      }
+    }
+  },
+  "cost_no_attack": {
+    "ndcg@5_tested_r9_off": 0.5281,
+    "ndcg@5_tested_chosen": 0.5267,
+    "ndcg@5_tested_cost_95": [
+      -0.0029,
+      0.0055
+    ],
+    "new_member_quiz_users": 80,
+    "ndcg@5_new_members_r9_off": 0.3307,
+    "ndcg@5_new_members_chosen": 0.3415,
+    "ndcg@5_new_members_cost_95": [
+      -0.0309,
+      0.0076
+    ],
+    "slots_for_new_groups_r9_off": 0.042,
+    "slots_for_new_groups_chosen": 0.0405,
+    "honest_memberships_turned_down": 282.0,
+    "honest_memberships": 6367
+  },
+  "burst_weights_attacker_B_test": {
+    "burst_w = 1": {
+      "0": 22,
+      "50": 267,
+      "100": 439,
+      "200": 519
+    },
+    "burst_w = 0.5": {
+      "0": 20,
+      "50": 128,
+      "100": 265,
+      "200": 438
+    },
+    "burst_w = 0.25": {
+      "0": 22,
+      "50": 37,
+      "100": 131,
+      "200": 270
+    },
+    "burst_w = 0.1": {
+      "0": 21,
+      "50": 22,
+      "100": 32,
+      "200": 95
+    },
+    "burst_w = 0": {
+      "0": 20,
+      "50": 20,
+      "100": 20,
+      "200": 20
+    }
+  },
+  "young_network_183_days": {
+    "no burst rule": 0.5257,
+    "burst 0.5": 0.5301,
+    "burst 0.25": 0.5286,
+    "burst 0.1": 0.5306,
+    "burst 0": 0.5304
+  },
+  "targets_robustness_median_gain": {
+    "L = 3 + burst 0": 0.0,
+    "R9 off": 414.0
+  },
+  "residual_risk_D_k100_k200": {
+    "R9 off": [
+      442,
+      521
+    ],
+    "L = 3 + burst 0": [
+      433,
+      515
+    ]
+  },
+  "limits": [
+    "R9 reads only level and account age: fake accounts that wait 30 days and reach level 3 (attacker D) are not stopped, whether they join, post or like",
+    "R9 must act on posts, likes and friends as well as joins (r9_scope = all): on joins only, young levelled-up fakes that post push a group into the default list",
+    "at launch, when nearly every account is young, burst_w = 0 leaves almost nothing to learn from: switch the burst rule on once enough accounts are older than 30 days, and use the level bar alone until then",
+    "group sizes count only the members who count, so a group of mostly young members can look small and share the newcomer slot (newcomer share 0.203 with R9 off, 0.195 chosen)"
+  ]
+}

@@ -1,0 +1,8 @@
+where,setting,floor t,ndcg@5,newcomer_share,shared-members reasons,shares nobody,median error of the count,quoted / true (median),count below 3b,"shares nobody, count 3b or more",shares nobody sd,runs,accuracy kept,newcomer slots kept
+test,no privacy,0,0.5281,0.2027,0.5607,0.0,0.0,1.0,,,,1,1.0,1.0
+test,clipping only (no noise),0,0.5263,0.1299,0.5155,0.0,27.0,0.4898,,,,1,0.9965,0.6407
+test,"epsilon = 2, m = 3",0,0.4951,0.1777,0.5446,0.2626,12.9,0.5245,0.1679,0.1537,0.0207,10,0.9375,0.8766
+practice quiz,"epsilon = 2, m = 3",0,0.4227,0.1926,0.5401,0.3111,7.4,0.7035,0.1876,0.1947,0.0341,5,0.9092,0.9544
+practice quiz,"epsilon = 2, m = 3",1,0.4317,0.1594,0.5235,0.2226,10.0,0.6389,0.1692,0.1083,0.0256,5,0.9285,0.79
+practice quiz,"epsilon = 2, m = 3",2,0.4348,0.1495,0.4898,0.1419,14.0,0.569,0.1572,0.0419,0.0294,5,0.9351,0.7405
+practice quiz,"epsilon = 2, m = 3",3,0.4355,0.149,0.4494,0.077,18.2,0.5204,0.1195,0.0243,0.0335,5,0.9366,0.738

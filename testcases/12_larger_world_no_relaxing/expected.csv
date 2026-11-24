@@ -1,0 +1,1486 @@
+user_id,rank,group_id,score,reason_code,reason_text
+1,1,36,0.705460,friend,Your friend user 68 is a member
+1,2,13,0.631148,similar_group,Because you're in Korean conversation club
+1,3,29,0.452715,similar_group,Because you're in Finals countdown
+1,4,45,0.425656,friend,Your friend user 68 is a member
+1,5,58,0.387809,similar_group,"Similar to Journaling streak, which you joined"
+2,1,15,0.527144,similar_group,Because you're in 3D modelling club
+2,2,8,0.492042,similar_group,Because you're in Calculus help desk
+2,3,58,0.434115,similar_group,"Similar to Journaling streak, which you joined"
+2,4,61,0.431889,similar_group,"Similar to Calculus help desk, which you joined"
+2,5,19,0.427806,similar_group,Because you're in Journaling streak
+3,1,51,0.703425,friend,Your friend user 248 is a member
+3,2,5,0.511295,similar_group,Because you're in Violin practice room
+3,3,13,0.456506,similar_group,Because you're in Korean conversation club
+3,4,23,0.353693,similar_group,Because you're in Finals countdown
+3,5,76,0.404719,similar_group,"Similar to Algorithms from zero, which you joined"
+4,1,32,0.679234,friend,Your friend user 256 is a member
+4,2,13,0.659412,similar_group,Because you're in Korean conversation club
+4,3,2,0.558842,similar_group,Because you're in Journaling streak
+4,4,58,0.490179,similar_group,"Similar to Journaling streak, which you joined"
+4,5,23,0.401416,shared_members,About 13 members of Finals countdown are in it
+5,1,12,0.566776,similar_group,Because you're in Networking club
+5,2,36,0.554418,similar_group,Because you're in Finals countdown
+5,3,28,0.467613,similar_group,Because you're in Networking club
+5,4,11,0.366286,similar_group,Because you're in Networking club
+5,5,78,0.374550,similar_group,"Similar to Finals countdown, which you joined"
+6,1,43,0.679663,similar_group,Because you're in Algorithms from zero
+6,2,37,0.368797,similar_group,Because you're in Weightlifting for beginners
+6,3,23,0.357245,similar_group,Because you're in Finals countdown
+6,4,56,0.278969,similar_group,"Similar to Daily Rust, which you joined"
+6,5,51,0.360532,similar_group,"Similar to Algorithms from zero, which you joined"
+7,1,44,0.556173,similar_group,Because you're in Weightlifting for beginners
+7,2,52,0.545192,similar_group,Because you're in Weightlifting for beginners
+7,3,53,0.506245,similar_group,"Similar to Calisthenics every day, which you joined"
+7,4,75,0.321182,similar_group,Because you're in 30 days of Cycling
+7,5,59,0.412100,similar_group,"Similar to Calisthenics every day, which you joined"
+8,1,58,0.549776,shared_members,About 1 member of Meditation together is in it
+8,2,18,0.487567,similar_group,Because you're in Algorithms study group
+8,3,10,0.424384,similar_group,Because you're in 30 days of Cycling
+8,4,2,0.388944,similar_group,Because you're in Journaling streak
+8,5,7,0.372066,similar_group,Because you're in Spanish evening chat
+9,1,18,0.692109,similar_group,Because you're in Algorithms study group
+9,2,68,0.425832,friend,Your friend user 36 is a member
+9,3,8,0.439159,friend,Your friend user 36 is a member
+9,4,61,0.384072,friend,Your friend user 36 is a member
+9,5,31,0.374441,friend,Your friend user 36 is a member
+10,1,19,0.536545,friend,Your friend user 189 is a member
+10,2,5,0.522987,friend,Your friend user 77 is a member
+10,3,6,0.448705,friend,Your friend user 189 is a member
+10,4,16,0.445206,friend,Your friend user 189 is a member
+10,5,39,0.359187,new_group,A small group: we show small groups so they get a fair chance
+11,1,42,0.663622,friend,Your friend user 203 is a member
+11,2,17,0.446934,shared_members,About 4 members of Astronomy club are in it
+11,3,48,0.442592,similar_group,"Similar to Japanese in 90 days, which you joined"
+11,4,11,0.425455,similar_group,Because you're in Japanese in 90 days
+11,5,6,0.308631,similar_group,Because you're in Astronomy club
+12,1,13,0.581397,similar_group,Because you're in Korean conversation club
+12,2,19,0.460191,similar_group,Because you're in Journaling streak
+12,3,2,0.419511,similar_group,Because you're in Journaling streak
+12,4,44,0.370152,similar_group,Because you're in Weightlifting for beginners
+12,5,99,0.353982,shared_members,About 2 members of Morning Cycling are in it
+13,1,13,0.610440,similar_group,Because you're in Korean conversation club
+13,2,2,0.446966,friend,Your friend user 147 is a member
+13,3,6,0.445413,friend,Your friend user 147 is a member
+13,4,15,0.344135,similar_group,Because you're in Korean conversation club
+13,5,42,0.100983,new_group,A small group: we show small groups so they get a fair chance
+14,1,18,0.654910,similar_group,Because you're in SQL from zero
+14,2,25,0.619072,similar_group,Because you're in SQL from zero
+14,3,7,0.406337,friend,Your friend user 42 and 1 other friend are members
+14,4,44,0.385418,similar_group,Because you're in Weightlifting for beginners
+14,5,100,0.355377,new_group,A small group: we show small groups so they get a fair chance
+15,1,36,0.612213,similar_group,Because you're in Finals countdown
+15,2,29,0.522958,similar_group,Because you're in Finals countdown
+15,3,78,0.366027,similar_group,"Similar to Finals countdown, which you joined"
+15,4,65,0.238323,similar_group,"Similar to Finals countdown, which you joined"
+15,5,66,0.284717,similar_group,"Similar to Entrance exams accountability group, which you joined"
+16,1,43,0.542988,similar_group,"Similar to Algorithms from zero, which you joined"
+16,2,25,0.533860,similar_group,Because you're in Algorithms from zero
+16,3,24,0.534255,similar_group,"Similar to Mastering Probability, which you joined"
+16,4,16,0.337376,shared_members,About 13 members of Mastering Probability are in it
+16,5,20,0.283270,new_group,A small group: we show small groups so they get a fair chance
+17,1,43,0.977597,friend,Your friend user 23 is a member
+17,2,37,0.663192,friend,Your friend user 23 is a member
+17,3,56,0.283371,similar_group,"Similar to Daily Rust, which you joined"
+17,4,4,0.335823,similar_group,Because you're in SAT prep squad
+17,5,8,0.203602,similar_group,Because you're in Algorithms from zero
+18,1,4,0.562402,similar_group,Because you're in Midterms countdown
+18,2,10,0.497802,friend,Your friend user 296 is a member
+18,3,59,0.419977,friend,Your friend user 296 is a member
+18,4,26,0.398153,shared_members,About 3 members of Daily Pixel art are in it
+18,5,52,0.410765,friend,Your friend user 296 is a member
+19,1,43,0.677597,similar_group,Because you're in Algorithms from zero
+19,2,13,0.389594,similar_group,Because you're in Korean conversation club
+19,3,56,0.306664,similar_group,"Similar to Daily Rust, which you joined"
+19,4,51,0.341419,similar_group,"Similar to Algorithms from zero, which you joined"
+19,5,8,0.199677,similar_group,Because you're in Algorithms from zero
+20,1,68,0.587940,shared_members,About 3 members of Geometry problem of the day are in it
+20,2,13,0.502431,similar_group,Because you're in Korean conversation club
+20,3,25,0.491501,friend,Your friend user 232 and 1 other friend are members
+20,4,6,0.457698,similar_group,Because you're in Calculus help desk
+20,5,139,0.281146,similar_group,"Similar to Calculus help desk, which you joined"
+21,1,37,0.787070,friend,Your friend user 7 is a member
+21,2,4,0.578472,similar_group,Because you're in Midterms countdown
+21,3,44,0.494447,friend,Your friend user 103 is a member
+21,4,29,0.345475,similar_group,"Similar to Finals prep squad, which you joined"
+21,5,58,0.326073,similar_group,"Similar to Journaling streak, which you joined"
+22,1,39,0.717689,friend,Your friend user 145 is a member
+22,2,1,0.663986,friend,Your friend user 145 is a member
+22,3,30,0.548636,friend,Your friend user 145 is a member
+22,4,23,0.532916,similar_group,Because you're in Finals countdown
+22,5,37,0.460860,similar_group,Because you're in Weightlifting for beginners
+23,1,44,0.778958,friend,Your friend user 133 is a member
+23,2,76,0.656540,similar_group,Because you're in Algorithms study group
+23,3,7,0.576654,friend,Your friend user 133 is a member
+23,4,20,0.610703,similar_group,Because you're in Algorithms from zero
+23,5,23,0.506816,friend,Your friend user 133 is a member
+24,1,16,0.747860,friend,Your friend user 80 is a member
+24,2,24,0.650962,similar_group,Because you're in Mastering Probability
+24,3,35,0.563646,friend,Your friend user 40 is a member
+24,4,5,0.458926,similar_group,Because you're in Drums practice room
+24,5,41,0.204192,new_group,A small group: we show small groups so they get a fair chance
+25,1,23,0.517302,similar_group,Because you're in Finals countdown
+25,2,36,0.368076,shared_members,About 4 members of SAT prep squad are in it
+25,3,141,0.240714,similar_group,"Similar to SAT prep squad, which you joined"
+25,4,65,0.178126,similar_group,"Similar to Finals countdown, which you joined"
+25,5,37,0.145148,similar_group,Because you're in SAT prep squad
+26,1,25,0.529069,similar_group,Because you're in Algorithms from zero
+26,2,20,0.367876,similar_group,"Similar to SQL from zero, which you joined"
+26,3,76,0.371066,similar_group,"Similar to Algorithms from zero, which you joined"
+26,4,8,0.148829,similar_group,Because you're in Algorithms from zero
+26,5,95,0.138141,similar_group,"Similar to Algorithms from zero, which you joined"
+27,1,24,0.525977,similar_group,Because you're in Mastering Probability
+27,2,16,0.500000,similar_group,Because you're in Mastering Probability
+27,3,58,0.331641,similar_group,"Similar to Journaling streak, which you joined"
+27,4,19,0.239650,similar_group,Because you're in Journaling streak
+27,5,2,0.234108,similar_group,Because you're in Journaling streak
+28,1,44,0.594057,similar_group,Because you're in Weightlifting for beginners
+28,2,53,0.411205,similar_group,Because you're in Weightlifting for beginners
+28,3,99,0.411089,shared_members,About 2 members of Morning Cycling are in it
+28,4,75,0.349650,similar_group,Because you're in 30 days of Cycling
+28,5,9,0.315310,similar_group,Because you're in 30 days of Cycling
+29,1,18,0.830445,friend,Your friend user 248 is a member
+29,2,43,0.758074,friend,Your friend user 248 is a member
+29,3,13,0.516794,similar_group,Because you're in Korean conversation club
+29,4,44,0.397635,similar_group,"Similar to 30 days of Cycling, which you joined"
+29,5,56,0.332899,similar_group,"Similar to Daily Rust, which you joined"
+30,1,12,0.700000,similar_group,Because you're in Networking club
+30,2,28,0.475170,similar_group,Because you're in Networking club
+30,3,37,0.291124,similar_group,Because you're in Networking club
+30,4,2,0.303827,similar_group,Because you're in Networking club
+30,5,27,0.224329,new_group,A small group: we show small groups so they get a fair chance
+31,1,14,0.543153,similar_group,Because you're in Guitar club
+31,2,43,0.487635,similar_group,"Similar to Algorithms from zero, which you joined"
+31,3,25,0.354733,similar_group,Because you're in Algorithms from zero
+31,4,143,0.270974,similar_group,"Similar to Guitar club, which you joined"
+31,5,13,0.222357,similar_group,Because you're in Drums practice room
+32,1,37,0.854469,friend,Your friend user 79 and 1 other friend are members
+32,2,5,0.519800,similar_group,Because you're in Drums practice room
+32,3,14,0.473321,similar_group,Because you're in Drums practice room
+32,4,53,0.421071,friend,Your friend user 296 is a member
+32,5,52,0.431946,friend,Your friend user 296 is a member
+33,1,39,0.394709,shared_members,About 2 members of Daily Photography are in it
+33,2,15,0.354658,similar_group,Because you're in 3D modelling club
+33,3,57,0.374863,shared_members,About 2 members of Daily Photography are in it
+33,4,26,0.364212,shared_members,About 2 members of Daily Photography are in it
+33,5,147,0.232509,similar_group,"Similar to Daily Photography, which you joined"
+34,1,1,0.880330,friend,Your friend user 145 is a member
+34,2,10,0.387058,friend,Your friend user 145 is a member
+34,3,5,0.390753,friend,Your friend user 145 is a member
+34,4,15,0.302028,similar_group,Because you're in Pixel art sketchbook
+34,5,117,0.247248,similar_group,"Similar to Daily Photography, which you joined"
+35,1,14,0.544104,similar_group,Because you're in Guitar club
+35,2,143,0.253822,similar_group,"Similar to Guitar club, which you joined"
+35,3,41,0.204588,similar_group,Because you're in Guitar club
+35,4,13,0.218850,similar_group,Because you're in Drums practice room
+35,5,55,0.185738,similar_group,"Similar to Drums practice room, which you joined"
+36,1,24,0.627751,similar_group,Because you're in Mastering Probability
+36,2,35,0.511219,shared_members,About 3 members of Calculus study group are in it
+36,3,10,0.411859,friend,Your friend user 9 is a member
+36,4,1,0.406871,friend,Your friend user 9 is a member
+36,5,20,0.356428,new_group,A small group: we show small groups so they get a fair chance
+37,1,5,0.815046,friend,Your friend user 290 is a member
+37,2,96,0.497218,friend,Your friend user 290 is a member
+37,3,44,0.231724,similar_group,"Similar to Music theory for beginners, which you joined"
+37,4,13,0.205363,similar_group,Because you're in Drums practice room
+37,5,9,0.197288,similar_group,Because you're in Drums practice room
+38,1,16,0.536787,similar_group,Because you're in Mastering Probability
+38,2,68,0.297171,shared_members,About 3 members of Geometry problem of the day are in it
+38,3,74,0.138677,similar_group,"Similar to Geometry problem of the day, which you joined"
+38,4,56,0.130077,similar_group,"Similar to Mastering Probability, which you joined"
+38,5,18,0.132022,similar_group,Because you're in Mastering Probability
+39,1,12,0.666436,similar_group,Because you're in Networking club
+39,2,23,0.461172,similar_group,Because you're in Finals countdown
+39,3,29,0.395030,similar_group,Because you're in Finals countdown
+39,4,11,0.336645,similar_group,Because you're in Networking club
+39,5,27,0.338742,shared_members,About 2 members of Public speaking club are in it
+40,1,24,0.603037,similar_group,Because you're in Mastering Probability
+40,2,16,0.538208,similar_group,Because you're in Mastering Probability
+40,3,22,0.350943,friend,Your friend user 24 is a member
+40,4,149,0.230192,similar_group,"Similar to Calculus study group, which you joined"
+40,5,18,0.187360,similar_group,Because you're in Mastering Probability
+41,1,14,0.842345,friend,Your friend user 93 is a member
+41,2,2,0.551244,friend,Your friend user 61 is a member
+41,3,17,0.532393,friend,Your friend user 291 is a member
+41,4,43,0.414471,friend,Your friend user 291 is a member
+41,5,100,0.377236,new_group,A small group: we show small groups so they get a fair chance
+42,1,18,0.637745,similar_group,Because you're in Algorithms study group
+42,2,13,0.557309,similar_group,Because you're in Korean conversation club
+42,3,16,0.500000,similar_group,Because you're in Mastering Probability
+42,4,10,0.451658,friend,Your friend user 14 and 1 other friend are members
+42,5,56,0.337593,new_group,A small group: we show small groups so they get a fair chance
+43,1,23,0.654819,friend,Your friend user 75 is a member
+43,2,4,0.524583,friend,Your friend user 75 is a member
+43,3,32,0.500967,similar_group,Because you're in Korean conversation club
+43,4,36,0.507995,friend,Your friend user 75 is a member
+43,5,48,0.488774,similar_group,"Similar to Japanese in 90 days, which you joined"
+44,1,24,0.622880,similar_group,Because you're in Mastering Probability
+44,2,43,0.566091,friend,Your friend user 166 is a member
+44,3,25,0.553164,friend,Your friend user 166 is a member
+44,4,16,0.500000,similar_group,Because you're in Mastering Probability
+44,5,51,0.515569,friend,Your friend user 166 is a member
+45,1,22,1.000000,friend,Your friend user 3 and 2 other friends are members
+45,2,85,0.355958,shared_members,About 1 member of Daily Drums is in it
+45,3,55,0.366132,friend,Your friend user 126 is a member
+45,4,87,0.212284,similar_group,"Similar to Violin practice room, which you joined"
+45,5,18,0.211784,friend,Your friend user 3 is a member
+46,1,23,0.517302,similar_group,Because you're in Finals countdown
+46,2,36,0.368076,shared_members,About 4 members of SAT prep squad are in it
+46,3,141,0.240714,similar_group,"Similar to SAT prep squad, which you joined"
+46,4,65,0.178126,similar_group,"Similar to Finals countdown, which you joined"
+46,5,37,0.145148,similar_group,Because you're in SAT prep squad
+47,1,24,0.542353,similar_group,Because you're in Mastering Probability
+47,2,29,0.516370,similar_group,Because you're in Finals countdown
+47,3,36,0.505027,similar_group,Because you're in Finals countdown
+47,4,16,0.426284,similar_group,Because you're in Mastering Probability
+47,5,78,0.357555,similar_group,"Similar to Finals countdown, which you joined"
+48,1,39,0.507491,shared_members,About 3 members of Pixel art sketchbook are in it
+48,2,58,0.376578,similar_group,"Similar to Journaling streak, which you joined"
+48,3,15,0.375538,similar_group,Because you're in 3D modelling club
+48,4,57,0.355763,similar_group,Because you're in 3D modelling club
+48,5,30,0.298642,similar_group,Because you're in 3D modelling club
+49,1,23,0.480136,similar_group,Because you're in Finals countdown
+49,2,100,0.479571,shared_members,About 1 member of Better Journaling is in it
+49,3,29,0.448869,similar_group,Because you're in Finals countdown
+49,4,19,0.454147,similar_group,Because you're in Journaling streak
+49,5,36,0.388176,similar_group,Because you're in Finals countdown
+50,1,22,0.544104,similar_group,Because you're in Guitar club
+50,2,6,0.474185,friend,Your friend user 245 is a member
+50,3,143,0.277059,similar_group,"Similar to Guitar club, which you joined"
+50,4,87,0.270608,similar_group,"Similar to Violin practice room, which you joined"
+50,5,13,0.243150,similar_group,Because you're in Guitar club
+52,1,24,0.595550,similar_group,Because you're in Mastering Probability
+52,2,14,0.509076,similar_group,Because you're in Guitar club
+52,3,1,0.463751,friend,Your friend user 252 is a member
+52,4,16,0.445174,similar_group,Because you're in Mastering Probability
+52,5,143,0.284397,new_group,A new group: we show new groups so they get a fair chance
+53,1,13,0.527041,similar_group,Because you're in Drums practice room
+53,2,41,0.429661,similar_group,Because you're in Guitar club
+53,3,6,0.330506,similar_group,Because you're in Guitar club
+53,4,55,0.333107,similar_group,Because you're in Guitar club
+53,5,87,0.315778,similar_group,"Similar to Violin practice room, which you joined"
+54,1,12,0.624486,similar_group,Because you're in Networking club
+54,2,8,0.476452,similar_group,Because you're in Calculus help desk
+54,3,23,0.455656,similar_group,Because you're in Finals countdown
+54,4,11,0.428294,similar_group,Because you're in Networking club
+54,5,48,0.245880,new_group,A small group: we show small groups so they get a fair chance
+55,1,41,0.741178,friend,Your friend user 290 is a member
+55,2,96,0.578551,friend,Your friend user 290 is a member
+55,3,13,0.526527,similar_group,Because you're in Drums practice room
+55,4,58,0.455315,similar_group,"Similar to Journaling streak, which you joined"
+55,5,2,0.408763,similar_group,Because you're in Journaling streak
+56,1,37,0.487865,similar_group,Because you're in Weightlifting for beginners
+56,2,4,0.453867,similar_group,Because you're in Midterms countdown
+56,3,75,0.255408,similar_group,"Similar to Weightlifting for beginners, which you joined"
+56,4,9,0.220556,similar_group,"Similar to Astronomy club, which you joined"
+56,5,36,0.232753,shared_members,About 3 members of Midterms countdown are in it
+57,1,18,0.630703,similar_group,Because you're in SQL from zero
+57,2,25,0.458030,similar_group,Because you're in SQL from zero
+57,3,51,0.424947,similar_group,Because you're in Daily Rust
+57,4,56,0.311721,similar_group,"Similar to Daily Rust, which you joined"
+57,5,15,0.218941,similar_group,Because you're in Daily Rust
+58,1,1,0.645556,friend,Your friend user 275 is a member
+58,2,12,0.513175,similar_group,Because you're in Networking club
+58,3,37,0.490415,similar_group,Because you're in Weightlifting for beginners
+58,4,57,0.498407,friend,Your friend user 275 is a member
+58,5,48,0.403490,similar_group,"Similar to Japanese in 90 days, which you joined"
+59,1,14,0.500000,similar_group,Because you're in Guitar club
+59,2,22,0.424930,similar_group,Because you're in Guitar club
+59,3,37,0.375364,similar_group,Because you're in Weightlifting for beginners
+59,4,143,0.281655,similar_group,"Similar to Guitar club, which you joined"
+59,5,52,0.232467,similar_group,Because you're in Weightlifting for beginners
+60,1,24,0.691110,similar_group,Because you're in Mastering Probability
+60,2,61,0.294771,similar_group,"Similar to Calculus help desk, which you joined"
+60,3,35,0.289076,similar_group,Because you're in Mastering Probability
+60,4,6,0.153097,similar_group,Because you're in Calculus help desk
+60,5,19,0.094672,similar_group,Because you're in Calculus help desk
+61,1,58,0.755294,friend,Your friend user 41 is a member
+61,2,19,0.685595,friend,Your friend user 41 is a member
+61,3,5,0.538648,friend,Your friend user 41 is a member
+61,4,22,0.526434,friend,Your friend user 41 is a member
+61,5,17,0.463532,similar_group,Because you're in Journaling streak
+62,1,75,0.506783,shared_members,About 1 member of Calisthenics for beginners is in it
+62,2,52,0.457415,similar_group,Because you're in Weightlifting for beginners
+62,3,70,0.370911,similar_group,"Similar to Morning Yoga, which you joined"
+62,4,59,0.371555,similar_group,"Similar to Morning Yoga, which you joined"
+62,5,74,0.309432,shared_members,About 1 member of Calisthenics for beginners is in it
+63,1,10,0.500000,similar_group,Because you're in 30 days of Cycling
+63,2,11,0.398150,friend,Your friend user 251 is a member
+63,3,62,0.375676,friend,Your friend user 251 is a member
+63,4,23,0.375569,similar_group,Because you're in Finals countdown
+63,5,29,0.349258,similar_group,Because you're in Finals countdown
+64,1,68,0.668037,friend,Your friend user 36 is a member
+64,2,61,0.666084,friend,Your friend user 36 is a member
+64,3,14,0.528544,similar_group,Because you're in Guitar club
+64,4,31,0.458809,friend,Your friend user 36 is a member
+64,5,22,0.430161,similar_group,Because you're in Guitar club
+65,1,13,0.527041,similar_group,Because you're in Drums practice room
+65,2,41,0.429661,similar_group,Because you're in Guitar club
+65,3,6,0.330506,similar_group,Because you're in Guitar club
+65,4,55,0.333107,similar_group,Because you're in Guitar club
+65,5,87,0.315778,similar_group,"Similar to Violin practice room, which you joined"
+66,1,28,0.584565,similar_group,Because you're in Networking club
+66,2,23,0.514026,similar_group,Because you're in Finals countdown
+66,3,2,0.384410,similar_group,Because you're in Networking club
+66,4,36,0.367067,similar_group,Because you're in Finals countdown
+66,5,31,0.291743,new_group,A small group: we show small groups so they get a fair chance
+67,1,18,0.649119,similar_group,Because you're in Algorithms study group
+67,2,13,0.617715,similar_group,Because you're in Korean conversation club
+67,3,1,0.609215,friend,Your friend user 2 and 1 other friend are members
+67,4,10,0.362732,friend,Your friend user 115 and 1 other friend are members
+67,5,42,0.256771,new_group,A small group: we show small groups so they get a fair chance
+68,1,29,0.517319,similar_group,Because you're in Finals countdown
+68,2,78,0.371757,similar_group,"Similar to Finals countdown, which you joined"
+68,3,6,0.346673,friend,Your friend user 1 and 1 other friend are members
+68,4,10,0.292175,friend,Your friend user 151 is a member
+68,5,37,0.221278,friend,Your friend user 151 is a member
+69,1,29,0.623414,similar_group,Because you're in Finals countdown
+69,2,36,0.495336,similar_group,Because you're in Finals countdown
+69,3,78,0.486704,similar_group,"Similar to Finals countdown, which you joined"
+69,4,12,0.480549,similar_group,Because you're in Networking club
+69,5,11,0.340663,similar_group,Because you're in Networking club
+70,1,52,0.561542,similar_group,Because you're in Weightlifting for beginners
+70,2,44,0.527922,similar_group,Because you're in Weightlifting for beginners
+70,3,70,0.316310,similar_group,Because you're in Weightlifting for beginners
+70,4,99,0.322175,similar_group,"Similar to Cycling every day, which you joined"
+70,5,19,0.293382,similar_group,"Similar to 30 days of Cycling, which you joined"
+71,1,15,0.663334,similar_group,Because you're in Korean conversation club
+71,2,32,0.538568,similar_group,Because you're in Korean conversation club
+71,3,4,0.503473,friend,Your friend user 150 and 1 other friend are members
+71,4,6,0.337595,friend,Your friend user 150 is a member
+71,5,42,0.412541,similar_group,Because you're in Korean conversation club
+72,1,10,0.500000,similar_group,Because you're in 30 days of Cycling
+72,2,58,0.398857,similar_group,"Similar to Journaling streak, which you joined"
+72,3,19,0.398643,similar_group,Because you're in Journaling streak
+72,4,2,0.357855,similar_group,Because you're in Journaling streak
+72,5,99,0.307147,shared_members,About 2 members of Morning Cycling are in it
+73,1,29,0.523511,similar_group,Because you're in Finals countdown
+73,2,36,0.486692,similar_group,Because you're in Finals countdown
+73,3,43,0.425065,friend,Your friend user 291 is a member
+73,4,78,0.365778,similar_group,"Similar to Finals countdown, which you joined"
+73,5,35,0.367145,friend,Your friend user 291 is a member
+74,1,23,0.582114,similar_group,Because you're in Finals countdown
+74,2,29,0.431759,shared_members,About 9 members of Finals countdown are in it
+74,3,66,0.282688,similar_group,"Similar to MCAT countdown, which you joined"
+74,4,65,0.229762,similar_group,"Similar to Finals countdown, which you joined"
+74,5,47,0.240401,similar_group,"Similar to MCAT countdown, which you joined"
+75,1,65,0.661849,similar_group,Because you're in Finals countdown
+75,2,13,0.576282,friend,Your friend user 43 and 1 other friend are members
+75,3,22,0.532323,friend,Your friend user 43 and 1 other friend are members
+75,4,66,0.470995,similar_group,Because you're in Finals countdown
+75,5,9,0.406562,similar_group,Because you're in SAT prep squad
+76,1,23,0.832309,friend,Your friend user 98 is a member
+76,2,29,0.713233,friend,Your friend user 98 is a member
+76,3,36,0.621309,friend,Your friend user 98 is a member
+76,4,9,0.602168,similar_group,Because you're in Networking 101
+76,5,31,0.212134,new_group,A small group: we show small groups so they get a fair chance
+77,1,22,0.544104,similar_group,Because you're in Guitar club
+77,2,1,0.426143,friend,Your friend user 10 and 1 other friend are members
+77,3,10,0.288968,friend,Your friend user 10 is a member
+77,4,87,0.270608,similar_group,"Similar to Violin practice room, which you joined"
+77,5,15,0.237992,friend,Your friend user 179 is a member
+78,1,29,0.523511,similar_group,Because you're in Finals countdown
+78,2,36,0.486692,similar_group,Because you're in Finals countdown
+78,3,78,0.365778,similar_group,"Similar to Finals countdown, which you joined"
+78,4,65,0.240828,similar_group,"Similar to Finals countdown, which you joined"
+78,5,10,0.167758,similar_group,Because you're in Midterms countdown
+79,1,9,0.638263,similar_group,Because you're in Networking 101
+79,2,22,0.481437,friend,Your friend user 32 is a member
+79,3,52,0.461449,shared_members,About 4 members of 30 days of Cycling are in it
+79,4,1,0.401374,similar_group,Because you're in Japanese in 90 days
+79,5,53,0.395038,similar_group,"Similar to Morning Stretching, which you joined"
+80,1,8,0.817729,friend,Your friend user 24 is a member
+80,2,23,0.723116,friend,Your friend user 68 is a member
+80,3,36,0.650981,friend,Your friend user 68 is a member
+80,4,20,0.514527,friend,Your friend user 300 is a member
+80,5,25,0.509088,friend,Your friend user 300 is a member
+81,1,6,0.507812,similar_group,Because you're in Astronomy club
+81,2,38,0.403126,similar_group,"Similar to Astronomy club, which you joined"
+81,3,7,0.320819,similar_group,Because you're in Astronomy club
+81,4,9,0.310323,similar_group,Because you're in Astronomy club
+81,5,37,0.303358,similar_group,Because you're in Astronomy club
+82,1,37,0.654023,similar_group,Because you're in Weightlifting for beginners
+82,2,11,0.450691,friend,Your friend user 251 is a member
+82,3,62,0.433811,friend,Your friend user 251 is a member
+82,4,56,0.325371,similar_group,"Similar to Daily Rust, which you joined"
+82,5,53,0.328187,shared_members,About 2 members of Stretching for beginners are in it
+83,1,23,0.541368,similar_group,Because you're in Finals countdown
+83,2,24,0.350779,similar_group,Because you're in Mastering Probability
+83,3,16,0.274654,similar_group,Because you're in Mastering Probability
+83,4,141,0.235333,similar_group,"Similar to SAT prep squad, which you joined"
+83,5,47,0.233092,similar_group,"Similar to MCAT countdown, which you joined"
+84,1,57,0.764901,friend,Your friend user 101 is a member
+84,2,25,0.437323,friend,Your friend user 101 is a member
+84,3,15,0.363993,similar_group,Because you're in 3D modelling club
+84,4,81,0.255587,similar_group,"Similar to Pixel art sketchbook, which you joined"
+84,5,37,0.213125,similar_group,Because you're in Weightlifting for beginners
+85,1,7,0.964102,friend,Your friend user 266 is a member
+85,2,42,0.425589,friend,Your friend user 266 is a member
+85,3,23,0.388393,similar_group,Because you're in Finals countdown
+85,4,1,0.256119,similar_group,Because you're in Japanese in 90 days
+85,5,65,0.192735,similar_group,Because you're in Finals countdown
+86,1,24,0.666577,similar_group,Because you're in Mastering Probability
+86,2,12,0.656590,similar_group,Because you're in Networking club
+86,3,11,0.486191,similar_group,Because you're in Networking club
+86,4,28,0.544992,similar_group,Because you're in Networking club
+86,5,31,0.217886,new_group,A small group: we show small groups so they get a fair chance
+87,1,7,0.576770,friend,Your friend user 198 is a member
+87,2,16,0.540001,friend,Your friend user 118 is a member
+87,3,8,0.510046,friend,Your friend user 118 is a member
+87,4,6,0.470416,similar_group,Because you're in Astronomy club
+87,5,56,0.387021,new_group,A small group: we show small groups so they get a fair chance
+88,1,14,0.874930,friend,Your friend user 93 is a member
+88,2,23,0.452169,friend,Your friend user 102 is a member
+88,3,8,0.397052,friend,Your friend user 42 is a member
+88,4,32,0.376331,friend,Your friend user 42 is a member
+88,5,55,0.265998,new_group,A small group: we show small groups so they get a fair chance
+89,1,15,0.624151,similar_group,Because you're in Korean conversation club
+89,2,18,0.529513,friend,Your friend user 149 is a member
+89,3,51,0.510556,friend,Your friend user 149 is a member
+89,4,113,0.379622,similar_group,Because you're in Korean conversation club
+89,5,2,0.344253,similar_group,Because you're in Korean conversation club
+90,1,22,0.956567,friend,Your friend user 120 is a member
+90,2,13,0.592824,friend,Your friend user 225 is a member
+90,3,83,0.483764,friend,Your friend user 120 is a member
+90,4,2,0.430106,friend,Your friend user 225 is a member
+90,5,52,0.339580,similar_group,Because you're in Weightlifting for beginners
+91,1,39,0.542420,shared_members,About 3 members of Pixel art sketchbook are in it
+91,2,15,0.364929,similar_group,Because you're in 3D modelling club
+91,3,57,0.345832,shared_members,About 2 members of Pixel art sketchbook are in it
+91,4,81,0.267995,similar_group,"Similar to Pixel art sketchbook, which you joined"
+91,5,30,0.246577,shared_members,About 2 members of Pixel art sketchbook are in it
+92,1,68,0.613276,similar_group,Because you're in Mastering Probability
+92,2,61,0.448208,similar_group,Because you're in Calculus help desk
+92,3,6,0.380230,similar_group,Because you're in Calculus help desk
+92,4,2,0.342527,similar_group,Because you're in Calculus help desk
+92,5,19,0.259953,similar_group,Because you're in Calculus help desk
+93,1,6,0.552875,friend,Your friend user 41 is a member
+93,2,55,0.522582,shared_members,About 1 member of Learn Singing together is in it
+93,3,2,0.483253,friend,Your friend user 88 is a member
+93,4,49,0.434680,friend,Your friend user 41 is a member
+93,5,41,0.429804,shared_members,About 1 member of Learn Singing together is in it
+94,1,13,0.680537,similar_group,Because you're in Korean conversation club
+94,2,15,0.470144,similar_group,"Similar to English in 90 days, which you joined"
+94,3,32,0.192196,similar_group,Because you're in Korean conversation club
+94,4,2,0.108734,similar_group,Because you're in Korean conversation club
+94,5,51,0.069579,new_group,A small group: we show small groups so they get a fair chance
+95,1,16,0.500000,similar_group,Because you're in Mastering Probability
+95,2,15,0.390465,friend,Your friend user 203 is a member
+95,3,42,0.363694,friend,Your friend user 203 is a member
+95,4,13,0.383826,friend,Your friend user 203 is a member
+95,5,32,0.363427,friend,Your friend user 203 is a member
+96,1,23,0.511526,similar_group,Because you're in Finals countdown
+96,2,58,0.481677,similar_group,"Similar to Journaling streak, which you joined"
+96,3,29,0.469671,similar_group,Because you're in Finals countdown
+96,4,19,0.399931,similar_group,Because you're in Journaling streak
+96,5,16,0.366947,similar_group,Because you're in Journaling streak
+97,1,24,0.690338,similar_group,Because you're in Mastering Probability
+97,2,68,0.352440,similar_group,"Similar to Geometry problem of the day, which you joined"
+97,3,15,0.304989,similar_group,Because you're in 3D modelling club
+97,4,61,0.308369,similar_group,"Similar to Calculus help desk, which you joined"
+97,5,6,0.291989,similar_group,Because you're in Calculus help desk
+98,1,4,0.597733,similar_group,Because you're in Midterms countdown
+98,2,66,0.299134,similar_group,"Similar to MCAT countdown, which you joined"
+98,3,58,0.304835,similar_group,"Similar to Journaling streak, which you joined"
+98,4,72,0.268736,similar_group,"Similar to SAT prep squad, which you joined"
+98,5,68,0.220689,similar_group,"Similar to Geometry problem of the day, which you joined"
+99,1,22,0.598250,similar_group,Because you're in Violin practice room
+99,2,5,0.538205,similar_group,Because you're in Violin practice room
+99,3,96,0.245858,shared_members,About 1 member of Daily Drums is in it
+99,4,13,0.171438,similar_group,Because you're in Violin practice room
+99,5,39,0.119551,similar_group,Because you're in Violin practice room
+100,1,15,0.912569,friend,Your friend user 187 is a member
+100,2,7,0.655531,similar_group,Because you're in Spanish for beginners
+100,3,8,0.479517,similar_group,Because you're in Calculus help desk
+100,4,25,0.461729,friend,Your friend user 217 is a member
+100,5,51,0.323631,new_group,A small group: we show small groups so they get a fair chance
+101,1,39,0.851983,friend,Your friend user 84 is a member
+101,2,30,0.622737,friend,Your friend user 84 is a member
+101,3,15,0.407533,similar_group,Because you're in 3D modelling club
+101,4,10,0.421899,friend,Your friend user 84 is a member
+101,5,18,0.375207,similar_group,Because you're in Algorithms study group
+102,1,29,0.523511,similar_group,Because you're in Finals countdown
+102,2,36,0.486692,similar_group,Because you're in Finals countdown
+102,3,7,0.422067,friend,Your friend user 192 is a member
+102,4,5,0.405982,friend,Your friend user 88 is a member
+102,5,65,0.240828,new_group,A small group: we show small groups so they get a fair chance
+103,1,37,0.678635,similar_group,Because you're in Weightlifting for beginners
+103,2,53,0.316997,shared_members,About 2 members of Stretching for beginners are in it
+103,3,75,0.254749,similar_group,"Similar to Weightlifting for beginners, which you joined"
+103,4,52,0.219912,similar_group,Because you're in Weightlifting for beginners
+103,5,23,0.164774,similar_group,Because you're in Weightlifting for beginners
+104,1,12,0.693406,similar_group,Because you're in Networking club
+104,2,28,0.491973,similar_group,Because you're in Networking club
+104,3,37,0.342004,similar_group,Because you're in Networking club
+104,4,17,0.291644,similar_group,Because you're in Astronomy club
+104,5,27,0.226797,new_group,A small group: we show small groups so they get a fair chance
+105,1,35,0.617549,similar_group,Because you're in Mastering Probability
+105,2,6,0.554744,friend,Your friend user 55 is a member
+105,3,14,0.402863,friend,Your friend user 55 is a member
+105,4,5,0.385998,friend,Your friend user 55 is a member
+105,5,61,0.391483,similar_group,"Similar to Calculus help desk, which you joined"
+106,1,37,0.625904,similar_group,Because you're in Weightlifting for beginners
+106,2,70,0.313199,similar_group,"Similar to Morning Stretching, which you joined"
+106,3,52,0.289748,similar_group,Because you're in Weightlifting for beginners
+106,4,75,0.167584,similar_group,Because you're in Weightlifting for beginners
+106,5,5,0.154282,similar_group,Because you're in Weightlifting for beginners
+107,1,37,0.595322,similar_group,Because you're in Weightlifting for beginners
+107,2,59,0.359209,similar_group,"Similar to Morning Yoga, which you joined"
+107,3,6,0.242693,similar_group,Because you're in 30 days of Reading
+107,4,126,0.256680,similar_group,"Similar to Morning Cycling, which you joined"
+107,5,75,0.214517,similar_group,"Similar to Weightlifting for beginners, which you joined"
+108,1,16,0.530035,similar_group,Because you're in Mastering Probability
+108,2,17,0.495990,friend,Your friend user 197 is a member
+108,3,35,0.406627,similar_group,"Similar to Geometry without tears, which you joined"
+108,4,9,0.203554,similar_group,Because you're in Astronomy club
+108,5,131,0.199185,similar_group,"Similar to Astronomy club, which you joined"
+109,1,6,0.694548,friend,Your friend user 245 is a member
+109,2,15,0.375584,similar_group,Because you're in 3D modelling club
+109,3,57,0.372459,shared_members,About 1 member of Meditation together is in it
+109,4,14,0.375177,friend,Your friend user 245 is a member
+109,5,26,0.292220,similar_group,Because you're in 3D modelling club
+110,1,78,0.610602,similar_group,Because you're in Finals countdown
+110,2,66,0.607754,similar_group,Because you're in Finals countdown
+110,3,18,0.484317,similar_group,Because you're in Midterms countdown
+110,4,9,0.432109,similar_group,Because you're in SAT prep squad
+110,5,8,0.390773,similar_group,Because you're in Midterms countdown
+111,1,76,0.968552,friend,Your friend user 166 is a member
+111,2,51,0.786384,friend,Your friend user 166 is a member
+111,3,8,0.372009,similar_group,Because you're in Algorithms from zero
+111,4,7,0.315371,similar_group,Because you're in Algorithms study group
+111,5,95,0.319497,similar_group,Because you're in Algorithms study group
+112,1,19,0.557830,friend,Your friend user 239 is a member
+112,2,58,0.478293,friend,Your friend user 239 is a member
+112,3,15,0.407895,similar_group,Because you're in 3D modelling club
+112,4,39,0.362216,similar_group,Because you're in 3D modelling club
+112,5,26,0.353934,shared_members,About 2 members of Drawing for fun are in it
+113,1,18,0.913452,friend,Your friend user 246 is a member
+113,2,25,0.744196,friend,Your friend user 246 is a member
+113,3,51,0.733362,friend,Your friend user 246 is a member
+113,4,56,0.402785,similar_group,"Similar to Daily Rust, which you joined"
+113,5,15,0.252171,similar_group,Because you're in Daily Rust
+114,1,24,0.700000,similar_group,Because you're in Mastering Probability
+114,2,68,0.327148,similar_group,"Similar to Geometry problem of the day, which you joined"
+114,3,61,0.295256,similar_group,"Similar to Calculus help desk, which you joined"
+114,4,6,0.173186,similar_group,Because you're in Calculus help desk
+114,5,2,0.149899,similar_group,Because you're in Calculus help desk
+115,1,7,0.677123,friend,Your friend user 67 is a member
+115,2,24,0.590913,similar_group,Because you're in Mastering Probability
+115,3,25,0.491336,friend,Your friend user 67 is a member
+115,4,90,0.463987,shared_members,About 1 member of Swimming for beginners is in it
+115,5,43,0.436263,friend,Your friend user 67 is a member
+116,1,23,0.582114,similar_group,Because you're in Finals countdown
+116,2,29,0.431759,shared_members,About 9 members of Finals countdown are in it
+116,3,66,0.282688,similar_group,"Similar to MCAT countdown, which you joined"
+116,4,65,0.229762,similar_group,"Similar to Finals countdown, which you joined"
+116,5,47,0.240401,similar_group,"Similar to MCAT countdown, which you joined"
+117,1,61,0.494738,shared_members,About 1 member of Calculus study group is in it
+117,2,6,0.406763,similar_group,Because you're in Calculus help desk
+117,3,2,0.357291,similar_group,Because you're in Calculus help desk
+117,4,10,0.322134,similar_group,Because you're in Calculus study group
+117,5,149,0.338120,similar_group,"Similar to Calculus study group, which you joined"
+118,1,24,0.667844,similar_group,Because you're in Mastering Probability
+118,2,2,0.424878,friend,Your friend user 87 is a member
+118,3,4,0.403086,similar_group,Because you're in Midterms countdown
+118,4,9,0.363877,similar_group,"Similar to Freelancing club, which you joined"
+118,5,38,0.385142,friend,Your friend user 87 is a member
+119,1,14,0.500000,similar_group,Because you're in Guitar club
+119,2,22,0.407019,similar_group,Because you're in Guitar club
+119,3,39,0.314493,similar_group,Because you're in 3D modelling club
+119,4,6,0.300005,similar_group,Because you're in 3D modelling club
+119,5,143,0.293569,similar_group,"Similar to Guitar club, which you joined"
+120,1,44,0.734666,friend,Your friend user 90 is a member
+120,2,5,0.701010,friend,Your friend user 90 is a member
+120,3,14,0.594771,friend,Your friend user 90 is a member
+120,4,53,0.539070,friend,Your friend user 90 is a member
+120,5,52,0.482096,similar_group,Because you're in Weightlifting for beginners
+121,1,36,0.639288,similar_group,Because you're in Finals countdown
+121,2,78,0.328805,similar_group,"Similar to Finals countdown, which you joined"
+121,3,46,0.280785,similar_group,"Similar to SAT prep squad, which you joined"
+121,4,66,0.315655,similar_group,"Similar to Entrance exams accountability group, which you joined"
+121,5,9,0.226567,similar_group,Because you're in SAT prep squad
+122,1,36,0.504782,similar_group,Because you're in Finals countdown
+122,2,29,0.493110,similar_group,Because you're in Finals countdown
+122,3,37,0.464394,similar_group,Because you're in Weightlifting for beginners
+122,4,78,0.381381,similar_group,"Similar to Finals countdown, which you joined"
+122,5,52,0.294121,similar_group,Because you're in Weightlifting for beginners
+123,1,35,0.617549,similar_group,Because you're in Mastering Probability
+123,2,6,0.554744,friend,Your friend user 189 is a member
+123,3,19,0.484041,friend,Your friend user 189 is a member
+123,4,61,0.391483,similar_group,"Similar to Calculus help desk, which you joined"
+123,5,2,0.231058,similar_group,Because you're in Calculus help desk
+124,1,13,0.692313,similar_group,Because you're in Korean conversation club
+124,2,52,0.299109,similar_group,Because you're in Weightlifting for beginners
+124,3,44,0.316381,similar_group,Because you're in Weightlifting for beginners
+124,4,2,0.290810,similar_group,Because you're in 30 days of Cycling
+124,5,48,0.346452,similar_group,"Similar to Japanese in 90 days, which you joined"
+125,1,75,0.518979,shared_members,About 1 member of Calisthenics for beginners is in it
+125,2,74,0.450375,shared_members,About 1 member of Calisthenics for beginners is in it
+125,3,52,0.442392,similar_group,Because you're in Weightlifting for beginners
+125,4,53,0.393216,similar_group,Because you're in Weightlifting for beginners
+125,5,2,0.328844,similar_group,Because you're in 30 days of Cycling
+126,1,14,0.533368,similar_group,Because you're in Guitar club
+126,2,132,0.256513,similar_group,"Similar to Music theory for beginners, which you joined"
+126,3,13,0.219010,similar_group,Because you're in Drums practice room
+126,4,143,0.237302,similar_group,"Similar to Guitar club, which you joined"
+126,5,44,0.210567,similar_group,"Similar to Music theory for beginners, which you joined"
+127,1,7,0.631630,similar_group,Because you're in Spanish for beginners
+127,2,11,0.487146,friend,Your friend user 137 is a member
+127,3,35,0.471319,shared_members,About 3 members of Calculus study group are in it
+127,4,27,0.411349,friend,Your friend user 137 is a member
+127,5,9,0.363590,friend,Your friend user 137 is a member
+128,1,39,0.468607,shared_members,About 3 members of Pixel art sketchbook are in it
+128,2,1,0.463100,similar_group,Because you're in Pixel art sketchbook
+128,3,4,0.296904,similar_group,Because you're in SAT prep squad
+128,4,15,0.284231,similar_group,Because you're in Pixel art sketchbook
+128,5,117,0.265324,similar_group,"Similar to Daily Photography, which you joined"
+129,1,12,0.689792,similar_group,Because you're in Networking club
+129,2,11,0.415546,similar_group,Because you're in Networking club
+129,3,37,0.278492,similar_group,Because you're in Networking club
+129,4,2,0.270503,similar_group,Because you're in Networking club
+129,5,31,0.246627,new_group,A small group: we show small groups so they get a fair chance
+130,1,36,0.549308,similar_group,Because you're in Finals countdown
+130,2,52,0.399821,similar_group,Because you're in Weightlifting for beginners
+130,3,78,0.375798,similar_group,"Similar to Finals countdown, which you joined"
+130,4,44,0.362404,similar_group,Because you're in Weightlifting for beginners
+130,5,9,0.346407,similar_group,Because you're in 30 days of Cycling
+131,1,19,0.531343,similar_group,Because you're in Journaling streak
+131,2,2,0.392989,similar_group,Because you're in Journaling streak
+131,3,56,0.363866,similar_group,"Similar to Daily Rust, which you joined"
+131,4,17,0.346187,similar_group,Because you're in Journaling streak
+131,5,37,0.355710,similar_group,Because you're in Journaling streak
+132,1,37,0.501705,similar_group,Because you're in Weightlifting for beginners
+132,2,23,0.487234,similar_group,Because you're in Finals countdown
+132,3,29,0.375219,similar_group,Because you're in Finals countdown
+132,4,90,0.345608,shared_members,About 1 member of Cycling every day is in it
+132,5,99,0.291211,similar_group,"Similar to Calisthenics crew, which you joined"
+133,1,13,0.998289,friend,Your friend user 150 is a member
+133,2,25,0.794398,friend,Your friend user 23 is a member
+133,3,43,0.753461,friend,Your friend user 23 is a member
+133,4,4,0.745749,friend,Your friend user 150 is a member
+133,5,48,0.673360,new_group,A small group: we show small groups so they get a fair chance
+134,1,37,0.792314,friend,Your friend user 170 is a member
+134,2,17,0.374670,friend,Your friend user 170 is a member
+134,3,59,0.321170,similar_group,"Similar to Morning Yoga, which you joined"
+134,4,44,0.354979,shared_members,About 2 members of Morning Yoga are in it
+134,5,52,0.248034,similar_group,Because you're in Weightlifting for beginners
+135,1,8,0.780563,friend,Your friend user 95 is a member
+135,2,36,0.655121,similar_group,Because you're in Finals countdown
+135,3,46,0.531436,friend,Your friend user 95 is a member
+135,4,24,0.538291,friend,Your friend user 95 is a member
+135,5,78,0.286003,similar_group,"Similar to Finals countdown, which you joined"
+136,1,15,0.678376,friend,Your friend user 163 is a member
+136,2,14,0.556941,similar_group,Because you're in Guitar club
+136,3,32,0.282577,similar_group,Because you're in Korean conversation club
+136,4,143,0.240921,similar_group,"Similar to Guitar club, which you joined"
+136,5,41,0.181098,similar_group,Because you're in Guitar club
+137,1,16,0.765652,friend,Your friend user 127 is a member
+137,2,12,0.662639,similar_group,Because you're in Networking club
+137,3,15,0.585980,friend,Your friend user 127 is a member
+137,4,31,0.477941,shared_members,About 2 members of Public speaking help are in it
+137,5,68,0.499027,friend,Your friend user 127 is a member
+138,1,18,0.688638,similar_group,Because you're in Algorithms study group
+138,2,76,0.387431,similar_group,"Similar to Daily JavaScript, which you joined"
+138,3,29,0.274258,similar_group,Because you're in Finals countdown
+138,4,36,0.251705,similar_group,Because you're in Finals countdown
+138,5,56,0.214584,similar_group,"Similar to Daily Rust, which you joined"
+139,1,23,0.600025,similar_group,Because you're in Finals countdown
+139,2,29,0.383259,similar_group,Because you're in Finals countdown
+139,3,36,0.402851,similar_group,Because you're in Finals countdown
+139,4,8,0.355898,friend,Your friend user 137 is a member
+139,5,27,0.339633,new_group,A small group: we show small groups so they get a fair chance
+140,1,15,0.602318,similar_group,Because you're in Korean conversation club
+140,2,8,0.543586,friend,Your friend user 16 is a member
+140,3,6,0.507599,similar_group,Because you're in Astronomy club
+140,4,18,0.450358,friend,Your friend user 16 is a member
+140,5,42,0.441743,similar_group,Because you're in Korean conversation club
+141,1,36,0.668076,friend,Your friend user 83 is a member
+141,2,23,0.517302,similar_group,Because you're in Finals countdown
+141,3,45,0.415062,friend,Your friend user 83 is a member
+141,4,66,0.477351,friend,Your friend user 83 is a member
+141,5,8,0.371505,friend,Your friend user 83 is a member
+142,1,29,0.517326,similar_group,Because you're in Finals countdown
+142,2,8,0.448630,friend,Your friend user 196 is a member
+142,3,52,0.362640,similar_group,Because you're in Weightlifting for beginners
+142,4,78,0.324262,similar_group,"Similar to Finals countdown, which you joined"
+142,5,53,0.319622,shared_members,About 2 members of Stretching for beginners are in it
+143,1,35,0.660262,similar_group,Because you're in Mastering Probability
+143,2,61,0.391483,similar_group,"Similar to Calculus help desk, which you joined"
+143,3,6,0.254744,similar_group,Because you're in Calculus help desk
+143,4,2,0.244793,similar_group,Because you're in Calculus help desk
+143,5,46,0.212881,similar_group,Because you're in Mastering Probability
+144,1,13,0.700000,similar_group,Because you're in Korean conversation club
+144,2,12,0.487655,friend,Your friend user 190 is a member
+144,3,15,0.521053,similar_group,Because you're in Korean conversation club
+144,4,9,0.357265,shared_members,About 5 members of Getting good at Job interviews are in it
+144,5,88,0.188326,new_group,A small group: we show small groups so they get a fair chance
+145,1,57,0.753613,friend,Your friend user 34 is a member
+145,2,61,0.394738,friend,Your friend user 22 is a member
+145,3,4,0.386508,friend,Your friend user 22 is a member
+145,4,15,0.366809,similar_group,Because you're in 3D modelling club
+145,5,14,0.316799,similar_group,Because you're in Guitar club
+146,1,32,0.642203,similar_group,Because you're in Korean conversation club
+146,2,15,0.613884,similar_group,Because you're in Korean conversation club
+146,3,22,0.264031,similar_group,Because you're in Spanish for beginners
+146,4,5,0.238169,similar_group,Because you're in Spanish for beginners
+146,5,113,0.303585,similar_group,Because you're in Korean conversation club
+147,1,17,0.763532,friend,Your friend user 297 is a member
+147,2,7,0.593807,friend,Your friend user 13 is a member
+147,3,77,0.467064,friend,Your friend user 297 is a member
+147,4,58,0.455294,similar_group,"Similar to Journaling streak, which you joined"
+147,5,30,0.450240,friend,Your friend user 297 is a member
+148,1,8,0.475913,similar_group,Because you're in Calculus help desk
+148,2,43,0.429074,friend,Your friend user 298 is a member
+148,3,53,0.376457,shared_members,About 2 members of Stretching for beginners are in it
+148,4,52,0.382193,similar_group,Because you're in Weightlifting for beginners
+148,5,25,0.365098,friend,Your friend user 298 is a member
+149,1,25,0.523645,similar_group,Because you're in Algorithms from zero
+149,2,60,0.394384,friend,Your friend user 89 is a member
+149,3,76,0.410447,similar_group,"Similar to Daily JavaScript, which you joined"
+149,4,7,0.391151,friend,Your friend user 89 is a member
+149,5,42,0.385358,friend,Your friend user 89 is a member
+150,1,15,0.827709,friend,Your friend user 133 is a member
+150,2,23,0.753280,friend,Your friend user 133 is a member
+150,3,32,0.583690,similar_group,Because you're in Korean conversation club
+150,4,18,0.474493,friend,Your friend user 133 is a member
+150,5,110,0.528467,new_group,A small group: we show small groups so they get a fair chance
+151,1,36,0.754430,friend,Your friend user 68 is a member
+151,2,29,0.516648,similar_group,Because you're in Finals countdown
+151,3,52,0.420479,similar_group,Because you're in Weightlifting for beginners
+151,4,78,0.339936,similar_group,"Similar to Finals countdown, which you joined"
+151,5,53,0.353730,shared_members,About 2 members of Stretching for beginners are in it
+153,1,25,0.807804,friend,Your friend user 19 is a member
+153,2,43,0.628082,similar_group,Because you're in Algorithms from zero
+153,3,7,0.380202,friend,Your friend user 19 is a member
+153,4,56,0.299349,similar_group,"Similar to Daily Rust, which you joined"
+153,5,51,0.329093,similar_group,"Similar to Algorithms from zero, which you joined"
+154,1,18,0.536562,shared_members,About 8 members of SQL from zero are in it
+154,2,5,0.504126,similar_group,Because you're in Violin practice room
+154,3,22,0.386877,similar_group,Because you're in Violin practice room
+154,4,56,0.371119,similar_group,"Similar to Daily Rust, which you joined"
+154,5,25,0.344782,similar_group,Because you're in SQL from zero
+155,1,37,0.431698,similar_group,Because you're in Weightlifting for beginners
+155,2,15,0.410095,similar_group,Because you're in 3D modelling club
+155,3,39,0.359187,similar_group,Because you're in 3D modelling club
+155,4,57,0.337279,similar_group,Because you're in 3D modelling club
+155,5,75,0.291886,similar_group,"Similar to Weightlifting for beginners, which you joined"
+156,1,35,0.796788,friend,Your friend user 38 is a member
+156,2,37,0.743861,friend,Your friend user 225 is a member
+156,3,43,0.593904,similar_group,Because you're in Algorithms from zero
+156,4,25,0.543571,similar_group,Because you're in Algorithms from zero
+156,5,92,0.431833,new_group,A small group: we show small groups so they get a fair chance
+157,1,24,0.826239,friend,Your friend user 38 is a member
+157,2,16,0.587037,similar_group,Because you're in Mastering Probability
+157,3,18,0.500648,similar_group,Because you're in Algorithms study group
+157,4,68,0.364596,shared_members,About 3 members of Geometry problem of the day are in it
+157,5,56,0.111818,new_group,A small group: we show small groups so they get a fair chance
+158,1,23,0.508424,similar_group,Because you're in Finals countdown
+158,2,90,0.461511,shared_members,About 1 member of Swimming for beginners is in it
+158,3,44,0.435785,similar_group,"Similar to 30 days of Cycling, which you joined"
+158,4,52,0.420464,similar_group,Because you're in Weightlifting for beginners
+158,5,29,0.357558,similar_group,Because you're in Finals countdown
+159,1,16,0.567082,similar_group,Because you're in Mastering Probability
+159,2,35,0.446263,shared_members,About 3 members of Calculus study group are in it
+159,3,2,0.419339,friend,Your friend user 216 is a member
+159,4,18,0.158815,similar_group,Because you're in Mastering Probability
+159,5,45,0.133641,new_group,A small group: we show small groups so they get a fair chance
+160,1,24,0.691110,similar_group,Because you're in Mastering Probability
+160,2,61,0.294771,similar_group,"Similar to Calculus help desk, which you joined"
+160,3,35,0.289076,similar_group,Because you're in Mastering Probability
+160,4,6,0.153097,similar_group,Because you're in Calculus help desk
+160,5,19,0.094672,similar_group,Because you're in Calculus help desk
+161,1,58,0.560389,similar_group,"Similar to Journaling streak, which you joined"
+161,2,7,0.556382,friend,Your friend user 236 is a member
+161,3,49,0.383265,shared_members,About 2 members of 30 days of Reading are in it
+161,4,16,0.381381,similar_group,Because you're in Journaling streak
+161,5,2,0.374101,similar_group,Because you're in Journaling streak
+162,1,36,0.543605,similar_group,Because you're in Finals countdown
+162,2,65,0.312820,shared_members,About 1 member of Beat the Finals is in it
+162,3,141,0.249429,similar_group,"Similar to SAT prep squad, which you joined"
+162,4,9,0.213974,similar_group,Because you're in SAT prep squad
+162,5,45,0.169656,similar_group,Because you're in Finals countdown
+163,1,13,0.980537,friend,Your friend user 136 is a member
+163,2,22,0.327123,friend,Your friend user 136 is a member
+163,3,5,0.326114,friend,Your friend user 136 is a member
+163,4,1,0.260036,similar_group,Because you're in Japanese in 90 days
+163,5,110,0.117173,new_group,A small group: we show small groups so they get a fair chance
+164,1,7,0.634532,similar_group,Because you're in Japanese in 90 days
+164,2,19,0.588789,friend,Your friend user 4 and 1 other friend are members
+164,3,58,0.549192,similar_group,"Similar to Journaling streak, which you joined"
+164,4,17,0.515087,similar_group,Because you're in Journaling streak
+164,5,1,0.425843,similar_group,Because you're in Japanese in 90 days
+165,1,37,0.497550,similar_group,Because you're in Weightlifting for beginners
+165,2,29,0.387356,shared_members,About 9 members of Finals countdown are in it
+165,3,17,0.380401,shared_members,About 4 members of Astronomy club are in it
+165,4,36,0.358350,shared_members,About 7 members of Finals countdown are in it
+165,5,58,0.346839,similar_group,"Similar to Journaling streak, which you joined"
+166,1,18,0.681318,similar_group,Because you're in Algorithms study group
+166,2,8,0.391388,friend,Your friend user 44 is a member
+166,3,56,0.254009,shared_members,About 1 member of App building study group is in it
+166,4,20,0.318406,similar_group,"Similar to SQL from zero, which you joined"
+166,5,15,0.162038,similar_group,Because you're in Daily Rust
+167,1,43,0.700000,similar_group,Because you're in Algorithms from zero
+167,2,24,0.480369,similar_group,"Similar to Mastering Probability, which you joined"
+167,3,37,0.370861,similar_group,Because you're in Weightlifting for beginners
+167,4,16,0.285573,similar_group,Because you're in Mastering Probability
+167,5,76,0.312234,new_group,A small group: we show small groups so they get a fair chance
+168,1,12,0.562320,similar_group,Because you're in Networking club
+168,2,6,0.527970,similar_group,Because you're in 30 days of Reading
+168,3,68,0.458392,friend,Your friend user 184 is a member
+168,4,44,0.421012,similar_group,"Similar to 30 days of Cycling, which you joined"
+168,5,53,0.411487,similar_group,"Similar to Morning Stretching, which you joined"
+169,1,15,0.680119,similar_group,Because you're in Korean conversation club
+169,2,42,0.488893,shared_members,About 1 member of Spanish evening chat is in it
+169,3,17,0.372087,similar_group,Because you're in Korean conversation club
+169,4,2,0.328657,similar_group,Because you're in Korean conversation club
+169,5,113,0.369202,similar_group,Because you're in Korean conversation club
+170,1,53,0.612870,friend,Your friend user 134 is a member
+170,2,44,0.528684,similar_group,Because you're in Weightlifting for beginners
+170,3,2,0.500000,similar_group,Because you're in 30 days of Cycling
+170,4,52,0.464168,similar_group,Because you're in Weightlifting for beginners
+170,5,43,0.414985,similar_group,Because you're in Daily Rust
+171,1,1,0.417718,similar_group,Because you're in Japanese in 90 days
+171,2,48,0.415088,similar_group,"Similar to Japanese in 90 days, which you joined"
+171,3,32,0.414577,similar_group,Because you're in Korean conversation club
+171,4,23,0.389829,similar_group,Because you're in Weightlifting for beginners
+171,5,37,0.355123,shared_members,About 13 members of Weightlifting for beginners are in it
+172,1,23,0.544725,similar_group,Because you're in Finals countdown
+172,2,29,0.458394,similar_group,Because you're in Finals countdown
+172,3,25,0.462588,similar_group,Because you're in Algorithms from zero
+172,4,43,0.458614,similar_group,"Similar to Algorithms from zero, which you joined"
+172,5,39,0.306177,new_group,A small group: we show small groups so they get a fair chance
+173,1,25,0.564477,similar_group,Because you're in Algorithms from zero
+173,2,13,0.525239,similar_group,Because you're in Korean conversation club
+173,3,43,0.510889,similar_group,"Similar to Algorithms from zero, which you joined"
+173,4,24,0.490875,similar_group,"Similar to Mastering Probability, which you joined"
+173,5,20,0.283884,new_group,A small group: we show small groups so they get a fair chance
+174,1,44,0.540597,similar_group,Because you're in Weightlifting for beginners
+174,2,52,0.522457,similar_group,Because you're in Weightlifting for beginners
+174,3,43,0.493529,friend,Your friend user 14 is a member
+174,4,53,0.361192,similar_group,Because you're in Weightlifting for beginners
+174,5,58,0.327105,shared_members,About 1 member of 30 days of Journaling is in it
+175,1,13,0.700000,similar_group,Because you're in Korean conversation club
+175,2,19,0.520014,friend,Your friend user 267 is a member
+175,3,77,0.359783,friend,Your friend user 267 is a member
+175,4,1,0.310413,similar_group,Because you're in Japanese in 90 days
+175,5,58,0.267311,similar_group,"Similar to Journaling streak, which you joined"
+176,1,13,0.570491,similar_group,Because you're in Korean conversation club
+176,2,11,0.508583,similar_group,Because you're in Networking club
+176,3,1,0.312614,similar_group,Because you're in Japanese in 90 days
+176,4,31,0.309250,shared_members,About 2 members of Networking 101 are in it
+176,5,136,0.301079,similar_group,"Similar to Freelancing club, which you joined"
+177,1,12,0.695767,similar_group,Because you're in Networking club
+177,2,11,0.483333,similar_group,Because you're in Networking club
+177,3,5,0.484573,similar_group,Because you're in Drums practice room
+177,4,28,0.569754,similar_group,Because you're in Networking club
+177,5,41,0.271517,new_group,A small group: we show small groups so they get a fair chance
+178,1,26,0.450047,shared_members,About 3 members of Daily Pixel art are in it
+178,2,24,0.432966,similar_group,"Similar to Mastering Probability, which you joined"
+178,3,15,0.377571,similar_group,Because you're in 3D modelling club
+178,4,9,0.366593,similar_group,Because you're in Getting good at Job interviews
+178,5,57,0.355996,shared_members,About 2 members of Daily Photography are in it
+179,1,57,0.648355,similar_group,Because you're in 3D modelling club
+179,2,5,0.481181,friend,Your friend user 77 is a member
+179,3,14,0.473748,friend,Your friend user 77 is a member
+179,4,48,0.465498,similar_group,Because you're in Japanese in 90 days
+179,5,30,0.467691,similar_group,Because you're in 3D modelling club
+180,1,18,0.916570,friend,Your friend user 149 is a member
+180,2,43,0.809105,friend,Your friend user 149 is a member
+180,3,7,0.390141,similar_group,Because you're in Japanese in 90 days
+180,4,1,0.385496,similar_group,Because you're in Japanese in 90 days
+180,5,56,0.213571,shared_members,About 1 member of App building study group is in it
+182,1,42,0.496019,shared_members,About 1 member of Spanish evening chat is in it
+182,2,8,0.490487,friend,Your friend user 218 is a member
+182,3,1,0.450900,similar_group,Because you're in Japanese in 90 days
+182,4,11,0.396254,similar_group,Because you're in Japanese in 90 days
+182,5,112,0.327669,shared_members,About 1 member of Spanish evening chat is in it
+183,1,31,0.378990,shared_members,About 2 members of Networking 101 are in it
+183,2,37,0.326919,similar_group,Because you're in Networking club
+183,3,2,0.330731,similar_group,Because you're in Networking club
+183,4,136,0.309994,similar_group,"Similar to Freelancing club, which you joined"
+183,5,22,0.319589,similar_group,Because you're in Networking club
+184,1,37,0.500000,similar_group,Because you're in Weightlifting for beginners
+184,2,35,0.319007,shared_members,About 3 members of Calculus study group are in it
+184,3,52,0.260579,similar_group,Because you're in Weightlifting for beginners
+184,4,75,0.204596,similar_group,"Similar to Weightlifting for beginners, which you joined"
+184,5,149,0.269156,similar_group,"Similar to Calculus study group, which you joined"
+185,1,13,0.700000,similar_group,Because you're in Korean conversation club
+185,2,25,0.437750,friend,Your friend user 246 is a member
+185,3,51,0.395339,friend,Your friend user 246 is a member
+185,4,2,0.318534,shared_members,About 4 members of Curious about Thermodynamics are in it
+185,5,18,0.404358,friend,Your friend user 246 is a member
+186,1,43,0.652515,similar_group,Because you're in Algorithms from zero
+186,2,24,0.627183,similar_group,Because you're in Mastering Probability
+186,3,35,0.341922,similar_group,Because you're in Mastering Probability
+186,4,61,0.288796,similar_group,"Similar to Calculus help desk, which you joined"
+186,5,6,0.250864,similar_group,Because you're in Calculus help desk
+187,1,7,0.765437,friend,Your friend user 268 is a member
+187,2,26,0.500000,similar_group,Because you're in 3D modelling club
+187,3,57,0.448971,similar_group,Because you're in 3D modelling club
+187,4,39,0.451246,similar_group,Because you're in 3D modelling club
+187,5,11,0.312541,similar_group,Because you're in Japanese in 90 days
+188,1,26,0.500000,similar_group,Because you're in 3D modelling club
+188,2,48,0.496537,similar_group,"Similar to Japanese in 90 days, which you joined"
+188,3,57,0.473819,similar_group,Because you're in 3D modelling club
+188,4,39,0.474707,similar_group,Because you're in 3D modelling club
+188,5,7,0.398272,similar_group,"Similar to Japanese in 90 days, which you joined"
+189,1,24,0.980714,friend,Your friend user 123 is a member
+189,2,1,0.577375,friend,Your friend user 10 is a member
+189,3,10,0.419178,friend,Your friend user 10 is a member
+189,4,58,0.415468,similar_group,"Similar to Journaling streak, which you joined"
+189,5,61,0.376041,similar_group,"Similar to Calculus help desk, which you joined"
+190,1,9,0.700000,similar_group,Because you're in Getting good at Job interviews
+190,2,7,0.356875,friend,Your friend user 144 is a member
+190,3,28,0.319912,similar_group,"Similar to Networking 101, which you joined"
+190,4,31,0.162720,shared_members,About 2 members of Networking 101 are in it
+190,5,37,0.139685,similar_group,Because you're in Networking 101
+191,1,37,0.536037,similar_group,Because you're in Weightlifting for beginners
+191,2,126,0.259289,similar_group,"Similar to Morning Cycling, which you joined"
+191,3,99,0.235830,shared_members,About 2 members of Morning Cycling are in it
+191,4,75,0.190894,similar_group,"Similar to Weightlifting for beginners, which you joined"
+191,5,59,0.200903,similar_group,Because you're in Weightlifting for beginners
+192,1,23,0.795684,friend,Your friend user 102 is a member
+192,2,15,0.741632,friend,Your friend user 268 is a member
+192,3,65,0.266851,similar_group,"Similar to Finals countdown, which you joined"
+192,4,36,0.287135,similar_group,Because you're in Finals countdown
+192,5,6,0.237754,similar_group,Because you're in Finals countdown
+193,1,13,0.616224,similar_group,Because you're in Korean conversation club
+193,2,8,0.446426,similar_group,Because you're in Calculus help desk
+193,3,61,0.396453,similar_group,"Similar to Calculus help desk, which you joined"
+193,4,6,0.322272,similar_group,Because you're in Calculus help desk
+193,5,76,0.320594,similar_group,"Similar to Daily JavaScript, which you joined"
+194,1,18,0.987722,friend,Your friend user 248 is a member
+194,2,43,0.766821,friend,Your friend user 248 is a member
+194,3,7,0.435218,friend,Your friend user 248 is a member
+194,4,6,0.148723,similar_group,Because you're in Algorithms study group
+194,5,56,0.080531,new_group,A small group: we show small groups so they get a fair chance
+195,1,4,0.728033,similar_group,Because you're in Midterms countdown
+195,2,44,0.362773,friend,Your friend user 133 and 1 other friend are members
+195,3,66,0.311628,similar_group,"Similar to MCAT countdown, which you joined"
+195,4,45,0.282154,friend,Your friend user 151 is a member
+195,5,10,0.255869,friend,Your friend user 151 is a member
+196,1,16,0.500000,similar_group,Because you're in Mastering Probability
+196,2,4,0.417002,friend,Your friend user 142 is a member
+196,3,35,0.410148,similar_group,"Similar to Geometry without tears, which you joined"
+196,4,23,0.392776,friend,Your friend user 142 is a member
+196,5,31,0.195816,new_group,A small group: we show small groups so they get a fair chance
+197,1,6,0.507812,similar_group,Because you're in Astronomy club
+197,2,8,0.463787,friend,Your friend user 108 is a member
+197,3,38,0.403126,similar_group,"Similar to Astronomy club, which you joined"
+197,4,24,0.459942,friend,Your friend user 108 is a member
+197,5,7,0.320819,similar_group,Because you're in Astronomy club
+198,1,13,0.700000,similar_group,Because you're in Korean conversation club
+198,2,17,0.661913,friend,Your friend user 87 is a member
+198,3,6,0.322865,similar_group,Because you're in Astronomy club
+198,4,32,0.273281,similar_group,Because you're in Korean conversation club
+198,5,86,0.151245,new_group,A small group: we show small groups so they get a fair chance
+199,1,24,0.607458,similar_group,Because you're in Mastering Probability
+199,2,19,0.552737,friend,Your friend user 189 is a member
+199,3,4,0.486849,similar_group,Because you're in Midterms countdown
+199,4,35,0.369289,similar_group,Because you're in Mastering Probability
+199,5,58,0.294457,similar_group,"Similar to Journaling streak, which you joined"
+200,1,24,0.642562,similar_group,Because you're in Mastering Probability
+200,2,16,0.488580,similar_group,Because you're in Mastering Probability
+200,3,18,0.429647,similar_group,Because you're in Mastering Probability
+200,4,35,0.262192,similar_group,Because you're in Mastering Probability
+200,5,80,0.244331,new_group,A small group: we show small groups so they get a fair chance
+201,1,37,0.654083,similar_group,Because you're in Weightlifting for beginners
+201,2,59,0.308562,similar_group,"Similar to Morning Yoga, which you joined"
+201,3,83,0.231767,similar_group,"Similar to Stretching crew, which you joined"
+201,4,126,0.194494,similar_group,"Similar to Morning Cycling, which you joined"
+201,5,17,0.143917,shared_members,About 4 members of Astronomy club are in it
+202,1,28,0.539435,similar_group,"Similar to Networking club, which you joined"
+202,2,11,0.476855,similar_group,Because you're in Networking club
+202,3,15,0.356091,similar_group,Because you're in 3D modelling club
+202,4,31,0.275315,shared_members,About 2 members of Networking 101 are in it
+202,5,26,0.263403,similar_group,Because you're in 3D modelling club
+203,1,1,0.734858,friend,Your friend user 208 is a member
+203,2,2,0.689197,friend,Your friend user 11 is a member
+203,3,48,0.566779,similar_group,Because you're in Japanese in 90 days
+203,4,57,0.602813,friend,Your friend user 208 is a member
+203,5,8,0.548914,friend,Your friend user 95 is a member
+204,1,18,0.549799,similar_group,Because you're in Algorithms study group
+204,2,43,0.513091,similar_group,Because you're in Algorithms study group
+204,3,15,0.250205,similar_group,Because you're in Daily Rust
+204,4,101,0.225169,similar_group,"Similar to Rust project club, which you joined"
+204,5,8,0.210225,similar_group,"Similar to Daily Rust, which you joined"
+205,1,16,0.764777,friend,Your friend user 118 is a member
+205,2,24,0.657976,similar_group,Because you're in Mastering Probability
+205,3,9,0.576033,similar_group,Because you're in Freelancing club
+205,4,4,0.532941,similar_group,Because you're in Midterms countdown
+205,5,31,0.269926,new_group,A small group: we show small groups so they get a fair chance
+206,1,16,0.500000,similar_group,Because you're in Mastering Probability
+206,2,35,0.410148,similar_group,"Similar to Geometry without tears, which you joined"
+206,3,31,0.195816,similar_group,"Similar to Mastering Probability, which you joined"
+206,4,131,0.197512,similar_group,"Similar to Mastering Probability, which you joined"
+206,5,64,0.190706,similar_group,"Similar to Mastering Probability, which you joined"
+207,1,36,0.777629,friend,Your friend user 75 is a member
+207,2,78,0.766118,friend,Your friend user 75 is a member
+207,3,7,0.505495,similar_group,Because you're in Spanish for beginners
+207,4,5,0.448194,similar_group,Because you're in Drums practice room
+207,5,9,0.309428,similar_group,Because you're in SAT prep squad
+208,1,32,0.632766,friend,Your friend user 203 is a member
+208,2,39,0.597321,similar_group,Because you're in 3D modelling club
+208,3,48,0.484407,similar_group,Because you're in Japanese in 90 days
+208,4,30,0.420607,similar_group,Because you're in 3D modelling club
+208,5,42,0.496643,friend,Your friend user 203 is a member
+209,1,15,0.663334,similar_group,Because you're in Korean conversation club
+209,2,32,0.538568,similar_group,Because you're in Korean conversation club
+209,3,22,0.277801,similar_group,Because you're in Spanish for beginners
+209,4,2,0.243650,similar_group,Because you're in Korean conversation club
+209,5,112,0.213867,new_group,A small group: we show small groups so they get a fair chance
+210,1,43,0.700000,similar_group,Because you're in Algorithms from zero
+210,2,58,0.360496,similar_group,"Similar to Journaling streak, which you joined"
+210,3,76,0.358017,similar_group,"Similar to Algorithms from zero, which you joined"
+210,4,19,0.258746,similar_group,Because you're in Journaling streak
+210,5,7,0.246129,similar_group,Because you're in Journaling streak
+211,1,13,0.631560,similar_group,Because you're in Korean conversation club
+211,2,15,0.584671,friend,Your friend user 274 is a member
+211,3,47,0.407856,friend,Your friend user 274 is a member
+211,4,4,0.383950,shared_members,About 13 members of Midterms countdown are in it
+211,5,11,0.367803,friend,Your friend user 274 is a member
+212,1,28,0.583821,similar_group,Because you're in Networking club
+212,2,11,0.500000,similar_group,Because you're in Networking club
+212,3,37,0.301669,similar_group,Because you're in Networking club
+212,4,31,0.306944,shared_members,About 2 members of Networking 101 are in it
+212,5,2,0.279441,similar_group,Because you're in Networking club
+213,1,12,0.700000,similar_group,Because you're in Networking club
+213,2,28,0.475170,similar_group,Because you're in Networking club
+213,3,37,0.291124,similar_group,Because you're in Networking club
+213,4,2,0.303827,similar_group,Because you're in Networking club
+213,5,27,0.224329,new_group,A small group: we show small groups so they get a fair chance
+214,1,8,0.527138,similar_group,Because you're in Calculus help desk
+214,2,61,0.354965,similar_group,"Similar to Calculus help desk, which you joined"
+214,3,68,0.333311,similar_group,"Similar to Geometry problem of the day, which you joined"
+214,4,24,0.358895,similar_group,Because you're in Calculus help desk
+214,5,116,0.250097,similar_group,"Similar to Spanish evening chat, which you joined"
+215,1,7,0.733248,friend,Your friend user 43 is a member
+215,2,13,0.714524,friend,Your friend user 43 is a member
+215,3,9,0.466032,similar_group,Because you're in Getting good at Job interviews
+215,4,5,0.442752,friend,Your friend user 43 is a member
+215,5,27,0.321027,new_group,A small group: we show small groups so they get a fair chance
+216,1,24,0.950172,friend,Your friend user 159 is a member
+216,2,16,0.488146,similar_group,Because you're in Mastering Probability
+216,3,68,0.465679,friend,Your friend user 159 is a member
+216,4,9,0.262503,similar_group,Because you're in Astronomy club
+216,5,92,0.129281,new_group,A small group: we show small groups so they get a fair chance
+217,1,43,0.700000,similar_group,Because you're in Algorithms from zero
+217,2,76,0.346712,similar_group,"Similar to Algorithms from zero, which you joined"
+217,3,8,0.220925,similar_group,Because you're in Algorithms from zero
+217,4,114,0.184989,similar_group,"Similar to Algorithms from zero, which you joined"
+217,5,7,0.174055,similar_group,Because you're in Algorithms study group
+218,1,13,0.762946,friend,Your friend user 182 is a member
+218,2,7,0.762423,friend,Your friend user 182 is a member
+218,3,24,0.550797,similar_group,Because you're in Mastering Probability
+218,4,113,0.451366,friend,Your friend user 182 is a member
+218,5,16,0.431385,similar_group,Because you're in Mastering Probability
+219,1,76,0.660572,similar_group,Because you're in Algorithms study group
+219,2,20,0.644515,similar_group,Because you're in Algorithms from zero
+219,3,8,0.370395,similar_group,Because you're in Algorithms from zero
+219,4,7,0.319428,similar_group,Because you're in Algorithms study group
+219,5,37,0.280561,similar_group,Because you're in SQL from zero
+220,1,44,0.533747,shared_members,About 1 member of Weightlifting every day is in it
+220,2,4,0.522682,similar_group,Because you're in Midterms countdown
+220,3,53,0.403558,similar_group,"Similar to Weightlifting every day, which you joined"
+220,4,52,0.404960,similar_group,Because you're in Weightlifting for beginners
+220,5,70,0.395120,similar_group,"Similar to Weightlifting every day, which you joined"
+221,1,11,0.806591,friend,Your friend user 178 is a member
+221,2,31,0.672783,friend,Your friend user 178 is a member
+221,3,39,0.606026,friend,Your friend user 178 is a member
+221,4,12,0.561043,similar_group,Because you're in Networking club
+221,5,30,0.539620,friend,Your friend user 178 is a member
+222,1,25,0.535661,similar_group,Because you're in Algorithms from zero
+222,2,24,0.445929,similar_group,Because you're in Mastering Probability
+222,3,43,0.415571,similar_group,Because you're in Algorithms from zero
+222,4,48,0.382830,similar_group,"Similar to Japanese in 90 days, which you joined"
+222,5,16,0.371209,similar_group,Because you're in Mastering Probability
+223,1,14,0.874930,friend,Your friend user 77 is a member
+223,2,55,0.270292,similar_group,"Similar to Drums practice room, which you joined"
+223,3,26,0.263625,shared_members,About 3 members of Daily Pixel art are in it
+223,4,41,0.247078,similar_group,Because you're in Guitar club
+223,5,1,0.225054,similar_group,Because you're in Daily Pixel art
+224,1,9,0.700000,similar_group,Because you're in Getting good at Job interviews
+224,2,138,0.163255,similar_group,"Similar to Freelancing club, which you joined"
+224,3,15,0.155351,similar_group,Because you're in Getting good at Job interviews
+224,4,136,0.239787,similar_group,"Similar to Freelancing club, which you joined"
+224,5,2,0.160554,similar_group,Because you're in Getting good at Job interviews
+225,1,10,0.740064,friend,Your friend user 90 is a member
+225,2,44,0.618356,friend,Your friend user 90 is a member
+225,3,17,0.544511,similar_group,Because you're in Astronomy club
+225,4,53,0.511063,friend,Your friend user 90 is a member
+225,5,32,0.510141,similar_group,Because you're in Korean conversation club
+226,1,15,0.663334,similar_group,Because you're in Korean conversation club
+226,2,32,0.538568,similar_group,Because you're in Korean conversation club
+226,3,22,0.277801,similar_group,Because you're in Spanish for beginners
+226,4,2,0.243650,similar_group,Because you're in Korean conversation club
+226,5,112,0.213867,new_group,A small group: we show small groups so they get a fair chance
+227,1,14,0.513477,similar_group,Because you're in Guitar club
+227,2,7,0.509842,similar_group,Because you're in Spanish for beginners
+227,3,8,0.464825,friend,Your friend user 263 is a member
+227,4,4,0.393830,similar_group,Because you're in Midterms countdown
+227,5,61,0.371943,friend,Your friend user 263 is a member
+228,1,28,0.642889,similar_group,Because you're in Networking club
+228,2,18,0.562919,friend,Your friend user 244 is a member
+228,3,25,0.499973,friend,Your friend user 244 is a member
+228,4,76,0.505166,friend,Your friend user 244 is a member
+228,5,31,0.352354,shared_members,About 2 members of Networking 101 are in it
+229,1,43,0.646105,similar_group,Because you're in Algorithms from zero
+229,2,8,0.492744,friend,Your friend user 42 is a member
+229,3,7,0.417720,friend,Your friend user 42 is a member
+229,4,32,0.375792,friend,Your friend user 42 is a member
+229,5,120,0.256477,new_group,A small group: we show small groups so they get a fair chance
+230,1,13,0.700000,similar_group,Because you're in Korean conversation club
+230,2,1,0.240472,similar_group,Because you're in Japanese in 90 days
+230,3,150,0.223828,similar_group,"Similar to Arabic conversation club, which you joined"
+230,4,42,0.182615,similar_group,Because you're in Korean conversation club
+230,5,11,0.159103,similar_group,Because you're in Japanese in 90 days
+231,1,7,0.784318,friend,Your friend user 193 is a member
+231,2,11,0.732813,friend,Your friend user 251 is a member
+231,3,51,0.660595,friend,Your friend user 193 is a member
+231,4,16,0.489650,friend,Your friend user 193 is a member
+231,5,62,0.490318,friend,Your friend user 251 is a member
+232,1,16,0.673044,friend,Your friend user 20 is a member
+232,2,7,0.508285,friend,Your friend user 20 is a member
+232,3,35,0.499789,friend,Your friend user 20 is a member
+232,4,71,0.480124,shared_members,About 1 member of Web dev study group is in it
+232,5,18,0.470994,similar_group,Because you're in Algorithms study group
+233,1,18,0.882138,friend,Your friend user 248 is a member
+233,2,25,0.743781,friend,Your friend user 248 is a member
+233,3,51,0.751801,friend,Your friend user 248 is a member
+233,4,7,0.476067,friend,Your friend user 248 is a member
+233,5,56,0.424053,similar_group,"Similar to Daily Rust, which you joined"
+234,1,9,0.700000,similar_group,Because you're in Getting good at Job interviews
+234,2,138,0.163255,similar_group,"Similar to Freelancing club, which you joined"
+234,3,15,0.155351,similar_group,Because you're in Getting good at Job interviews
+234,4,136,0.239787,similar_group,"Similar to Freelancing club, which you joined"
+234,5,2,0.160554,similar_group,Because you're in Getting good at Job interviews
+235,1,4,0.461933,similar_group,Because you're in SAT prep squad
+235,2,9,0.438010,similar_group,Because you're in Astronomy club
+235,3,17,0.356965,shared_members,About 4 members of Astronomy club are in it
+235,4,37,0.309986,similar_group,Because you're in Astronomy club
+235,5,141,0.283063,new_group,A new group: we show new groups so they get a fair chance
+236,1,13,0.632812,similar_group,Because you're in Korean conversation club
+236,2,58,0.513529,similar_group,"Similar to Journaling streak, which you joined"
+236,3,2,0.387001,similar_group,Because you're in Journaling streak
+236,4,17,0.393776,similar_group,Because you're in Journaling streak
+236,5,16,0.362312,similar_group,Because you're in Journaling streak
+237,1,18,0.560808,similar_group,Because you're in Algorithms study group
+237,2,37,0.435753,similar_group,Because you're in Weightlifting for beginners
+237,3,75,0.269491,similar_group,"Similar to Weightlifting for beginners, which you joined"
+237,4,43,0.306567,similar_group,Because you're in Algorithms study group
+237,5,52,0.213006,similar_group,Because you're in Weightlifting for beginners
+238,1,23,0.530599,similar_group,Because you're in Finals countdown
+238,2,141,0.234599,similar_group,"Similar to SAT prep squad, which you joined"
+238,3,83,0.219371,shared_members,About 1 member of Finals accountability group is in it
+238,4,47,0.171259,similar_group,"Similar to MCAT countdown, which you joined"
+238,5,65,0.167149,similar_group,"Similar to Finals countdown, which you joined"
+239,1,6,0.678286,similar_group,Because you're in 30 days of Reading
+239,2,100,0.386296,shared_members,About 1 member of Better Journaling is in it
+239,3,1,0.285367,similar_group,Because you're in Meditation together
+239,4,77,0.226787,similar_group,"Similar to Meditation together, which you joined"
+239,5,57,0.215635,shared_members,About 1 member of Meditation together is in it
+240,1,10,0.505901,similar_group,Because you're in 30 days of Cycling
+240,2,7,0.428513,similar_group,Because you're in Japanese in 90 days
+240,3,1,0.360484,similar_group,Because you're in Japanese in 90 days
+240,4,44,0.349968,similar_group,"Similar to 30 days of Cycling, which you joined"
+240,5,48,0.382909,similar_group,"Similar to Japanese in 90 days, which you joined"
+241,1,23,0.499015,similar_group,Because you're in Finals countdown
+241,2,15,0.410476,similar_group,Because you're in 3D modelling club
+241,3,39,0.334202,similar_group,Because you're in 3D modelling club
+241,4,36,0.335007,similar_group,Because you're in Finals countdown
+241,5,6,0.307931,similar_group,Because you're in 3D modelling club
+242,1,22,0.844104,friend,Your friend user 207 is a member
+242,2,13,0.543150,friend,Your friend user 207 is a member
+242,3,6,0.474185,friend,Your friend user 245 is a member
+242,4,9,0.400825,friend,Your friend user 213 is a member
+242,5,65,0.378207,friend,Your friend user 207 is a member
+243,1,20,0.948738,friend,Your friend user 246 is a member
+243,2,51,0.796232,friend,Your friend user 246 is a member
+243,3,8,0.379333,similar_group,Because you're in Algorithms from zero
+243,4,7,0.318531,similar_group,Because you're in Algorithms study group
+243,5,68,0.283517,similar_group,Because you're in Algorithms from zero
+244,1,43,0.685114,similar_group,Because you're in Algorithms from zero
+244,2,11,0.373816,friend,Your friend user 228 is a member
+244,3,12,0.343743,friend,Your friend user 228 is a member
+244,4,51,0.349249,similar_group,"Similar to SQL project club, which you joined"
+244,5,56,0.231639,similar_group,"Similar to Daily Rust, which you joined"
+245,1,5,0.804438,friend,Your friend user 50 is a member
+245,2,4,0.442389,friend,Your friend user 96 is a member
+245,3,22,0.365349,similar_group,Because you're in Violin practice room
+245,4,58,0.349957,similar_group,"Similar to Journaling streak, which you joined"
+245,5,19,0.243370,similar_group,Because you're in Journaling streak
+246,1,76,0.661913,similar_group,Because you're in Algorithms study group
+246,2,7,0.535146,friend,Your friend user 185 and 1 other friend are members
+246,3,37,0.392568,similar_group,Because you're in SQL from zero
+246,4,2,0.355005,similar_group,Because you're in Daily Rust
+246,5,56,0.333351,similar_group,Because you're in Daily Rust
+247,1,43,0.628082,similar_group,Because you're in Algorithms from zero
+247,2,25,0.507804,similar_group,Because you're in Algorithms from zero
+247,3,56,0.299349,similar_group,"Similar to Daily Rust, which you joined"
+247,4,51,0.329093,similar_group,"Similar to Algorithms from zero, which you joined"
+247,5,8,0.177528,similar_group,Because you're in Algorithms from zero
+248,1,76,0.622526,similar_group,Because you're in Algorithms study group
+248,2,37,0.560621,friend,Your friend user 29 is a member
+248,3,4,0.602516,friend,Your friend user 3 is a member
+248,4,2,0.556444,friend,Your friend user 233 is a member
+248,5,10,0.518787,friend,Your friend user 29 is a member
+249,1,29,0.523511,similar_group,Because you're in Finals countdown
+249,2,36,0.486692,similar_group,Because you're in Finals countdown
+249,3,78,0.365778,similar_group,"Similar to Finals countdown, which you joined"
+249,4,65,0.240828,similar_group,"Similar to Finals countdown, which you joined"
+249,5,10,0.167758,similar_group,Because you're in Midterms countdown
+250,1,15,0.668045,friend,Your friend user 203 is a member
+250,2,43,0.617167,similar_group,Because you're in Daily Rust
+250,3,42,0.506682,friend,Your friend user 203 is a member
+250,4,56,0.404084,similar_group,"Similar to Daily Rust, which you joined"
+250,5,76,0.458994,similar_group,Because you're in Daily Rust
+251,1,37,0.492042,friend,Your friend user 63 is a member
+251,2,71,0.478673,shared_members,About 1 member of Web dev study group is in it
+251,3,4,0.455779,friend,Your friend user 63 is a member
+251,4,10,0.403939,friend,Your friend user 82 is a member
+251,5,15,0.358597,similar_group,Because you're in Daily Rust
+252,1,30,0.628179,friend,Your friend user 297 is a member
+252,2,24,0.476540,similar_group,"Similar to Mastering Probability, which you joined"
+252,3,6,0.477571,friend,Your friend user 297 is a member
+252,4,77,0.451323,friend,Your friend user 297 is a member
+252,5,5,0.424883,friend,Your friend user 52 is a member
+253,1,13,0.700000,similar_group,Because you're in Korean conversation club
+253,2,10,0.402095,friend,Your friend user 14 is a member
+253,3,23,0.377421,friend,Your friend user 133 is a member
+253,4,18,0.362941,friend,Your friend user 133 is a member
+253,5,20,0.359757,new_group,A small group: we show small groups so they get a fair chance
+254,1,18,0.678855,similar_group,Because you're in Algorithms study group
+254,2,56,0.289753,similar_group,"Similar to Daily Rust, which you joined"
+254,3,51,0.362314,similar_group,"Similar to SQL from zero, which you joined"
+254,4,15,0.162348,similar_group,Because you're in Daily Rust
+254,5,37,0.123246,similar_group,Because you're in SQL from zero
+255,1,35,0.617549,similar_group,Because you're in Mastering Probability
+255,2,6,0.554744,friend,Your friend user 189 is a member
+255,3,19,0.484041,friend,Your friend user 189 is a member
+255,4,61,0.391483,similar_group,"Similar to Calculus help desk, which you joined"
+255,5,2,0.231058,similar_group,Because you're in Calculus help desk
+256,1,7,0.760562,friend,Your friend user 4 is a member
+256,2,6,0.662469,friend,Your friend user 4 is a member
+256,3,19,0.490495,friend,Your friend user 4 is a member
+256,4,2,0.486899,similar_group,Because you're in Curious about Thermodynamics
+256,5,42,0.330649,new_group,A small group: we show small groups so they get a fair chance
+257,1,29,0.523511,similar_group,Because you're in Finals countdown
+257,2,36,0.486692,similar_group,Because you're in Finals countdown
+257,3,78,0.365778,similar_group,"Similar to Finals countdown, which you joined"
+257,4,65,0.240828,similar_group,"Similar to Finals countdown, which you joined"
+257,5,10,0.167758,similar_group,Because you're in Midterms countdown
+258,1,24,0.804293,friend,Your friend user 20 is a member
+258,2,16,0.767347,friend,Your friend user 20 is a member
+258,3,18,0.517454,similar_group,Because you're in Algorithms study group
+258,4,7,0.370548,friend,Your friend user 20 is a member
+258,5,61,0.500964,friend,Your friend user 20 is a member
+259,1,7,0.664102,similar_group,Because you're in Spanish for beginners
+259,2,23,0.379573,similar_group,Because you're in Finals countdown
+259,3,1,0.253901,similar_group,Because you're in Japanese in 90 days
+259,4,32,0.221699,similar_group,Because you're in Spanish for beginners
+259,5,65,0.185221,new_group,A small group: we show small groups so they get a fair chance
+260,1,24,0.991110,friend,Your friend user 263 is a member
+260,2,61,0.594771,friend,Your friend user 263 is a member
+260,3,35,0.589076,friend,Your friend user 114 is a member
+260,4,13,0.371328,friend,Your friend user 263 is a member
+260,5,6,0.153097,similar_group,Because you're in Calculus help desk
+261,1,15,0.550050,similar_group,Because you're in 3D modelling club
+261,2,6,0.543715,friend,Your friend user 2 is a member
+261,3,37,0.445156,similar_group,Because you're in Weightlifting for beginners
+261,4,16,0.432465,friend,Your friend user 2 is a member
+261,5,39,0.344645,new_group,A small group: we show small groups so they get a fair chance
+262,1,23,0.596808,similar_group,Because you're in Finals countdown
+262,2,29,0.415756,similar_group,Because you're in Finals countdown
+262,3,36,0.353148,similar_group,Because you're in Finals countdown
+262,4,64,0.235784,similar_group,"Similar to Finals countdown, which you joined"
+262,5,51,0.200142,similar_group,"Similar to Finals countdown, which you joined"
+263,1,35,0.778036,friend,Your friend user 291 is a member
+263,2,7,0.577767,similar_group,Because you're in Spanish for beginners
+263,3,6,0.508665,friend,Your friend user 291 is a member
+263,4,5,0.469178,friend,Your friend user 227 is a member
+263,5,139,0.271822,new_group,A new group: we show new groups so they get a fair chance
+264,1,14,0.484656,similar_group,Because you're in Guitar club
+264,2,22,0.477402,similar_group,Because you're in Guitar club
+264,3,58,0.418113,similar_group,Because you're in Journaling streak
+264,4,49,0.329956,shared_members,About 2 members of 30 days of Reading are in it
+264,5,16,0.306743,similar_group,Because you're in Journaling streak
+265,1,13,0.700000,similar_group,Because you're in Korean conversation club
+265,2,32,0.530877,friend,Your friend user 42 is a member
+265,3,37,0.449834,similar_group,Because you're in Weightlifting for beginners
+265,4,25,0.458664,friend,Your friend user 42 is a member
+265,5,75,0.239619,new_group,A small group: we show small groups so they get a fair chance
+266,1,32,0.577043,similar_group,Because you're in Korean conversation club
+266,2,4,0.486064,friend,Your friend user 85 is a member
+266,3,48,0.438392,similar_group,"Similar to Japanese in 90 days, which you joined"
+266,4,108,0.446049,friend,Your friend user 85 is a member
+266,5,25,0.433999,friend,Your friend user 67 is a member
+267,1,43,0.616369,friend,Your friend user 149 is a member
+267,2,51,0.594705,friend,Your friend user 149 is a member
+267,3,49,0.489553,shared_members,About 2 members of 30 days of Reading are in it
+267,4,58,0.498952,similar_group,Because you're in Journaling streak
+267,5,17,0.452878,similar_group,Because you're in Journaling streak
+268,1,13,0.680537,similar_group,Because you're in Korean conversation club
+268,2,48,0.671038,friend,Your friend user 187 is a member
+268,3,1,0.509178,friend,Your friend user 187 is a member
+268,4,4,0.498102,friend,Your friend user 192 is a member
+268,5,11,0.254156,similar_group,Because you're in Japanese in 90 days
+269,1,7,0.630215,friend,Your friend user 173 is a member
+269,2,6,0.507901,similar_group,Because you're in Astronomy club
+269,3,8,0.491051,friend,Your friend user 173 is a member
+269,4,38,0.403513,similar_group,"Similar to Relativity study group, which you joined"
+269,5,5,0.400182,friend,Your friend user 77 is a member
+270,1,23,0.542395,similar_group,Because you're in Finals countdown
+270,2,5,0.513006,similar_group,Because you're in Violin practice room
+270,3,141,0.254128,similar_group,"Similar to SAT prep squad, which you joined"
+270,4,8,0.242210,similar_group,Because you're in Geometry problem of the day
+270,5,9,0.236524,similar_group,Because you're in SAT prep squad
+271,1,7,0.664102,similar_group,Because you're in Spanish for beginners
+271,2,48,0.342923,similar_group,"Similar to Japanese in 90 days, which you joined"
+271,3,1,0.253487,similar_group,Because you're in Japanese in 90 days
+271,4,32,0.225678,similar_group,Because you're in Spanish for beginners
+271,5,11,0.189854,similar_group,Because you're in Japanese in 90 days
+272,1,7,0.663923,friend,Your friend user 279 is a member
+272,2,5,0.452886,similar_group,Because you're in Violin practice room
+272,3,1,0.366667,similar_group,Because you're in Japanese in 90 days
+272,4,13,0.449419,similar_group,Because you're in Japanese in 90 days
+272,5,87,0.234164,new_group,A small group: we show small groups so they get a fair chance
+273,1,43,0.700000,similar_group,Because you're in Algorithms from zero
+273,2,56,0.279151,similar_group,"Similar to Daily Rust, which you joined"
+273,3,76,0.296305,similar_group,"Similar to Algorithms from zero, which you joined"
+273,4,131,0.232457,similar_group,"Similar to Web dev from zero, which you joined"
+273,5,8,0.205270,similar_group,Because you're in Algorithms from zero
+274,1,9,0.441411,similar_group,Because you're in Getting good at Job interviews
+274,2,7,0.427914,similar_group,Because you're in Japanese in 90 days
+274,3,1,0.421429,similar_group,Because you're in Japanese in 90 days
+274,4,13,0.416947,similar_group,"Similar to Japanese in 90 days, which you joined"
+274,5,27,0.230124,similar_group,Because you're in Japanese in 90 days
+275,1,7,0.644786,friend,Your friend user 58 and 1 other friend are members
+275,2,39,0.512977,similar_group,Because you're in 3D modelling club
+275,3,13,0.530679,similar_group,"Similar to Japanese in 90 days, which you joined"
+275,4,26,0.500000,similar_group,Because you're in 3D modelling club
+275,5,11,0.398248,similar_group,Because you're in Japanese in 90 days
+276,1,6,0.500000,similar_group,Because you're in Calculus help desk
+276,2,10,0.354307,similar_group,Because you're in Calculus study group
+276,3,2,0.345269,similar_group,Because you're in Calculus help desk
+276,4,149,0.318155,similar_group,"Similar to Calculus study group, which you joined"
+276,5,25,0.292770,shared_members,About 2 members of Geometry problem of the day are in it
+277,1,7,0.682744,similar_group,Because you're in Spanish for beginners
+277,2,37,0.448890,similar_group,Because you're in Weightlifting for beginners
+277,3,32,0.345204,similar_group,Because you're in Spanish for beginners
+277,4,15,0.419610,similar_group,"Similar to Spanish for beginners, which you joined"
+277,5,75,0.278653,similar_group,"Similar to Weightlifting for beginners, which you joined"
+278,1,37,0.681362,similar_group,Because you're in Weightlifting for beginners
+278,2,53,0.471531,shared_members,About 2 members of Stretching for beginners are in it
+278,3,75,0.223381,similar_group,"Similar to Weightlifting for beginners, which you joined"
+278,4,70,0.314043,similar_group,"Similar to Weightlifting every day, which you joined"
+278,5,52,0.224734,similar_group,Because you're in Weightlifting for beginners
+279,1,13,0.680537,similar_group,Because you're in Korean conversation club
+279,2,14,0.354967,friend,Your friend user 272 is a member
+279,3,1,0.260036,similar_group,Because you're in Japanese in 90 days
+279,4,11,0.173174,similar_group,Because you're in Japanese in 90 days
+279,5,57,0.148277,new_group,A small group: we show small groups so they get a fair chance
+280,1,32,0.528119,similar_group,Because you're in Korean conversation club
+280,2,48,0.465877,similar_group,"Similar to Japanese in 90 days, which you joined"
+280,3,1,0.388036,similar_group,Because you're in Japanese in 90 days
+280,4,11,0.335955,similar_group,Because you're in Japanese in 90 days
+280,5,4,0.216118,similar_group,Because you're in Japanese in 90 days
+281,1,10,0.514702,similar_group,Because you're in 30 days of Cycling
+281,2,13,0.388030,similar_group,Because you're in Korean conversation club
+281,3,83,0.346798,similar_group,"Similar to Stretching crew, which you joined"
+281,4,53,0.248989,shared_members,About 2 members of Stretching for beginners are in it
+281,5,6,0.223024,similar_group,Because you're in 30 days of Cycling
+282,1,22,0.426506,similar_group,Because you're in Violin practice room
+282,2,27,0.391098,shared_members,About 2 members of Public speaking club are in it
+282,3,5,0.315344,similar_group,Because you're in Violin practice room
+282,4,136,0.300755,similar_group,"Similar to Freelancing club, which you joined"
+282,5,2,0.289100,similar_group,Because you're in Networking club
+283,1,23,0.582114,similar_group,Because you're in Finals countdown
+283,2,29,0.431759,shared_members,About 9 members of Finals countdown are in it
+283,3,66,0.282688,similar_group,"Similar to MCAT countdown, which you joined"
+283,4,65,0.229762,similar_group,"Similar to Finals countdown, which you joined"
+283,5,47,0.240401,similar_group,"Similar to MCAT countdown, which you joined"
+284,1,5,0.500000,similar_group,Because you're in Violin practice room
+284,2,22,0.356191,similar_group,Because you're in Violin practice room
+284,3,56,0.311315,similar_group,"Similar to Daily Rust, which you joined"
+284,4,43,0.237255,similar_group,Because you're in Daily Rust
+284,5,42,0.179715,similar_group,Because you're in Daily Rust
+285,1,10,0.520754,similar_group,Because you're in 30 days of Cycling
+285,2,24,0.516460,similar_group,Because you're in Mastering Probability
+285,3,15,0.505470,similar_group,"Similar to Spanish for beginners, which you joined"
+285,4,32,0.454314,similar_group,Because you're in Korean conversation club
+285,5,55,0.287577,new_group,A small group: we show small groups so they get a fair chance
+286,1,14,0.509184,similar_group,Because you're in Guitar club
+286,2,22,0.370056,similar_group,Because you're in Guitar club
+286,3,143,0.254469,similar_group,"Similar to Guitar club, which you joined"
+286,4,43,0.230180,similar_group,Because you're in Daily Rust
+286,5,10,0.173486,similar_group,Because you're in Guitar club
+287,1,20,0.576256,similar_group,Because you're in Algorithms from zero
+287,2,4,0.571758,similar_group,Because you're in Midterms countdown
+287,3,8,0.384023,similar_group,Because you're in Algorithms from zero
+287,4,56,0.371531,shared_members,About 1 member of App building study group is in it
+287,5,36,0.339499,similar_group,Because you're in Midterms countdown
+288,1,15,0.679179,similar_group,Because you're in Korean conversation club
+288,2,42,0.490162,shared_members,About 1 member of Spanish evening chat is in it
+288,3,112,0.353261,similar_group,Because you're in Korean conversation club
+288,4,17,0.363781,similar_group,Because you're in Korean conversation club
+288,5,2,0.326715,similar_group,Because you're in Korean conversation club
+289,1,7,0.680650,similar_group,Because you're in Spanish for beginners
+289,2,5,0.506228,similar_group,Because you're in Drums practice room
+289,3,14,0.459004,similar_group,Because you're in Drums practice room
+289,4,32,0.336089,shared_members,About 4 members of Spanish for beginners are in it
+289,5,55,0.234282,new_group,A small group: we show small groups so they get a fair chance
+290,1,85,0.731725,friend,Your friend user 37 is a member
+290,2,55,0.692891,friend,Your friend user 37 is a member
+290,3,6,0.582836,friend,Your friend user 55 is a member
+290,4,13,0.439346,similar_group,Because you're in Drums practice room
+290,5,87,0.314965,similar_group,"Similar to Violin practice room, which you joined"
+291,1,8,0.942911,friend,Your friend user 263 is a member
+291,2,16,0.790562,friend,Your friend user 263 is a member
+291,3,58,0.649263,friend,Your friend user 41 is a member
+291,4,19,0.646806,friend,Your friend user 41 is a member
+291,5,4,0.614885,friend,Your friend user 73 is a member
+292,1,9,0.543606,shared_members,About 5 members of Networking 101 are in it
+292,2,37,0.480651,similar_group,Because you're in Weightlifting for beginners
+292,3,28,0.339944,similar_group,"Similar to Networking 101, which you joined"
+292,4,31,0.224837,shared_members,About 2 members of Networking 101 are in it
+292,5,11,0.212082,similar_group,Because you're in Networking 101
+293,1,13,1.000000,friend,Your friend user 259 is a member
+293,2,15,0.732452,friend,Your friend user 259 is a member
+293,3,4,0.410435,friend,Your friend user 259 is a member
+293,4,6,0.322865,similar_group,Because you're in Astronomy club
+293,5,86,0.151245,new_group,A small group: we show small groups so they get a fair chance
+294,1,14,0.509184,similar_group,Because you're in Guitar club
+294,2,22,0.370056,similar_group,Because you're in Guitar club
+294,3,143,0.254469,similar_group,"Similar to Guitar club, which you joined"
+294,4,43,0.230180,similar_group,Because you're in Daily Rust
+294,5,10,0.173486,similar_group,Because you're in Guitar club
+295,1,18,0.500200,similar_group,Because you're in Algorithms study group
+295,2,43,0.447457,similar_group,Because you're in Algorithms study group
+295,3,56,0.340023,similar_group,"Similar to Daily Rust, which you joined"
+295,4,31,0.342955,shared_members,About 2 members of Public speaking help are in it
+295,5,15,0.281375,similar_group,Because you're in Daily Rust
+296,1,44,0.630649,similar_group,Because you're in Weightlifting for beginners
+296,2,1,0.492079,friend,Your friend user 18 is a member
+296,3,23,0.484962,friend,Your friend user 18 is a member
+296,4,70,0.429587,similar_group,"Similar to Morning Stretching, which you joined"
+296,5,29,0.421305,friend,Your friend user 18 is a member
+297,1,2,0.839078,friend,Your friend user 147 is a member
+297,2,1,0.708062,friend,Your friend user 252 is a member
+297,3,26,0.633063,friend,Your friend user 252 is a member
+297,4,39,0.630837,friend,Your friend user 252 is a member
+297,5,19,0.447796,similar_group,Because you're in Journaling streak
+298,1,76,0.670626,similar_group,Because you're in Algorithms study group
+298,2,20,0.626953,similar_group,Because you're in Algorithms from zero
+298,3,8,0.465127,similar_group,Because you're in Algorithms from zero
+298,4,35,0.453944,similar_group,Because you're in Algorithms study group
+298,5,10,0.305984,similar_group,Because you're in Calculus study group
+299,1,23,0.511059,similar_group,Because you're in Finals countdown
+299,2,36,0.390858,similar_group,Because you're in Finals countdown
+299,3,83,0.263054,shared_members,About 1 member of Finals accountability group is in it
+299,4,141,0.241354,similar_group,"Similar to SAT prep squad, which you joined"
+299,5,65,0.168873,similar_group,"Similar to Finals countdown, which you joined"
+300,1,51,0.648411,similar_group,Because you're in SQL from zero
+300,2,6,0.613559,friend,Your friend user 80 is a member
+300,3,4,0.541072,friend,Your friend user 80 is a member
+300,4,8,0.465258,similar_group,Because you're in Algorithms from zero
+300,5,7,0.371183,similar_group,Because you're in Algorithms study group

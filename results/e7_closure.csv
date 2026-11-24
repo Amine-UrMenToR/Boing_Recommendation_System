@@ -1,0 +1,6 @@
+method,hit_rate,ndcg@5
+Random,0.0043,0.0019
+Most connected,0.0072,0.0025
+Mutual friends only,0.0064,0.002
+Shared groups only,0.02,0.0081
+BOING design,0.0165,0.0061

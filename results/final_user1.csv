@@ -1,0 +1,16 @@
+list,rank,group_id,group,members,new or small,reason_code,reason_text,right
+Today's BOING (biggest groups first),1,10,Weightlifting for beginners,295,False,,(none: ranked by size),False
+Today's BOING (biggest groups first),2,15,Japanese in 90 days,220,False,,(none: ranked by size),False
+Today's BOING (biggest groups first),3,25,Algorithms study group,219,False,,(none: ranked by size),False
+Today's BOING (biggest groups first),4,13,Spanish for beginners,206,False,,(none: ranked by size),False
+Today's BOING (biggest groups first),5,18,Algorithms from zero,200,False,,(none: ranked by size),False
+Default: personalisation off,1,13,Spanish for beginners,206,False,active,Active this week,False
+Default: personalisation off,2,141,Finals prep squad,2,True,new_group,A new group: we show new groups so they get a fair chance,False
+Default: personalisation off,3,37,30 days of Cycling,169,False,active,Active this week,False
+Default: personalisation off,4,8,Mastering Probability,188,False,active,Active this week,False
+Default: personalisation off,5,148,Mastering Linear algebra,0,True,new_group,A new group: we show new groups so they get a fair chance,False
+Final design: personalisation on,1,29,SAT prep squad,151,False,similar_group,Because you're in Finals countdown,False
+Final design: personalisation on,2,36,MCAT countdown,86,False,similar_group,Because you're in Finals countdown,False
+Final design: personalisation on,3,45,Beat the IELTS,36,False,friend,Your friend user 68 and 1 other friend are members,False
+Final design: personalisation on,4,58,Better Journaling,39,False,similar_group,"Similar to Journaling streak, which you joined",False
+Final design: personalisation on,5,64,Beat the AP exams,8,True,new_group,A small group: we show small groups so they get a fair chance,False

@@ -1,0 +1,151 @@
+group_id,name,about,open,created_day,hidden_by_mods
+1,3D modelling club,A new 3D modelling prompt every Monday.,1,0,0
+2,Astronomy club,"Problem sets and explanations, every week.",1,0,0
+3,Daily Rust,Build something real with Rust by the end of the month.,0,0,0
+4,Finals countdown,We keep each other on track until the finals.,1,0,0
+5,Guitar club,"Tips, songs and exercises for guitar.",1,0,0
+6,Journaling streak,Share your streak and keep going.,1,0,0
+7,Korean conversation club,Getting ready for a trip or an exam in Korean? Practise here.,1,0,0
+8,Mastering Probability,"From the basics to the hard parts, one step at a time.",1,0,0
+9,Networking club,Practice sessions and honest feedback.,1,0,0
+10,Weightlifting for beginners,"A weekly weightlifting challenge, no pressure.",1,0,0
+11,Getting good at Job interviews,Weekly meetups about job interviews.,1,19,0
+12,Networking 101,Practice sessions and honest feedback.,1,20,0
+13,Spanish for beginners,Getting ready for a trip or an exam in Spanish? Practise here.,1,30,0
+14,Violin practice room,Find people to practise violin with.,1,30,0
+15,Japanese in 90 days,Getting ready for a trip or an exam in Japanese? Practise here.,1,32,0
+16,Calculus help desk,"Post a problem, get hints, not answers.",1,33,0
+17,Curious about Thermodynamics,Getting ready for the thermodynamics exam together.,1,37,0
+18,Algorithms from zero,Pair up and keep each other on track.,1,38,0
+19,30 days of Reading,"No pressure, just progress.",1,40,0
+20,SQL project club,Pair up and keep each other on track.,1,48,0
+21,English in 90 days,Getting ready for a trip or an exam in English? Practise here.,0,49,0
+22,Drums practice room,"Beginner friendly, questions welcome.",1,53,0
+23,Midterms countdown,Practice questions and study plans for midterms.,1,56,0
+24,Geometry without tears,"From the basics to the hard parts, one step at a time.",1,57,0
+25,Algorithms study group,"Stuck on a bug? Ask here, no question is too basic.",1,58,0
+26,Pixel art sketchbook,"Share one piece a day, however small.",1,59,0
+27,Public speaking help,"Everything about public speaking, for students.",1,60,0
+28,Freelancing club,Practice sessions and honest feedback.,1,64,0
+29,SAT prep squad,Daily check-ins until exam day.,1,64,0
+30,Daily Photography,"Feedback, tips and weekly themes.",1,66,0
+31,Public speaking club,From first steps to first offers.,1,67,0
+32,Spanish evening chat,Speak Spanish with people at your level. Weekly voice chats.,1,68,0
+33,Piano practice room,"Beginner friendly, questions welcome.",0,87,0
+34,Learn App building together,"Stuck on a bug? Ask here, no question is too basic.",0,89,0
+35,Geometry problem of the day,A new geometry problem every morning.,1,91,0
+36,MCAT countdown,"Tips, schedules and moral support.",1,91,0
+37,30 days of Cycling,"Beginner friendly, all levels welcome.",1,97,0
+38,Curious about Astronomy,"Experiments, videos and questions about astronomy.",1,99,0
+39,Daily Pixel art,A new pixel art prompt every Monday.,1,99,0
+40,Relativity study group,"Experiments, videos and questions about relativity.",0,106,0
+41,Daily Drums,Weekly challenges and feedback on drums.,1,107,0
+42,French evening chat,Speak French with people at your level. Weekly voice chats.,1,109,0
+43,SQL from zero,Pair up and keep each other on track.,1,114,0
+44,Stretching for beginners,"Beginner friendly, all levels welcome.",1,118,0
+45,Beat the IELTS,Silent study sessions every evening.,1,124,0
+46,Finals accountability group,Daily check-ins until exam day.,1,125,0
+47,Entrance exams accountability group,"Tips, schedules and moral support.",1,130,0
+48,Arabic in 90 days,Getting ready for a trip or an exam in Arabic? Practise here.,1,133,0
+49,Meditation together,"A 30-day challenge, starting every Monday.",1,135,0
+50,Weightlifting every day,"Tips, routines, and rest days too.",0,139,0
+51,Daily JavaScript,Pair up and keep each other on track.,1,152,0
+52,Morning Cycling,Log your sessions and cheer each other on.,1,154,0
+53,Morning Yoga,"Tips, routines, and rest days too.",1,156,0
+54,Learn Drums together,"Tips, songs and exercises for drums.",0,160,0
+55,Music theory for beginners,"Beginner friendly, questions welcome.",1,163,0
+56,Rust project club,Build something real with Rust by the end of the month.,1,166,0
+57,Drawing for fun,A new drawing prompt every Monday.,1,169,0
+58,Better Journaling,Share your streak and keep going.,1,170,0
+59,Morning Stretching,"Tips, routines, and rest days too.",1,175,0
+60,Arabic evening chat,Learners and native speakers helping each other with Arabic.,1,178,0
+61,Discrete maths help desk,"Post a problem, get hints, not answers.",1,180,0
+62,Web dev study group,"Code reviews, tips and resources for web dev.",1,180,0
+63,Arabic conversation club,"Grammar questions, a word of the day and lots of mistakes, on purpose.",1,184,0
+64,Beat the AP exams,We keep each other on track until the AP exams.,1,189,0
+65,GRE study hall,We keep each other on track until the GRE.,1,192,0
+66,GRE prep squad,"Tips, schedules and moral support.",1,193,0
+67,Python project club,Pair up and keep each other on track.,1,193,0
+68,Calculus study group,A new calculus problem every morning.,1,194,0
+69,Running for beginners,"A 30-day plan, one small step each day.",1,195,0
+70,Calisthenics every day,"Tips, routines, and rest days too.",1,197,0
+71,Web dev project club,"Code reviews, tips and resources for web dev.",1,197,0
+72,Beat the MCAT,Daily check-ins until exam day.,1,198,0
+73,Rust study group,Pair up and keep each other on track.,1,205,0
+74,Cycling every day,"A 30-day plan, one small step each day.",1,206,0
+75,Swimming for beginners,"A weekly swimming challenge, no pressure.",1,206,0
+76,App building study group,Pair up and keep each other on track.,1,212,0
+77,Focus sessions club,"A 30-day challenge, starting every Monday.",1,212,0
+78,Beat the Finals,Practice questions and study plans for finals.,1,213,0
+79,Getting good at Startups,Share tips and review each other's work.,1,214,0
+80,C++ project club,Pair up and keep each other on track.,1,225,0
+81,Digital painting challenge,"Share one piece a day, however small.",1,225,0
+82,MCAT accountability group,Practice questions and study plans for MCAT.,1,228,0
+83,Calisthenics crew,"A 30-day plan, one small step each day.",1,233,0
+84,Pixel art for fun,"Share one piece a day, however small.",0,234,0
+85,Learn Music production together,Weekly challenges and feedback on music production.,1,239,0
+86,Daily SQL,One small exercise a day and a project every week.,1,241,0
+87,Violin club,"Tips, songs and exercises for violin.",1,244,0
+88,Getting good at Portfolios,Weekly meetups about portfolios.,1,247,0
+89,Reading together,"Small daily steps, checked in together.",1,248,0
+90,Calisthenics for beginners,"A weekly calisthenics challenge, no pressure.",1,250,0
+91,Mandarin evening chat,Speak Mandarin with people at your level. Weekly voice chats.,1,251,0
+92,Thermodynamics explained,We read one chapter a week and discuss it.,1,255,0
+93,Data science study group,"Code reviews, tips and resources for data science.",0,261,0
+94,Mastering Geometry,A new geometry problem every morning.,0,261,0
+95,Web dev from zero,One small exercise a day and a project every week.,1,261,0
+96,Learn Beatmaking together,"Tips, songs and exercises for beatmaking.",1,262,0
+97,Sketching club,For beginners who want to start sketching.,1,264,0
+98,Swimming crew,Log your sessions and cheer each other on.,1,264,0
+99,Stretching crew,"A 30-day plan, one small step each day.",1,269,0
+100,30 days of Journaling,Tips and support for building the habit.,1,274,0
+101,Learn Rust together,One small exercise a day and a project every week.,1,279,0
+102,Quantum physics study group,"Ask anything about quantum physics, beginners welcome.",1,280,0
+103,Daily Game dev,Pair up and keep each other on track.,1,281,0
+104,Learn Singing together,"Tips, songs and exercises for singing.",1,282,1
+105,SAT study hall,Practice questions and study plans for SAT.,0,283,0
+106,Python study group,One small exercise a day and a project every week.,1,288,0
+107,Spanish conversation club,"Grammar questions, a word of the day and lots of mistakes, on purpose.",1,289,0
+108,AP exams prep squad,Silent study sessions every evening.,1,294,0
+109,Learn C++ together,One small exercise a day and a project every week.,0,298,0
+110,German evening chat,Speak German with people at your level. Weekly voice chats.,1,308,0
+111,SAT accountability group,Silent study sessions every evening.,1,311,0
+112,German for beginners,"Daily practice for beginners. Ten minutes a day, no pressure.",1,314,0
+113,English for beginners,Speak English with people at your level. Weekly voice chats.,1,315,0
+114,Daily Algorithms,"Code reviews, tips and resources for algorithms.",1,316,0
+115,Daily Arabic,Speak Arabic with people at your level. Weekly voice chats.,1,319,0
+116,Daily Spanish,Speak Spanish with people at your level. Weekly voice chats.,1,319,0
+117,Daily Drawing,"Feedback, tips and weekly themes.",1,326,0
+118,Daily Python,One small exercise a day and a project every week.,1,329,0
+119,Sleep club,Share your streak and keep going.,0,329,0
+120,Game dev study group,"Code reviews, tips and resources for game dev.",1,330,0
+121,Learn Algorithms together,Pair up and keep each other on track.,1,337,1
+122,Better Early mornings,"No pressure, just progress.",0,338,0
+123,IELTS prep squad,"Tips, schedules and moral support.",1,338,0
+124,Daily Digital painting,A new digital painting prompt every Monday.,1,341,0
+125,Japanese evening chat,Learners and native speakers helping each other with Japanese.,0,341,0
+126,Morning Calisthenics,Log your sessions and cheer each other on.,1,342,0
+127,Arabic for beginners,Speak Arabic with people at your level. Weekly voice chats.,1,344,0
+128,Italian in 90 days,"Daily practice for beginners. Ten minutes a day, no pressure.",0,344,0
+129,30 days of Running,"A 30-day plan, one small step each day.",0,346,0
+130,Daily Sketching,"No judgement, just making things.",1,346,0
+131,JavaScript from zero,One small exercise a day and a project every week.,1,346,0
+132,Learn Music theory together,"Tips, songs and exercises for music theory.",1,347,0
+133,Linear algebra problem of the day,Explain it simply: linear algebra edition.,1,349,0
+134,Yoga crew,"Tips, routines, and rest days too.",1,349,1
+135,Electromagnetism explained,"Ask anything about electromagnetism, beginners welcome.",1,351,0
+136,Getting good at Freelancing,Practice sessions and honest feedback.,1,352,0
+137,Reading club,"Small daily steps, checked in together.",1,352,0
+138,Freelancing 101,"Everything about freelancing, for students.",1,353,0
+139,Number theory without tears,"Post a problem, get hints, not answers.",1,354,0
+140,Daily Italian,"Grammar questions, a word of the day and lots of mistakes, on purpose.",1,355,0
+141,Finals prep squad,Daily check-ins until exam day.,1,355,0
+142,AP exams countdown,Practice questions and study plans for AP exams.,1,357,0
+143,Guitar for beginners,"Tips, songs and exercises for guitar.",1,357,0
+144,Linear algebra study group,A new linear algebra problem every morning.,1,358,0
+145,Learn Data science together,"Code reviews, tips and resources for data science.",0,359,0
+146,Linear algebra help desk,Weekly sessions before the exam.,1,359,0
+147,Digital painting club,"Feedback, tips and weekly themes.",1,360,0
+148,Mastering Linear algebra,A new linear algebra problem every morning.,1,360,0
+149,Calculus problem of the day,A new calculus problem every morning.,1,361,0
+150,Mandarin conversation club,"Grammar questions, a word of the day and lots of mistakes, on purpose.",1,365,0

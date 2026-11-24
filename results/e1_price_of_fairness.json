@@ -1,0 +1,10 @@
+{
+  "ndcg@5 hybrid": 0.5407,
+  "ndcg@5 proposed": 0.5281,
+  "cost": 0.0126,
+  "cost low": 0.0081,
+  "cost high": 0.0171,
+  "relative cost": 0.0233,
+  "newcomer share hybrid": 0.0201,
+  "newcomer share proposed": 0.2027
+}

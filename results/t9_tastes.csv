@@ -1,0 +1,20 @@
+taste,end,main topic,share,top groups,art,careers,coding,exam_prep,fitness,habits,languages,maths,music,physics
+1,+,coding,0.3,"Korean conversation club, Weightlifting for beginners, Finals countdown, Japanese in 90 days",0,0,3,2,2,0,3,0,0,0
+2,+,exam_prep,0.6,"Finals countdown, Midterms countdown, SAT prep squad, MCAT countdown",0,0,2,6,2,0,0,0,0,0
+2,-,languages,1.0,"Korean conversation club, Japanese in 90 days, Spanish for beginners, Spanish evening chat",0,0,0,0,0,0,10,0,0,0
+3,+,coding,0.8,"Algorithms study group, Algorithms from zero, Daily Rust, SQL from zero",1,0,8,0,1,0,0,0,0,0
+3,-,exam_prep,0.5,"Finals countdown, Midterms countdown, Korean conversation club, SAT prep squad",0,0,0,5,0,0,5,0,0,0
+4,+,fitness,0.9,"Weightlifting for beginners, 30 days of Cycling, Stretching for beginners, Morning Cycling",1,0,0,0,9,0,0,0,0,0
+4,-,coding,0.4,"Finals countdown, Algorithms from zero, Algorithms study group, Daily Rust",0,0,4,3,0,0,3,0,0,0
+5,+,maths,0.6,"Mastering Probability, Calculus help desk, Geometry without tears, Geometry problem of the day",2,0,0,0,0,0,0,6,2,0
+5,-,coding,0.4,"Algorithms study group, Finals countdown, Daily Rust, Weightlifting for beginners",0,0,4,3,2,0,1,0,0,0
+6,+,art,0.5,"Guitar club, 3D modelling club, Drums practice room, Violin practice room",5,0,0,0,0,1,0,0,4,0
+6,-,maths,0.5,"Mastering Probability, Calculus help desk, Geometry without tears, Weightlifting for beginners",0,0,2,0,2,0,1,5,0,0
+7,+,art,0.7,"3D modelling club, Daily Photography, Pixel art sketchbook, Daily Pixel art",7,0,0,1,0,0,2,0,0,0
+7,-,music,0.8,"Guitar club, Drums practice room, Violin practice room, Daily Drums",0,1,0,0,0,0,0,1,8,0
+8,+,careers,0.6,"Networking club, Journaling streak, Networking 101, 30 days of Reading",0,6,0,0,0,4,0,0,0,0
+8,-,music,0.3,"Guitar club, Weightlifting for beginners, Spanish for beginners, 3D modelling club",2,0,1,1,1,0,1,1,3,0
+9,+,habits,0.6,"Journaling streak, 30 days of Reading, Meditation together, Better Journaling",0,0,0,0,0,6,1,0,0,3
+9,-,careers,0.6,"Networking club, Networking 101, Getting good at Job interviews, Freelancing club",1,6,1,0,0,0,2,0,0,0
+10,+,habits,0.3,"Japanese in 90 days, Algorithms from zero, Arabic in 90 days, Journaling streak",0,0,1,1,2,3,2,0,0,1
+10,-,coding,0.3,"Korean conversation club, Algorithms study group, Midterms countdown, Weightlifting for beginners",2,0,3,1,1,0,1,1,1,0

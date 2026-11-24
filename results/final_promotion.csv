@@ -1,0 +1,25 @@
+rule,rivals,attacker,fake accounts,statistics unchanged,rivals: lists before,rivals: lists after,top gainer,top gainer id,top gainer: lists before,top gainer: lists after,top gainer: gain,default lists changed
+first fix (count Discover shows),1,A,9,False,130,15,JavaScript from zero,131,27,38,11,0
+first fix (count Discover shows),1,B,9,False,130,15,JavaScript from zero,131,27,38,11,0
+first fix (count Discover shows),1,C,9,False,130,15,JavaScript from zero,131,27,38,11,0
+first fix (count Discover shows),1,D,9,False,130,17,JavaScript from zero,131,27,36,9,0
+first fix (count Discover shows),2,A,11,False,246,46,Daily Game dev,103,50,72,22,0
+first fix (count Discover shows),2,B,11,False,246,46,Daily Game dev,103,50,72,22,0
+first fix (count Discover shows),2,C,11,False,246,46,Daily Game dev,103,50,72,22,0
+first fix (count Discover shows),2,D,11,False,246,50,Daily Game dev,103,50,71,21,0
+first fix (count Discover shows),4,A,24,False,424,94,Daily Game dev,103,50,97,47,0
+first fix (count Discover shows),4,B,24,False,424,94,Daily Game dev,103,50,97,47,0
+first fix (count Discover shows),4,C,24,False,424,94,Daily Game dev,103,50,97,47,0
+first fix (count Discover shows),4,D,24,False,424,101,Daily Game dev,103,50,91,41,0
+final (members who count),1,A,9,True,126,126,,0,0,0,0,0
+final (members who count),1,B,9,True,126,126,,0,0,0,0,0
+final (members who count),1,C,9,True,126,126,,0,0,0,0,0
+final (members who count),1,D,9,False,126,17,JavaScript from zero,131,26,35,9,0
+final (members who count),2,A,11,True,240,240,,0,0,0,0,0
+final (members who count),2,B,11,True,240,240,,0,0,0,0,0
+final (members who count),2,C,11,True,240,240,,0,0,0,0,0
+final (members who count),2,D,11,False,240,50,Daily Game dev,103,47,67,20,0
+final (members who count),4,A,24,True,417,417,,0,0,0,0,0
+final (members who count),4,B,24,True,417,417,,0,0,0,0,0
+final (members who count),4,C,24,True,417,417,,0,0,0,0,0
+final (members who count),4,D,24,False,417,102,Daily Game dev,103,47,87,40,0

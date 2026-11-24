@@ -1,0 +1,9 @@
+attacker,k,statistics unchanged (test),default lists showing the target,"default lists showing it, no attack",personalised lists showing the target,"personalised lists showing it, no attack"
+"A · New accounts, level 1-2",100,True,0,0,85,85
+"A · New accounts, level 1-2",200,True,0,0,85,85
+"B · New accounts, levelled up to 5-6",100,True,0,0,85,85
+"B · New accounts, levelled up to 5-6",200,True,0,0,85,85
+"C · A month old, level 1-2",100,True,0,0,85,85
+"C · A month old, level 1-2",200,True,0,0,85,85
+D · A month old and levelled up,100,False,351,0,137,85
+D · A month old and levelled up,200,False,351,0,168,85

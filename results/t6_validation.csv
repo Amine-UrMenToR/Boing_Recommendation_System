@@ -1,0 +1,8 @@
+,users,hit_rate,precision@5,recall@5,ndcg@5,newcomer_share,gini,coverage,largest_share,topics_per_list
+Random (floor),1090.0,0.044,0.009,0.044,0.025,0.44,0.089,129.0,0.011,4.05
+Popularity (today),1090.0,0.211,0.042,0.21,0.122,0.0,0.955,10.0,0.177,3.679
+"""Also joined""",1090.0,0.608,0.122,0.607,0.441,0.037,0.602,96.0,0.033,1.996
+"Similar descriptions, topic weight 0",1090.0,0.255,0.051,0.254,0.164,0.449,0.488,124.0,0.039,1.965
+"Similar descriptions, topic weight 0.5",1090.0,0.254,0.051,0.253,0.162,0.45,0.486,124.0,0.039,1.953
+"Similar descriptions, topic weight 1",1090.0,0.253,0.051,0.252,0.162,0.45,0.483,124.0,0.039,1.946
+"Similar descriptions, topic weight 2",1090.0,0.254,0.051,0.253,0.159,0.449,0.479,124.0,0.039,1.948

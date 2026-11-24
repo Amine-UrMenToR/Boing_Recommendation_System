@@ -1,0 +1,9 @@
+,hit_rate,hit_rate low,hit_rate high,ndcg@5,ndcg@5 low,ndcg@5 high
+Random (floor),0.048,0.038,0.06,0.025,0.019,0.033
+Popularity (today),0.22,0.198,0.243,0.131,0.117,0.146
+"""Also joined""",0.64,0.616,0.666,0.499,0.476,0.522
+Similar descriptions,0.263,0.24,0.287,0.159,0.144,0.176
+Hidden tastes (AI model),0.61,0.585,0.634,0.475,0.452,0.496
+Hybrid,0.687,0.661,0.711,0.541,0.517,0.563
+Hybrid + fair re-ranking,0.656,0.632,0.68,0.528,0.504,0.551
+Personalisation off,0.098,0.083,0.115,0.058,0.048,0.068

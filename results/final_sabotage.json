@@ -1,0 +1,19 @@
+{
+  "group": "Violin club",
+  "group_id": 87,
+  "members (count Discover shows)": 1,
+  "members who count": 1.0,
+  "first fix, attacker A: fake accounts": 9,
+  "first fix, attacker A: lists before": 130,
+  "first fix, attacker A: lists after": 15,
+  "first fix, attacker A: largest gain of another group": 11,
+  "final, attackers A to C: statistics unchanged": true,
+  "final, attacker D: fake accounts": 9,
+  "final, attacker D: lists before": 126,
+  "final, attacker D: lists after": 17,
+  "final, attacker D: largest gain of another group": 9,
+  "final, attacker D, 4 rivals: fake accounts": 24,
+  "final, attacker D, 4 rivals: lists the rivals lose": 315,
+  "final, attacker D, 4 rivals: largest gain of another group": 40,
+  "default lists changed, any attack": 0
+}

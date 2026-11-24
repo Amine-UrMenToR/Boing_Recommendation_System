@@ -1,0 +1,13 @@
+step,from,to,ndcg@5 before,ndcg@5 after,cost,cost low,cost high,relative cost,newcomer share before,newcomer share after,gini before,gini after
+Personalisation: today's BOING -> the hybrid,Popularity (BOING today),"Hybrid, no re-ranking (component)",0.131126,0.54068,-0.409554,-0.433697,-0.384817,-3.12337,0.0,0.020057,0.953354,0.640178
+"Fair exposure and variety (R4, R5: q, c, n, lambda)","Hybrid, no re-ranking (component)",Hybrid + fair re-ranking (E2 dials),0.54068,0.525714,0.014966,0.009592,0.020261,0.02768,0.020057,0.200853,0.640178,0.522869
+"""Small"" from the member count Discover shows (and 8 topic clusters)",Hybrid + fair re-ranking (E2 dials),"E2 dials, ""small"" from the count Discover shows, final clusters",0.525714,0.520942,0.004772,0.002193,0.00749,0.009077,0.200853,0.200996,0.522869,0.528521
+"The weights re-chosen for noisy statistics (0.2, 0.2, 0.3, 0.3), here without noise","E2 dials, ""small"" from the count Discover shows, final clusters",The same with the final weights,0.520942,0.518966,0.001976,-0.004393,0.0082,0.003794,0.200996,0.203414,0.528521,0.497041
+"Fake-account resistance (R9: L = 3, young accounts wait 30 days; joins, posts, likes, friends and the ""small"" count)",The same with the final weights,Final design without privacy,0.518966,0.514642,0.004324,-0.002642,0.011587,0.008331,0.203414,0.19744,0.497041,0.494582
+"Privacy (R10: m = 3, epsilon = 1.5)",Final design without privacy,"Final design (ε = 1.5, m = 3)",0.514642,0.488178,0.026464,0.018434,0.034843,0.051423,0.19744,0.199417,0.494582,0.531874
+Every rule together: the hybrid -> the final design,"Hybrid, no re-ranking (component)","Final design (ε = 1.5, m = 3)",0.54068,0.488178,0.052502,0.043361,0.061545,0.097104,0.020057,0.199417,0.640178,0.531874
+Stronger privacy instead: epsilon = 0.5,"Final design (ε = 1.5, m = 3)",Final design with ε = 0.5,0.488178,0.436443,0.051735,0.044055,0.059238,0.105976,0.199417,0.206486,0.531874,0.572469
+Weaker privacy instead: epsilon = 2,"Final design (ε = 1.5, m = 3)",Final design with ε = 2,0.488178,0.492861,-0.004683,-0.006792,-0.002596,-0.009592,0.199417,0.199815,0.531874,0.525504
+Weaker privacy instead: epsilon = 5,"Final design (ε = 1.5, m = 3)",Final design with ε = 5,0.488178,0.497371,-0.009193,-0.013366,-0.005279,-0.018831,0.199417,0.197881,0.531874,0.513934
+"The final design before the review, against the final design","Final design (ε = 1.5, m = 3)",Final design before the review (ε = 5),0.488178,0.510394,-0.022216,-0.028303,-0.016176,-0.045508,0.199417,0.158108,0.531874,0.514072
+The final design against today's BOING,Popularity (BOING today),"Final design (ε = 1.5, m = 3)",0.131126,0.488178,-0.357052,-0.380678,-0.33362,-2.722974,0.0,0.199417,0.953354,0.531874

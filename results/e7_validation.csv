@@ -1,0 +1,9 @@
+score,w,hit_rate,ndcg@5
+mutual + 0 x shared,0.0,0.0801,0.033
+mutual + 0.05 x shared,0.05,0.0895,0.0409
+mutual + 0.1 x shared,0.1,0.0895,0.0409
+mutual + 0.25 x shared,0.25,0.0841,0.0388
+mutual + 0.5 x shared,0.5,0.0621,0.0296
+mutual + 1 x shared,1.0,0.0387,0.0185
+mutual + 2 x shared,2.0,0.0334,0.0148
+"mutual + shared, each group weighted 1/log(size)",,0.0941,0.043

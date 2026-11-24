@@ -1,0 +1,13 @@
+opt_in,privacy,policy,tested members opted in,ndcg@5 (opted in),newcomer_share (opted in),ndcg@5 (all tested),ndcg@5 (opted in) sd,ndcg@5 (all tested) sd,runs
+0.25,no privacy,everyone counts,351.8,0.5235,0.2026,0.1706,0.0314,0.0126,10
+0.25,no privacy,only opted-in members count,351.8,0.475,0.0449,0.1494,0.0352,0.014,10
+0.5,no privacy,everyone counts,708.5,0.5351,0.2028,0.2981,0.0106,0.0078,10
+0.5,no privacy,only opted-in members count,708.5,0.5088,0.0961,0.2835,0.0123,0.0107,10
+1.0,no privacy,everyone counts,1406.0,0.5281,0.2027,0.5281,0.0,0.0,10
+1.0,no privacy,only opted-in members count,1406.0,0.5281,0.2027,0.5281,0.0,0.0,10
+0.25,"epsilon = 2, m = 3",everyone counts,351.8,0.4895,0.1748,0.162,0.0364,0.013,10
+0.25,"epsilon = 2, m = 3",only opted-in members count,351.8,0.2826,0.1848,0.1013,0.034,0.0136,10
+0.5,"epsilon = 2, m = 3",everyone counts,708.5,0.5009,0.1756,0.2808,0.0118,0.007,10
+0.5,"epsilon = 2, m = 3",only opted-in members count,708.5,0.4123,0.1624,0.235,0.0145,0.0117,10
+1.0,"epsilon = 2, m = 3",everyone counts,1406.0,0.4951,0.1777,0.4951,0.003,0.003,10
+1.0,"epsilon = 2, m = 3",only opted-in members count,1406.0,0.4951,0.1777,0.4951,0.003,0.003,10

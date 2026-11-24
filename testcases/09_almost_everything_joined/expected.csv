@@ -1,0 +1,499 @@
+user_id,rank,group_id,score,reason_code,reason_text
+1,1,14,0.800000,friend,Your friend user 71 is a member
+1,2,9,0.358303,similar_group,"Similar to Calisthenics crew, which you joined"
+1,3,17,0.042229,similar_group,"Similar to Daily Python, which you joined"
+2,1,10,0.803917,friend,Your friend user 5 and 2 other friends are members
+2,2,2,0.753105,friend,Your friend user 4 and 2 other friends are members
+2,3,13,0.640384,similar_group,Because you're in Algorithms study group
+2,4,18,0.519615,similar_group,Because you're in Algorithms study group
+2,5,5,0.554634,similar_group,Because you're in Daily Python
+3,1,7,0.852082,friend,Your friend user 81 is a member
+3,2,6,0.570457,friend,Your friend user 81 is a member
+3,3,2,0.549739,friend,Your friend user 81 is a member
+3,4,10,0.557103,friend,Your friend user 81 is a member
+3,5,18,0.483917,new_group,A small group: we show small groups so they get a fair chance
+4,1,3,0.668685,similar_group,"Similar to Spanish evening chat, which you joined"
+4,2,7,0.569200,similar_group,Because you're in Daily Python
+4,3,12,0.545533,friend,Your friend user 1 and 2 other friends are members
+4,4,10,0.533835,similar_group,Because you're in Daily Python
+4,5,18,0.408570,new_group,A small group: we show small groups so they get a fair chance
+5,1,4,0.835974,similar_group,Because you're in English in 90 days
+5,2,12,0.626125,friend,Your friend user 1 and 3 other friends are members
+5,3,1,0.628171,friend,Your friend user 1 and 2 other friends are members
+5,4,2,0.453532,similar_group,Because you're in English in 90 days
+5,5,9,0.397782,new_group,A small group: we show small groups so they get a fair chance
+6,1,16,0.753825,shared_members,About 7 members of Python project club are in it
+6,2,8,0.661446,similar_group,Because you're in Web dev study group
+6,3,1,0.532866,similar_group,Because you're in Python project club
+6,4,15,0.502831,similar_group,Because you're in Finals countdown
+6,5,18,0.431615,new_group,A small group: we show small groups so they get a fair chance
+7,1,13,0.755485,friend,Your friend user 1 and 2 other friends are members
+7,2,3,0.748070,similar_group,"Similar to Spanish evening chat, which you joined"
+7,3,7,0.646720,similar_group,Because you're in Python project club
+7,4,12,0.665314,friend,Your friend user 1 and 2 other friends are members
+7,5,17,0.305899,new_group,A new group: we show new groups so they get a fair chance
+8,1,17,0.186960,similar_group,Because you're in MCAT countdown
+8,2,11,0.169455,similar_group,Because you're in MCAT countdown
+8,3,15,0.139001,similar_group,Because you're in MCAT countdown
+8,4,2,0.733333,friend,Your friend user 7 is a member
+8,5,13,0.595178,similar_group,Because you're in MCAT countdown
+9,1,7,0.745647,friend,Your friend user 1 and 2 other friends are members
+9,2,1,0.739541,similar_group,Because you're in Python project club
+9,3,15,0.676461,similar_group,Because you're in Finals countdown
+9,4,8,0.631385,similar_group,Because you're in Japanese in 90 days
+9,5,18,0.305058,new_group,A small group: we show small groups so they get a fair chance
+10,1,2,0.768041,friend,Your friend user 1 and 2 other friends are members
+10,2,10,0.705033,similar_group,Because you're in Daily Python
+10,3,8,0.587870,similar_group,Because you're in French evening chat
+10,4,5,0.523453,similar_group,Because you're in Daily Python
+10,5,18,0.505765,new_group,A small group: we show small groups so they get a fair chance
+11,1,5,0.687397,similar_group,Because you're in Web dev study group
+11,2,2,0.631397,friend,Your friend user 4 and 4 other friends are members
+11,3,13,0.544364,friend,Your friend user 51 and 3 other friends are members
+11,4,8,0.490242,similar_group,Because you're in Web dev study group
+11,5,18,0.298639,new_group,A small group: we show small groups so they get a fair chance
+12,1,6,0.872116,friend,Your friend user 6 is a member
+12,2,13,0.814698,friend,Your friend user 6 is a member
+12,3,1,0.574904,friend,Your friend user 85 is a member
+12,4,3,0.536207,friend,Your friend user 85 is a member
+12,5,17,0.484691,friend,Your friend user 85 is a member
+13,1,10,0.745010,friend,Your friend user 32 is a member
+13,2,3,0.403304,similar_group,Because you're in SAT prep squad
+13,3,9,0.308653,similar_group,Because you're in Swimming crew
+13,4,7,0.282263,similar_group,Because you're in Daily Python
+13,5,17,0.233246,similar_group,Because you're in SAT prep squad
+14,1,13,0.720649,friend,Your friend user 62 is a member
+14,2,6,0.655279,friend,Your friend user 36 is a member
+14,3,12,0.601409,friend,Your friend user 62 is a member
+14,4,7,0.520568,similar_group,Because you're in Python project club
+14,5,14,0.214048,new_group,A small group: we show small groups so they get a fair chance
+15,1,15,0.699674,friend,Your friend user 23 and 3 other friends are members
+15,2,16,0.539687,similar_group,"Similar to Finals countdown, which you joined"
+15,3,11,0.378709,similar_group,Because you're in Algorithms study group
+15,4,3,0.261067,similar_group,Because you're in Algorithms study group
+15,5,17,0.127771,new_group,A new group: we show new groups so they get a fair chance
+16,1,5,0.816587,friend,Your friend user 6 is a member
+16,2,6,0.642782,friend,Your friend user 6 is a member
+16,3,7,0.561951,friend,Your friend user 6 is a member
+16,4,12,0.429789,similar_group,Because you're in Finals countdown
+16,5,17,0.260006,new_group,A new group: we show new groups so they get a fair chance
+17,1,6,0.715662,friend,Your friend user 55 and 1 other friend are members
+17,2,12,0.594320,similar_group,Because you're in Morning Yoga
+17,3,4,0.477286,similar_group,Because you're in Spanish evening chat
+17,4,3,0.397464,similar_group,"Similar to Spanish evening chat, which you joined"
+17,5,14,0.382735,similar_group,Because you're in Spanish evening chat
+18,1,13,0.753832,friend,Your friend user 58 is a member
+18,2,6,0.708489,friend,Your friend user 4 is a member
+18,3,3,0.612292,similar_group,Because you're in Algorithms study group
+18,4,12,0.631411,friend,Your friend user 58 is a member
+18,5,18,0.465760,new_group,A small group: we show small groups so they get a fair chance
+19,1,5,0.960046,friend,Your friend user 24 and 1 other friend are members
+19,2,4,0.662835,similar_group,Because you're in Yoga crew
+19,3,2,0.630507,friend,Your friend user 24 and 1 other friend are members
+19,4,8,0.581907,friend,Your friend user 24 and 1 other friend are members
+19,5,9,0.532801,similar_group,Because you're in Swimming crew
+20,1,12,0.799925,friend,Your friend user 58 and 1 other friend are members
+20,2,16,0.703633,similar_group,Because you're in MCAT countdown
+20,3,15,0.620270,similar_group,Because you're in Finals countdown
+20,4,11,0.545151,similar_group,Because you're in Morning Yoga
+20,5,17,0.176222,new_group,A new group: we show new groups so they get a fair chance
+21,1,10,0.692628,friend,Your friend user 5 and 2 other friends are members
+21,2,3,0.639292,similar_group,Because you're in Spanish for beginners
+21,3,12,0.505829,friend,Your friend user 49 and 1 other friend are members
+21,4,6,0.387482,friend,Your friend user 4 and 1 other friend are members
+21,5,14,0.334615,new_group,A small group: we show small groups so they get a fair chance
+22,1,16,0.731218,friend,Your friend user 9 and 1 other friend are members
+22,2,10,0.700000,similar_group,Because you're in Yoga crew
+22,3,1,0.450368,similar_group,Because you're in Python project club
+22,4,13,0.464221,similar_group,Because you're in Web dev study group
+22,5,9,0.322549,new_group,A small group: we show small groups so they get a fair chance
+23,1,8,0.615775,similar_group,Because you're in Learn Rust together
+23,2,3,0.551530,similar_group,Because you're in Learn Rust together
+23,3,5,0.509448,similar_group,"Similar to Finals countdown, which you joined"
+23,4,16,0.482236,shared_members,About 5 members of SAT prep squad are in it
+23,5,14,0.300540,new_group,A small group: we show small groups so they get a fair chance
+24,1,7,0.807394,friend,Your friend user 6 and 2 other friends are members
+24,2,13,0.586989,friend,Your friend user 6 and 1 other friend are members
+24,3,18,0.458783,similar_group,"Similar to Daily Python, which you joined"
+24,4,12,0.481325,shared_members,About 10 members of Morning Yoga are in it
+24,5,4,0.449818,similar_group,Because you're in Algorithms study group
+25,1,7,0.789702,friend,Your friend user 1 and 1 other friend are members
+25,2,3,0.718565,friend,Your friend user 1 and 1 other friend are members
+25,3,6,0.699492,friend,Your friend user 1 and 1 other friend are members
+25,4,13,0.595917,similar_group,Because you're in Spanish for beginners
+25,5,14,0.236047,new_group,A small group: we show small groups so they get a fair chance
+26,1,12,0.826502,friend,Your friend user 55 and 1 other friend are members
+26,2,11,0.655430,friend,Your friend user 5 and 1 other friend are members
+26,3,4,0.557643,friend,Your friend user 55 and 1 other friend are members
+26,4,14,0.426837,similar_group,Because you're in GRE study hall
+26,5,5,0.446558,similar_group,Because you're in GRE study hall
+27,1,7,0.764998,friend,Your friend user 22 is a member
+27,2,6,0.741552,friend,Your friend user 22 is a member
+27,3,12,0.733061,friend,Your friend user 62 is a member
+27,4,15,0.669946,friend,Your friend user 62 is a member
+27,5,14,0.205552,new_group,A small group: we show small groups so they get a fair chance
+28,1,16,0.701350,friend,Your friend user 35 is a member
+28,2,4,0.647649,similar_group,Because you're in English in 90 days
+28,3,13,0.658093,friend,Your friend user 35 is a member
+28,4,12,0.531937,friend,Your friend user 57 is a member
+28,5,14,0.397904,new_group,A small group: we show small groups so they get a fair chance
+29,1,10,0.696502,similar_group,Because you're in Yoga crew
+29,2,7,0.649342,friend,Your friend user 40 is a member
+29,3,6,0.514259,friend,Your friend user 40 is a member
+29,4,1,0.510254,friend,Your friend user 85 is a member
+29,5,17,0.414849,friend,Your friend user 85 is a member
+30,1,11,0.248585,similar_group,Because you're in Finals countdown
+30,2,5,0.804040,similar_group,Because you're in Spanish for beginners
+30,3,15,0.717409,similar_group,Because you're in Finals countdown
+30,4,7,0.574587,friend,Your friend user 72 and 1 other friend are members
+30,5,14,0.416906,similar_group,Because you're in GRE study hall
+31,1,2,0.698314,shared_members,About 4 members of Spanish for beginners are in it
+31,2,8,0.598407,similar_group,Because you're in French evening chat
+31,3,5,0.586499,friend,Your friend user 25 and 1 other friend are members
+31,4,7,0.368911,similar_group,Because you're in Learn Rust together
+31,5,9,0.225581,new_group,A small group: we show small groups so they get a fair chance
+32,1,16,0.677404,friend,Your friend user 13 and 1 other friend are members
+32,2,9,0.503235,similar_group,Because you're in Swimming crew
+32,3,11,0.459798,similar_group,Because you're in Morning Yoga
+32,4,15,0.292017,friend,Your friend user 13 is a member
+32,5,8,0.210970,similar_group,"Similar to Morning Yoga, which you joined"
+33,1,13,0.895178,friend,Your friend user 76 is a member
+33,2,16,0.680458,friend,Your friend user 76 is a member
+33,3,8,0.397842,friend,Your friend user 76 is a member
+33,4,1,0.312892,similar_group,Because you're in MCAT countdown
+33,5,17,0.186960,new_group,A new group: we show new groups so they get a fair chance
+34,1,12,0.723608,friend,Your friend user 10 and 1 other friend are members
+34,2,15,0.549059,similar_group,Because you're in English in 90 days
+34,3,5,0.516770,similar_group,Because you're in Spanish for beginners
+34,4,8,0.332729,similar_group,Because you're in Japanese in 90 days
+34,5,10,0.327406,shared_members,About 4 members of Japanese in 90 days are in it
+35,1,2,0.778503,friend,Your friend user 47 and 1 other friend are members
+35,2,1,0.627315,similar_group,Because you're in French evening chat
+35,3,5,0.384726,shared_members,About 7 members of GRE study hall are in it
+35,4,18,0.370322,similar_group,Because you're in French evening chat
+35,5,4,0.419674,friend,Your friend user 47 and 1 other friend are members
+36,1,4,0.944905,friend,Your friend user 47 and 1 other friend are members
+36,2,16,0.641130,friend,Your friend user 14 and 1 other friend are members
+36,3,7,0.533187,similar_group,Because you're in Python project club
+36,4,2,0.429941,friend,Your friend user 47 is a member
+36,5,18,0.274878,new_group,A small group: we show small groups so they get a fair chance
+37,1,2,0.651828,friend,Your friend user 24 and 1 other friend are members
+37,2,4,0.589205,similar_group,Because you're in English in 90 days
+37,3,1,0.615437,similar_group,Because you're in Python project club
+37,4,10,0.458734,friend,Your friend user 24 and 1 other friend are members
+37,5,18,0.242714,new_group,A small group: we show small groups so they get a fair chance
+38,1,1,0.760105,similar_group,Because you're in French evening chat
+38,2,8,0.710851,friend,Your friend user 1 and 1 other friend are members
+38,3,18,0.540413,friend,Your friend user 1 and 1 other friend are members
+38,4,16,0.544110,friend,Your friend user 1 and 1 other friend are members
+38,5,11,0.517967,friend,Your friend user 1 and 1 other friend are members
+39,1,13,0.577924,friend,Your friend user 58 is a member
+39,2,8,0.436829,friend,Your friend user 58 is a member
+39,3,1,0.337263,similar_group,Because you're in Python project club
+39,4,16,0.404116,similar_group,Because you're in Python project club
+39,5,9,0.216700,new_group,A small group: we show small groups so they get a fair chance
+40,1,13,0.953377,friend,Your friend user 51 and 2 other friends are members
+40,2,18,0.638683,similar_group,Because you're in Algorithms study group
+40,3,12,0.485376,similar_group,Because you're in Python project club
+40,4,10,0.431765,friend,Your friend user 36 and 1 other friend are members
+40,5,4,0.416768,similar_group,Because you're in Algorithms study group
+41,1,1,0.532810,similar_group,"Similar to Japanese in 90 days, which you joined"
+41,2,3,0.426551,similar_group,Because you're in English in 90 days
+41,3,15,0.392452,similar_group,Because you're in English in 90 days
+41,4,10,0.235001,shared_members,About 4 members of Japanese in 90 days are in it
+41,5,9,0.107212,new_group,A small group: we show small groups so they get a fair chance
+42,1,11,0.313024,similar_group,Because you're in Morning Yoga
+42,2,1,0.850000,similar_group,Because you're in French evening chat
+42,3,15,0.457775,similar_group,Because you're in English in 90 days
+42,4,6,0.440213,similar_group,Because you're in Morning Yoga
+42,5,8,0.391981,similar_group,Because you're in Japanese in 90 days
+43,1,13,0.571269,friend,Your friend user 62 is a member
+43,2,10,0.511391,similar_group,Because you're in Calisthenics crew
+43,3,6,0.467403,friend,Your friend user 10 is a member
+43,4,3,0.386940,friend,Your friend user 10 is a member
+43,5,9,0.408941,new_group,A small group: we show small groups so they get a fair chance
+44,1,5,0.847397,friend,Your friend user 95 is a member
+44,2,16,0.614730,friend,Your friend user 95 is a member
+44,3,8,0.521254,similar_group,Because you're in Web dev study group
+44,4,6,0.416608,similar_group,Because you're in Web dev study group
+44,5,14,0.253479,new_group,A small group: we show small groups so they get a fair chance
+45,1,2,0.990295,friend,Your friend user 4 and 2 other friends are members
+45,2,10,0.652198,friend,Your friend user 26 and 2 other friends are members
+45,3,5,0.636943,similar_group,Because you're in Spanish for beginners
+45,4,12,0.615045,friend,Your friend user 13 and 2 other friends are members
+45,5,18,0.331524,new_group,A small group: we show small groups so they get a fair chance
+46,1,12,0.630321,friend,Your friend user 93 is a member
+46,2,2,0.533195,friend,Your friend user 93 is a member
+46,3,4,0.471873,friend,Your friend user 51 is a member
+46,4,14,0.430721,similar_group,Because you're in GRE study hall
+46,5,7,0.375330,similar_group,Because you're in Daily Python
+47,1,1,0.568874,shared_members,About 4 members of Spanish evening chat are in it
+47,2,3,0.551399,shared_members,About 4 members of Spanish evening chat are in it
+47,3,15,0.528179,similar_group,Because you're in English in 90 days
+47,4,8,0.326270,friend,Your friend user 1 and 1 other friend are members
+47,5,9,0.025733,new_group,A small group: we show small groups so they get a fair chance
+48,1,5,0.810388,similar_group,Because you're in Yoga crew
+48,2,11,0.685086,similar_group,Because you're in Morning Yoga
+48,3,2,0.676099,similar_group,Because you're in MCAT countdown
+48,4,7,0.495881,friend,Your friend user 22 and 1 other friend are members
+48,5,9,0.509098,new_group,A small group: we show small groups so they get a fair chance
+49,1,3,0.347025,similar_group,"Similar to Spanish evening chat, which you joined"
+49,2,9,0.274500,similar_group,Because you're in Swimming crew
+49,3,11,0.261010,similar_group,Because you're in Spanish evening chat
+49,4,17,0.166587,similar_group,Because you're in MCAT countdown
+49,5,15,0.032549,shared_members,About 2 members of Swimming crew are in it
+50,1,1,0.648690,similar_group,Because you're in Finals countdown
+50,2,16,0.583098,friend,Your friend user 71 and 1 other friend are members
+50,3,15,0.494884,shared_members,About 7 members of Finals countdown are in it
+50,4,8,0.494778,similar_group,Because you're in Finals countdown
+50,5,9,0.310452,new_group,A small group: we show small groups so they get a fair chance
+51,1,16,0.690975,friend,Your friend user 40 and 2 other friends are members
+51,2,12,0.649970,friend,Your friend user 54 and 2 other friends are members
+51,3,7,0.591655,similar_group,Because you're in Python project club
+51,4,15,0.591291,similar_group,Because you're in Finals countdown
+51,5,18,0.348077,new_group,A small group: we show small groups so they get a fair chance
+52,1,3,0.685833,similar_group,"Similar to Spanish evening chat, which you joined"
+52,2,4,0.585559,friend,Your friend user 47 and 2 other friends are members
+52,3,6,0.452789,friend,Your friend user 22 and 2 other friends are members
+52,4,15,0.426654,shared_members,About 7 members of Finals countdown are in it
+52,5,9,0.236829,new_group,A small group: we show small groups so they get a fair chance
+53,1,1,0.900000,similar_group,Because you're in French evening chat
+53,2,6,0.637370,similar_group,Because you're in Web dev study group
+53,3,8,0.577870,similar_group,Because you're in French evening chat
+53,4,16,0.445768,similar_group,Because you're in French evening chat
+53,5,14,0.291513,new_group,A small group: we show small groups so they get a fair chance
+54,1,5,0.769380,friend,Your friend user 51 and 1 other friend are members
+54,2,1,0.655547,friend,Your friend user 51 and 1 other friend are members
+54,3,6,0.550494,friend,Your friend user 51 and 1 other friend are members
+54,4,2,0.505596,shared_members,About 3 members of Japanese in 90 days are in it
+54,5,9,0.503501,similar_group,Because you're in Swimming crew
+55,1,11,0.459192,similar_group,Because you're in Morning Yoga
+55,2,17,0.221762,similar_group,Because you're in Daily Python
+55,3,2,0.727143,friend,Your friend user 17 and 2 other friends are members
+55,4,5,0.693707,similar_group,Because you're in Daily Python
+55,5,8,0.516055,similar_group,Because you're in Japanese in 90 days
+56,1,4,0.534007,similar_group,Because you're in Yoga crew
+56,2,6,0.479070,similar_group,"Similar to Calisthenics crew, which you joined"
+56,3,5,0.405321,similar_group,Because you're in Yoga crew
+56,4,1,0.396671,similar_group,Because you're in Yoga crew
+56,5,14,0.333905,similar_group,Because you're in Morning Yoga
+57,1,11,0.069103,similar_group,"Similar to Swimming crew, which you joined"
+57,2,4,0.853803,similar_group,Because you're in English in 90 days
+57,3,2,0.560574,similar_group,Because you're in English in 90 days
+57,4,10,0.450126,shared_members,About 10 members of Swimming crew are in it
+57,5,3,0.541837,friend,Your friend user 28 and 2 other friends are members
+58,1,4,0.698404,friend,Your friend user 42 and 1 other friend are members
+58,2,10,0.592522,friend,Your friend user 42 and 1 other friend are members
+58,3,18,0.579738,similar_group,Because you're in Algorithms study group
+58,4,2,0.512424,friend,Your friend user 7 and 1 other friend are members
+58,5,5,0.422626,similar_group,"Similar to Finals countdown, which you joined"
+59,1,1,0.500000,similar_group,Because you're in French evening chat
+59,2,15,0.305093,similar_group,Because you're in French evening chat
+59,3,8,0.294706,similar_group,Because you're in French evening chat
+59,4,16,0.297362,similar_group,Because you're in French evening chat
+59,5,9,0.105516,similar_group,Because you're in French evening chat
+60,1,11,0.323898,similar_group,Because you're in Morning Yoga
+60,2,17,0.231390,similar_group,Because you're in SAT prep squad
+60,3,4,0.622175,friend,Your friend user 42 and 2 other friends are members
+60,4,12,0.616081,shared_members,About 10 members of Morning Yoga are in it
+60,5,6,0.549851,similar_group,Because you're in SAT prep squad
+61,1,1,0.300000,friend,Your friend user 86 is a member
+61,2,3,0.300000,friend,Your friend user 86 is a member
+61,3,13,0.300000,friend,Your friend user 86 is a member
+61,4,4,0.300000,friend,Your friend user 86 is a member
+61,5,14,0.000000,new_group,A small group: we show small groups so they get a fair chance
+62,1,10,0.396076,similar_group,Because you're in Swimming crew
+62,2,3,0.385103,similar_group,Because you're in SAT prep squad
+62,3,9,0.370478,similar_group,Because you're in Swimming crew
+62,4,8,0.333891,shared_members,About 4 members of Finals countdown are in it
+62,5,17,0.182098,similar_group,Because you're in SAT prep squad
+63,1,11,0.576699,similar_group,Because you're in Morning Yoga
+63,2,1,0.525499,similar_group,"Similar to Japanese in 90 days, which you joined"
+63,3,6,0.482446,friend,Your friend user 10 and 2 other friends are members
+63,4,2,0.445956,friend,Your friend user 81 and 1 other friend are members
+63,5,14,0.154951,new_group,A small group: we show small groups so they get a fair chance
+64,1,11,0.475672,similar_group,Because you're in Finals countdown
+64,2,17,0.247903,similar_group,Because you're in Daily Python
+64,3,5,0.922580,friend,Your friend user 22 is a member
+64,4,15,0.811061,friend,Your friend user 88 is a member
+64,5,7,0.734587,friend,Your friend user 22 is a member
+65,1,5,0.753133,similar_group,Because you're in GRE study hall
+65,2,10,0.641524,friend,Your friend user 32 and 1 other friend are members
+65,3,12,0.637266,friend,Your friend user 32 and 1 other friend are members
+65,4,13,0.603897,similar_group,"Similar to GRE study hall, which you joined"
+65,5,18,0.225446,new_group,A small group: we show small groups so they get a fair chance
+66,1,5,0.678853,similar_group,Because you're in Web dev study group
+66,2,2,0.600057,friend,Your friend user 86 and 1 other friend are members
+66,3,12,0.574043,friend,Your friend user 10 and 1 other friend are members
+66,4,18,0.544679,similar_group,Because you're in Algorithms study group
+66,5,3,0.555966,friend,Your friend user 10 and 1 other friend are members
+67,1,2,0.731122,friend,Your friend user 9 and 2 other friends are members
+67,2,1,0.582810,similar_group,"Similar to Japanese in 90 days, which you joined"
+67,3,5,0.484078,friend,Your friend user 9 and 1 other friend are members
+67,4,10,0.435001,friend,Your friend user 42 and 1 other friend are members
+67,5,17,0.117009,new_group,A new group: we show new groups so they get a fair chance
+68,1,10,0.840018,friend,Your friend user 55 and 1 other friend are members
+68,2,4,0.506509,friend,Your friend user 55 and 1 other friend are members
+68,3,9,0.405630,similar_group,Because you're in Swimming crew
+68,4,13,0.345076,similar_group,Because you're in Swimming crew
+68,5,6,0.319164,friend,Your friend user 55 is a member
+69,1,13,0.549561,friend,Your friend user 46 and 1 other friend are members
+69,2,14,0.548007,similar_group,Because you're in Spanish evening chat
+69,3,12,0.505105,shared_members,About 10 members of Morning Yoga are in it
+69,4,3,0.469860,friend,Your friend user 42 is a member
+69,5,16,0.431849,friend,Your friend user 46 and 1 other friend are members
+70,1,11,0.460802,similar_group,Because you're in Morning Yoga
+70,2,17,0.207345,similar_group,Because you're in Daily Python
+70,3,12,0.760541,friend,Your friend user 32 and 2 other friends are members
+70,4,5,0.677679,friend,Your friend user 7 and 2 other friends are members
+70,5,7,0.537937,similar_group,Because you're in Daily Python
+71,1,5,0.717415,friend,Your friend user 1 and 2 other friends are members
+71,2,15,0.642729,similar_group,Because you're in Finals countdown
+71,3,8,0.637609,friend,Your friend user 1 and 2 other friends are members
+71,4,10,0.557556,friend,Your friend user 1 and 2 other friends are members
+71,5,18,0.428855,new_group,A small group: we show small groups so they get a fair chance
+72,1,5,0.891040,friend,Your friend user 9 and 1 other friend are members
+72,2,2,0.617982,friend,Your friend user 9 and 1 other friend are members
+72,3,4,0.531017,friend,Your friend user 9 and 1 other friend are members
+72,4,18,0.531292,similar_group,Because you're in Algorithms study group
+72,5,13,0.563458,similar_group,Because you're in Algorithms study group
+73,1,1,0.850000,similar_group,Because you're in French evening chat
+73,2,6,0.424912,similar_group,Because you're in Spanish evening chat
+73,3,16,0.407061,similar_group,Because you're in French evening chat
+73,4,14,0.415664,similar_group,Because you're in Spanish evening chat
+73,5,7,0.332357,friend,Your friend user 81 is a member
+74,1,8,0.353113,active,Active this week
+74,2,16,0.353113,active,Active this month
+74,3,17,0.333333,new_group,A new group: we show new groups so they get a fair chance
+74,4,11,0.304262,active,Active this month
+74,5,3,0.273301,active,Active this week
+75,1,5,0.669380,similar_group,Because you're in Yoga crew
+75,2,13,0.602512,friend,Your friend user 51 and 2 other friends are members
+75,3,2,0.555596,shared_members,About 3 members of Japanese in 90 days are in it
+75,4,9,0.503501,similar_group,Because you're in Swimming crew
+75,5,8,0.430033,similar_group,Because you're in Japanese in 90 days
+76,1,5,0.589185,similar_group,"Similar to Finals countdown, which you joined"
+76,2,7,0.572908,similar_group,Because you're in Algorithms study group
+76,3,3,0.542400,similar_group,Because you're in Algorithms study group
+76,4,14,0.487566,similar_group,Because you're in GRE study hall
+76,5,15,0.473118,similar_group,Because you're in Finals countdown
+77,1,17,0.150859,similar_group,Because you're in Morning Yoga
+77,2,15,0.138829,shared_members,About 2 members of Swimming crew are in it
+77,3,2,0.655596,friend,Your friend user 7 and 4 other friends are members
+77,4,5,0.589380,similar_group,Because you're in Yoga crew
+77,5,8,0.550033,similar_group,Because you're in Japanese in 90 days
+78,1,3,0.000000,active,Active this week
+78,2,11,0.000000,active,Active this month
+78,3,17,0.000000,new_group,A new group: we show new groups so they get a fair chance
+78,4,15,0.000000,discover,Open to everyone on Discover
+78,5,10,0.300000,friend,Your friend user 17 is a member
+79,1,11,0.207909,similar_group,Because you're in Japanese in 90 days
+79,2,17,0.194101,similar_group,Because you're in Japanese in 90 days
+79,3,5,0.766301,similar_group,Because you're in GRE study hall
+79,4,10,0.609856,similar_group,Because you're in Swimming crew
+79,5,3,0.572679,friend,Your friend user 10 and 1 other friend are members
+80,1,16,0.800000,similar_group,Because you're in Python project club
+80,2,6,0.640489,similar_group,Because you're in Python project club
+80,3,1,0.586563,similar_group,Because you're in Python project club
+80,4,12,0.572905,friend,Your friend user 1 and 1 other friend are members
+80,5,7,0.458081,similar_group,Because you're in Python project club
+81,1,12,0.780896,friend,Your friend user 42 and 4 other friends are members
+81,2,3,0.687876,similar_group,Because you're in Spanish for beginners
+81,3,4,0.672270,friend,Your friend user 42 and 4 other friends are members
+81,4,11,0.627789,similar_group,Because you're in Morning Yoga
+81,5,18,0.458954,new_group,A small group: we show small groups so they get a fair chance
+82,1,4,0.300000,friend,Your friend user 77 and 1 other friend are members
+82,2,2,0.150000,friend,Your friend user 97 is a member
+82,3,11,0.150000,friend,Your friend user 77 is a member
+82,4,10,0.150000,friend,Your friend user 77 is a member
+82,5,17,0.000000,new_group,A new group: we show new groups so they get a fair chance
+83,1,13,0.645076,friend,Your friend user 13 is a member
+83,2,16,0.609484,friend,Your friend user 13 is a member
+83,3,10,0.540018,similar_group,Because you're in Swimming crew
+83,4,6,0.469164,friend,Your friend user 13 is a member
+83,5,9,0.405630,new_group,A small group: we show small groups so they get a fair chance
+84,1,15,0.689289,similar_group,Because you're in Finals countdown
+84,2,7,0.580278,similar_group,Because you're in Python project club
+84,3,2,0.491885,friend,Your friend user 49 and 2 other friends are members
+84,4,12,0.446501,similar_group,"Similar to Python project club, which you joined"
+84,5,18,0.299483,new_group,A small group: we show small groups so they get a fair chance
+85,1,6,0.780074,friend,Your friend user 6 and 2 other friends are members
+85,2,4,0.694618,similar_group,Because you're in English in 90 days
+85,3,7,0.676633,friend,Your friend user 6 and 2 other friends are members
+85,4,16,0.504102,shared_members,About 7 members of Python project club are in it
+85,5,14,0.285969,new_group,A small group: we show small groups so they get a fair chance
+86,1,15,0.804133,similar_group,Because you're in Finals countdown
+86,2,12,0.667139,friend,Your friend user 42 and 2 other friends are members
+86,3,10,0.504388,friend,Your friend user 42 and 2 other friends are members
+86,4,16,0.468442,similar_group,"Similar to Finals countdown, which you joined"
+86,5,14,0.388951,new_group,A small group: we show small groups so they get a fair chance
+87,1,7,0.827358,friend,Your friend user 6 and 2 other friends are members
+87,2,13,0.592719,friend,Your friend user 6 and 1 other friend are members
+87,3,15,0.404287,shared_members,About 5 members of GRE study hall are in it
+87,4,10,0.405334,friend,Your friend user 32 and 1 other friend are members
+87,5,18,0.262617,new_group,A small group: we show small groups so they get a fair chance
+88,1,5,0.775735,friend,Your friend user 9 is a member
+88,2,4,0.525741,friend,Your friend user 9 is a member
+88,3,6,0.550248,friend,Your friend user 46 is a member
+88,4,14,0.463793,similar_group,Because you're in GRE study hall
+88,5,2,0.339916,friend,Your friend user 9 is a member
+89,1,15,0.481667,similar_group,Because you're in English in 90 days
+89,2,8,0.214244,similar_group,Because you're in French evening chat
+89,3,11,0.149215,similar_group,Because you're in Spanish evening chat
+89,4,17,0.145041,similar_group,Because you're in English in 90 days
+89,5,9,0.128012,similar_group,Because you're in French evening chat
+90,1,11,0.669470,friend,Your friend user 5 is a member
+90,2,9,0.414859,similar_group,Because you're in Swimming crew
+90,3,15,0.259804,similar_group,Because you're in French evening chat
+90,4,8,0.217573,similar_group,Because you're in French evening chat
+90,5,17,0.141321,similar_group,Because you're in French evening chat
+91,1,5,0.681985,friend,Your friend user 24 and 1 other friend are members
+91,2,15,0.674475,similar_group,Because you're in Finals countdown
+91,3,10,0.659440,friend,Your friend user 24 and 1 other friend are members
+91,4,16,0.584909,similar_group,"Similar to Finals countdown, which you joined"
+91,5,14,0.486421,new_group,A small group: we show small groups so they get a fair chance
+92,1,7,0.637937,friend,Your friend user 40 is a member
+92,2,2,0.615772,friend,Your friend user 17 is a member
+92,3,8,0.508015,friend,Your friend user 40 is a member
+92,4,11,0.460802,similar_group,Because you're in Morning Yoga
+92,5,9,0.328246,new_group,A small group: we show small groups so they get a fair chance
+93,1,10,0.749057,similar_group,Because you're in Daily Python
+93,2,13,0.524449,friend,Your friend user 46 and 3 other friends are members
+93,3,7,0.480684,similar_group,Because you're in Daily Python
+93,4,3,0.342862,similar_group,"Similar to Spanish evening chat, which you joined"
+93,5,9,0.285141,new_group,A small group: we show small groups so they get a fair chance
+94,1,16,0.836539,similar_group,Because you're in SAT prep squad
+94,2,6,0.722658,friend,Your friend user 84 and 1 other friend are members
+94,3,4,0.478165,similar_group,Because you're in SAT prep squad
+94,4,12,0.449987,similar_group,Because you're in Finals countdown
+94,5,14,0.398074,similar_group,Because you're in Finals countdown
+95,1,6,0.652285,similar_group,Because you're in Web dev study group
+95,2,12,0.444183,similar_group,"Similar to Python project club, which you joined"
+95,3,14,0.394021,similar_group,Because you're in GRE study hall
+95,4,8,0.343563,similar_group,Because you're in Web dev study group
+95,5,1,0.332907,similar_group,Because you're in Python project club
+96,1,4,0.793035,friend,Your friend user 54 and 1 other friend are members
+96,2,11,0.690306,similar_group,Because you're in Morning Yoga
+96,3,14,0.566563,similar_group,Because you're in Spanish evening chat
+96,4,6,0.545401,similar_group,Because you're in Morning Yoga
+96,5,3,0.487997,similar_group,"Similar to Spanish evening chat, which you joined"
+97,1,11,0.493149,similar_group,Because you're in Yoga crew
+97,2,1,0.479779,similar_group,"Similar to Japanese in 90 days, which you joined"
+97,3,16,0.415130,friend,Your friend user 65 and 1 other friend are members
+97,4,3,0.266225,shared_members,About 4 members of Spanish evening chat are in it
+97,5,17,0.090455,new_group,A new group: we show new groups so they get a fair chance
+98,1,6,0.661615,similar_group,Because you're in Python project club
+98,2,4,0.591454,friend,Your friend user 9 and 2 other friends are members
+98,3,7,0.536479,similar_group,Because you're in Python project club
+98,4,13,0.479677,similar_group,"Similar to GRE study hall, which you joined"
+98,5,14,0.440644,similar_group,Because you're in GRE study hall
+99,1,15,0.708894,similar_group,Because you're in Finals countdown
+99,2,2,0.619756,friend,Your friend user 34 and 1 other friend are members
+99,3,4,0.537317,similar_group,"Similar to English in 90 days, which you joined"
+99,4,5,0.419320,similar_group,"Similar to Finals countdown, which you joined"
+99,5,18,0.100333,new_group,A small group: we show small groups so they get a fair chance
+100,1,4,0.734007,similar_group,Because you're in Yoga crew
+100,2,1,0.596671,similar_group,Because you're in Yoga crew
+100,3,13,0.339683,similar_group,Because you're in Calisthenics crew
+100,4,8,0.288427,similar_group,Because you're in Calisthenics crew
+100,5,7,0.251852,friend,Your friend user 81 is a member

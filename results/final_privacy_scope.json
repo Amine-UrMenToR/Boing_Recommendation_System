@@ -1,0 +1,34 @@
+{
+  "sensitivity": {
+    "members removed one at a time": 100,
+    "largest change, sizes": 3.0,
+    "largest change, pairs": 3.0,
+    "bound, sizes (m)": 3,
+    "bound, pairs (m(m-1)/2)": 3.0
+  },
+  "friends": {
+    "public friends that count, of tested members (pairs)": 6474,
+    "of them in more than m groups (counted in full)": 3437
+  },
+  "activity": {
+    "member removed": 1420,
+    "their recent posts": 4,
+    "counts X^T X unchanged": true,
+    "other members whose default list changed": 1768
+  },
+  "shared cap": {
+    "trials": 30,
+    "statistics unchanged in every trial": true,
+    "other members whose list changed (default + personalised), mean": 0.166667,
+    "the same, most in one trial": 5,
+    "trials where some other list changed": 1,
+    "members served": 1983
+  },
+  "covered": "one release of the group sizes and pair counts (X^T X), epsilon = 1.5, m = 3",
+  "not covered": [
+    "the friends signal (public friends' memberships, shown on their public profiles)",
+    "the member counts that decide \"small\" (members who count under R9; Discover shows every member)",
+    "the recent activity behind the default list (posts and like counts of open groups); act_eps failed the rule",
+    "the shared cap c (one member's own list can change which capped groups later members get)"
+  ]
+}

@@ -1,0 +1,9 @@
+attacker,k,statistics unchanged (test),statistics unchanged (practice quiz),target exposure,"target exposure, no attack",bar (top honest new group),target exposure with R9 off (E4)
+"A · New accounts, level 1-2",100,True,True,9,9,95,442
+"A · New accounts, level 1-2",200,True,True,9,9,95,521
+"B · New accounts, levelled up to 5-6",100,True,True,9,9,95,442
+"B · New accounts, levelled up to 5-6",200,True,True,9,9,95,521
+"C · A month old, level 1-2",100,True,True,9,9,95,442
+"C · A month old, level 1-2",200,True,True,9,9,95,521
+D · A month old and levelled up,100,False,False,351,9,95,442
+D · A month old and levelled up,200,False,False,351,9,95,521

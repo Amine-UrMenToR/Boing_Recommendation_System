@@ -1,0 +1,29 @@
+measure,quiz,method,who,members,hit_rate,ndcg@5,ndcg@5 low,ndcg@5 high,share new groups,share older small groups,newcomer share,found in new groups,hidden in new groups,found in new or small groups,hidden in new or small groups,recall new groups,recall new or small groups
+members,test,Popularity (today),3 or more groups,1090.0,0.2248,0.1325,0.1166,0.1493,,,,,,,,,
+members,test,Hybrid,3 or more groups,1090.0,0.7092,0.5617,0.5369,0.5859,,,,,,,,,
+members,test,Hybrid + fair re-ranking,3 or more groups,1090.0,0.6725,0.5464,0.5203,0.5712,,,,,,,,,
+members,test,Personalisation off,3 or more groups,1090.0,0.0982,0.0575,0.0464,0.0695,,,,,,,,,
+members,test,Popularity (today),2 groups,316.0,0.2057,0.1265,0.0994,0.1568,,,,,,,,,
+members,test,Hybrid,2 groups,316.0,0.6108,0.4682,0.421,0.5155,,,,,,,,,
+members,test,Hybrid + fair re-ranking,2 groups,316.0,0.6013,0.4649,0.4154,0.5124,,,,,,,,,
+members,test,Personalisation off,2 groups,316.0,0.0981,0.059,0.039,0.0818,,,,,,,,,
+members,quiz,Popularity (today),1 group,357.0,0.2745,0.1601,0.132,0.1892,,,,,,,,,
+members,quiz,Hybrid,1 group,357.0,0.6078,0.4307,0.3909,0.4702,,,,,,,,,
+members,quiz,Hybrid + fair re-ranking,1 group,357.0,0.5294,0.3997,0.3595,0.4419,,,,,,,,,
+members,quiz,Personalisation off,1 group,357.0,0.1232,0.0761,0.0541,0.0981,,,,,,,,,
+members,quiz,Popularity (today),No group yet,122.0,0.2295,0.1503,0.0995,0.2057,,,,,,,,,
+members,quiz,Hybrid,No group yet,122.0,0.4426,0.3323,0.2627,0.4085,,,,,,,,,
+members,quiz,Hybrid + fair re-ranking,No group yet,122.0,0.4262,0.3256,0.2553,0.4018,,,,,,,,,
+members,quiz,Personalisation off,No group yet,122.0,0.123,0.0702,0.0391,0.1059,,,,,,,,,
+members,quiz,Popularity (today),New members,202.0,0.2129,0.1342,0.0955,0.1739,,,,,,,,,
+members,quiz,Hybrid,New members,202.0,0.505,0.353,0.2966,0.4065,,,,,,,,,
+members,quiz,Hybrid + fair re-ranking,New members,202.0,0.4802,0.343,0.2869,0.3972,,,,,,,,,
+members,quiz,Personalisation off,New members,202.0,0.1089,0.0628,0.0391,0.0888,,,,,,,,,
+groups,quiz,Popularity (today),,,,,,,0.0,0.0,0.0,0.0,1.0,0.0,14.0,0.0,0.0
+groups,quiz,Hybrid,,,,,,,0.0539,0.0067,0.0605,1.0,1.0,2.0,14.0,1.0,0.1429
+groups,quiz,Hybrid + fair re-ranking,,,,,,,0.0856,0.152,0.2376,0.0,1.0,3.0,14.0,0.0,0.2143
+groups,quiz,Personalisation off,,,,,,,0.514,0.0,0.514,0.0,1.0,0.0,14.0,0.0,0.0
+groups,test,Popularity (today),,,,,,,0.0,0.0,0.0,0.0,8.0,0.0,42.0,0.0,0.0
+groups,test,Hybrid,,,,,,,0.004,0.0161,0.0201,1.0,8.0,8.0,42.0,0.125,0.1905
+groups,test,Hybrid + fair re-ranking,,,,,,,0.042,0.1607,0.2027,1.0,8.0,14.0,42.0,0.125,0.3333
+groups,test,Personalisation off,,,,,,,0.5467,0.0,0.5467,1.0,8.0,1.0,42.0,0.125,0.0238

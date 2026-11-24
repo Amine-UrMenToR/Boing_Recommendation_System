@@ -1,0 +1,782 @@
+{
+  "runs": {
+    "Proposed design, all members": {
+      "members": 1983,
+      "suggestions": 9915,
+      "relaxed": {
+        "quota": 0,
+        "topic cap": 0,
+        "global cap": 0
+      },
+      "checks": {
+        "reason_parts": {
+          "rule": "R6",
+          "hard": true,
+          "checked": 9915,
+          "violations": 0,
+          "passed": true
+        },
+        "reason_fidelity": {
+          "rule": "R6",
+          "hard": true,
+          "checked": 9915,
+          "violations": 0,
+          "passed": true
+        },
+        "reason_details": {
+          "rule": "R6",
+          "hard": true,
+          "checked": 9915,
+          "violations": 0,
+          "passed": true
+        },
+        "names_private": {
+          "rule": "R6, R8",
+          "hard": true,
+          "checked": 2468,
+          "violations": 0,
+          "passed": true
+        },
+        "names_blocked": {
+          "rule": "R6, R8",
+          "hard": true,
+          "checked": 2468,
+          "violations": 0,
+          "passed": true
+        },
+        "names_suspended": {
+          "rule": "R6, R8",
+          "hard": true,
+          "checked": 2468,
+          "violations": 0,
+          "passed": true
+        },
+        "names_other": {
+          "rule": "R6, R9",
+          "hard": true,
+          "checked": 2468,
+          "violations": 0,
+          "passed": true
+        },
+        "hidden_by_mods": {
+          "rule": "R8",
+          "hard": true,
+          "checked": 9915,
+          "violations": 0,
+          "passed": true
+        },
+        "closed_group": {
+          "rule": "R8",
+          "hard": true,
+          "checked": 9915,
+          "violations": 0,
+          "passed": true
+        },
+        "already_joined": {
+          "rule": "R7",
+          "hard": true,
+          "checked": 9915,
+          "violations": 0,
+          "passed": true
+        },
+        "not_interested": {
+          "rule": "R7",
+          "hard": true,
+          "checked": 9915,
+          "violations": 0,
+          "passed": true
+        },
+        "not_a_group": {
+          "rule": "R8",
+          "hard": true,
+          "checked": 9915,
+          "violations": 0,
+          "passed": true
+        },
+        "list_length": {
+          "rule": "R11",
+          "hard": true,
+          "checked": 1983,
+          "violations": 0,
+          "passed": true
+        },
+        "empty_list": {
+          "rule": "R1",
+          "hard": true,
+          "checked": 1983,
+          "violations": 0,
+          "passed": true
+        },
+        "allow_list": {
+          "rule": "R2",
+          "hard": true,
+          "checked": 33,
+          "violations": 0,
+          "passed": true
+        },
+        "private_data": {
+          "rule": "R2",
+          "hard": true,
+          "checked": 29745,
+          "violations": 0,
+          "passed": true
+        },
+        "paid_budget": {
+          "rule": "R3",
+          "hard": true,
+          "checked": 9915,
+          "violations": 0,
+          "passed": true
+        },
+        "quota": {
+          "rule": "R4, dial q",
+          "hard": false,
+          "checked": 1983,
+          "violations": 0,
+          "passed": true
+        },
+        "global_cap": {
+          "rule": "R4, dial c",
+          "hard": false,
+          "checked": 126,
+          "violations": 0,
+          "passed": true
+        },
+        "topic_cap": {
+          "rule": "R5, dial n",
+          "hard": false,
+          "checked": 1983,
+          "violations": 0,
+          "passed": true
+        }
+      },
+      "hard_violations": 0,
+      "fidelity": {
+        "top part": {
+          "shown": 8072,
+          "true": 8072
+        },
+        "quota slot": {
+          "shown": 1799,
+          "true": 1799
+        },
+        "fallback": {
+          "shown": 44,
+          "true": 44
+        }
+      }
+    },
+    "Personalisation off, all members": {
+      "members": 1983,
+      "suggestions": 9915,
+      "relaxed": {
+        "quota": 0,
+        "topic cap": 0,
+        "global cap": 0
+      },
+      "checks": {
+        "reason_parts": {
+          "rule": "R6",
+          "hard": true,
+          "checked": 9915,
+          "violations": 0,
+          "passed": true
+        },
+        "reason_fidelity": {
+          "rule": "R6",
+          "hard": true,
+          "checked": 9915,
+          "violations": 0,
+          "passed": true
+        },
+        "reason_details": {
+          "rule": "R6",
+          "hard": true,
+          "checked": 9915,
+          "violations": 0,
+          "passed": true
+        },
+        "names_private": {
+          "rule": "R6, R8",
+          "hard": true,
+          "checked": 0,
+          "violations": 0,
+          "passed": true
+        },
+        "names_blocked": {
+          "rule": "R6, R8",
+          "hard": true,
+          "checked": 0,
+          "violations": 0,
+          "passed": true
+        },
+        "names_suspended": {
+          "rule": "R6, R8",
+          "hard": true,
+          "checked": 0,
+          "violations": 0,
+          "passed": true
+        },
+        "names_other": {
+          "rule": "R6, R9",
+          "hard": true,
+          "checked": 0,
+          "violations": 0,
+          "passed": true
+        },
+        "hidden_by_mods": {
+          "rule": "R8",
+          "hard": true,
+          "checked": 9915,
+          "violations": 0,
+          "passed": true
+        },
+        "closed_group": {
+          "rule": "R8",
+          "hard": true,
+          "checked": 9915,
+          "violations": 0,
+          "passed": true
+        },
+        "already_joined": {
+          "rule": "R7",
+          "hard": true,
+          "checked": 9915,
+          "violations": 0,
+          "passed": true
+        },
+        "not_interested": {
+          "rule": "R7",
+          "hard": true,
+          "checked": 9915,
+          "violations": 0,
+          "passed": true
+        },
+        "not_a_group": {
+          "rule": "R8",
+          "hard": true,
+          "checked": 9915,
+          "violations": 0,
+          "passed": true
+        },
+        "list_length": {
+          "rule": "R11",
+          "hard": true,
+          "checked": 1983,
+          "violations": 0,
+          "passed": true
+        },
+        "empty_list": {
+          "rule": "R1",
+          "hard": true,
+          "checked": 1983,
+          "violations": 0,
+          "passed": true
+        },
+        "allow_list": {
+          "rule": "R2",
+          "hard": true,
+          "checked": 33,
+          "violations": 0,
+          "passed": true
+        },
+        "private_data": {
+          "rule": "R2",
+          "hard": true,
+          "checked": 29745,
+          "violations": 0,
+          "passed": true
+        },
+        "paid_budget": {
+          "rule": "R3",
+          "hard": true,
+          "checked": 9915,
+          "violations": 0,
+          "passed": true
+        },
+        "quota": {
+          "rule": "R4, dial q",
+          "hard": false,
+          "checked": 1983,
+          "violations": 0,
+          "passed": true
+        },
+        "global_cap": {
+          "rule": "R4, dial c",
+          "hard": false,
+          "checked": 14,
+          "violations": 0,
+          "passed": true
+        },
+        "topic_cap": {
+          "rule": "R5, dial n",
+          "hard": false,
+          "checked": 1983,
+          "violations": 0,
+          "passed": true
+        }
+      },
+      "hard_violations": 0,
+      "fidelity": {
+        "top part": {
+          "shown": 9915,
+          "true": 9915
+        },
+        "quota slot": {
+          "shown": 0,
+          "true": 0
+        },
+        "fallback": {
+          "shown": 0,
+          "true": 0
+        }
+      }
+    },
+    "Proposed design, tested members (E1)": {
+      "members": 1406,
+      "suggestions": 7030,
+      "relaxed": {
+        "quota": 0,
+        "topic cap": 0,
+        "global cap": 0
+      },
+      "checks": {
+        "reason_parts": {
+          "rule": "R6",
+          "hard": true,
+          "checked": 7030,
+          "violations": 0,
+          "passed": true
+        },
+        "reason_fidelity": {
+          "rule": "R6",
+          "hard": true,
+          "checked": 7030,
+          "violations": 0,
+          "passed": true
+        },
+        "reason_details": {
+          "rule": "R6",
+          "hard": true,
+          "checked": 7030,
+          "violations": 0,
+          "passed": true
+        },
+        "names_private": {
+          "rule": "R6, R8",
+          "hard": true,
+          "checked": 1741,
+          "violations": 0,
+          "passed": true
+        },
+        "names_blocked": {
+          "rule": "R6, R8",
+          "hard": true,
+          "checked": 1741,
+          "violations": 0,
+          "passed": true
+        },
+        "names_suspended": {
+          "rule": "R6, R8",
+          "hard": true,
+          "checked": 1741,
+          "violations": 0,
+          "passed": true
+        },
+        "names_other": {
+          "rule": "R6, R9",
+          "hard": true,
+          "checked": 1741,
+          "violations": 0,
+          "passed": true
+        },
+        "hidden_by_mods": {
+          "rule": "R8",
+          "hard": true,
+          "checked": 7030,
+          "violations": 0,
+          "passed": true
+        },
+        "closed_group": {
+          "rule": "R8",
+          "hard": true,
+          "checked": 7030,
+          "violations": 0,
+          "passed": true
+        },
+        "already_joined": {
+          "rule": "R7",
+          "hard": true,
+          "checked": 7030,
+          "violations": 0,
+          "passed": true
+        },
+        "not_interested": {
+          "rule": "R7",
+          "hard": true,
+          "checked": 7030,
+          "violations": 0,
+          "passed": true
+        },
+        "not_a_group": {
+          "rule": "R8",
+          "hard": true,
+          "checked": 7030,
+          "violations": 0,
+          "passed": true
+        },
+        "list_length": {
+          "rule": "R11",
+          "hard": true,
+          "checked": 1406,
+          "violations": 0,
+          "passed": true
+        },
+        "empty_list": {
+          "rule": "R1",
+          "hard": true,
+          "checked": 1406,
+          "violations": 0,
+          "passed": true
+        },
+        "allow_list": {
+          "rule": "R2",
+          "hard": true,
+          "checked": 33,
+          "violations": 0,
+          "passed": true
+        },
+        "private_data": {
+          "rule": "R2",
+          "hard": true,
+          "checked": 0,
+          "violations": null,
+          "passed": null
+        },
+        "paid_budget": {
+          "rule": "R3",
+          "hard": true,
+          "checked": 0,
+          "violations": null,
+          "passed": null
+        },
+        "quota": {
+          "rule": "R4, dial q",
+          "hard": false,
+          "checked": 1406,
+          "violations": 0,
+          "passed": true
+        },
+        "global_cap": {
+          "rule": "R4, dial c",
+          "hard": false,
+          "checked": 125,
+          "violations": 0,
+          "passed": true
+        },
+        "topic_cap": {
+          "rule": "R5, dial n",
+          "hard": false,
+          "checked": 1406,
+          "violations": 0,
+          "passed": true
+        }
+      },
+      "hard_violations": 0,
+      "fidelity": {
+        "top part": {
+          "shown": 5742,
+          "true": 5742
+        },
+        "quota slot": {
+          "shown": 1288,
+          "true": 1288
+        },
+        "fallback": {
+          "shown": 0,
+          "true": 0
+        }
+      }
+    }
+  },
+  "explanation_fidelity": {
+    "reasons": 26860,
+    "true": 26860,
+    "share": 1.0,
+    "name the largest part": 23729,
+    "name a part": 23729
+  },
+  "dial_settings": {
+    "q = 0.4 (two newcomer slots)": {
+      "suggestions": 7030,
+      "hard-rule violations": 0,
+      "checks run": 18,
+      "fidelity": 1.0,
+      "reason codes": "shared_members 3189, new_group 2718, friend 1091, similar_group 32",
+      "dial checks passed": true,
+      "relaxed": 0
+    },
+    "No re-ranking (the hybrid)": {
+      "suggestions": 7030,
+      "hard-rule violations": 0,
+      "checks run": 18,
+      "fidelity": 1.0,
+      "reason codes": "shared_members 4686, friend 2277, similar_group 67",
+      "dial checks passed": true,
+      "relaxed": 0
+    },
+    "Diversity on (lam = 0.7)": {
+      "suggestions": 7030,
+      "hard-rule violations": 0,
+      "checks run": 18,
+      "fidelity": 1.0,
+      "reason codes": "shared_members 3740, friend 1922, new_group 1299, similar_group 69",
+      "dial checks passed": true,
+      "relaxed": 0
+    },
+    "Chosen topics count (topic_weight = 0.5)": {
+      "suggestions": 7030,
+      "hard-rule violations": 0,
+      "checks run": 18,
+      "fidelity": 1.0,
+      "reason codes": "shared_members 3951, friend 1735, new_group 1285, similar_group 59",
+      "dial checks passed": true,
+      "relaxed": 0
+    },
+    "Descriptions only, topics count (beta = 1, topic_weight = 1)": {
+      "suggestions": 7030,
+      "hard-rule violations": 0,
+      "checks run": 18,
+      "fidelity": 1.0,
+      "reason codes": "similar_group 6668, topic 278, new_group 84",
+      "dial checks passed": true,
+      "relaxed": 0
+    },
+    "R9 on (L = 3, young accounts at half weight)": {
+      "suggestions": 7030,
+      "hard-rule violations": 0,
+      "checks run": 20,
+      "fidelity": 1.0,
+      "reason codes": "shared_members 3933, friend 1752, new_group 1287, similar_group 58",
+      "dial checks passed": true,
+      "relaxed": 0
+    },
+    "R10 clipping (m = 3)": {
+      "suggestions": 7030,
+      "hard-rule violations": 0,
+      "checks run": 18,
+      "fidelity": 1.0,
+      "reason codes": "shared_members 3624, friend 2044, new_group 1230, similar_group 132",
+      "dial checks passed": true,
+      "relaxed": 0
+    },
+    "R10 clipping and noise (m = 5, eps = 1)": {
+      "suggestions": 7030,
+      "hard-rule violations": 0,
+      "checks run": 20,
+      "fidelity": 1.0,
+      "reason codes": "shared_members 3581, friend 2155, new_group 1052, similar_group 242",
+      "dial checks passed": true,
+      "relaxed": 0
+    }
+  },
+  "checker_catches_faults": {
+    "hidden_group": {
+      "fault": "a group hidden by moderators is shown",
+      "check": "hidden_by_mods",
+      "violations found": 1,
+      "caught": true,
+      "every check that fired": "reason_parts, reason_fidelity, reason_details, hidden_by_mods"
+    },
+    "closed_group": {
+      "fault": "a closed group is shown",
+      "check": "closed_group",
+      "violations found": 1,
+      "caught": true,
+      "every check that fired": "reason_parts, reason_fidelity, reason_details, closed_group"
+    },
+    "joined_group": {
+      "fault": "a group the member is already in is shown",
+      "check": "already_joined",
+      "violations found": 1,
+      "caught": true,
+      "every check that fired": "reason_parts, reason_fidelity, reason_details, already_joined"
+    },
+    "dismissed_group": {
+      "fault": "a group the member marked \"not interested\" is shown",
+      "check": "not_interested",
+      "violations found": 1,
+      "caught": true,
+      "every check that fired": "reason_parts, reason_fidelity, reason_details, not_interested"
+    },
+    "shown_twice": {
+      "fault": "the same group twice in one list",
+      "check": "not_a_group",
+      "violations found": 1,
+      "caught": true,
+      "every check that fired": "reason_parts, reason_fidelity, reason_details, not_a_group, quota, topic_cap"
+    },
+    "private_named": {
+      "fault": "a reason names a private profile",
+      "check": "names_private",
+      "violations found": 1,
+      "caught": true,
+      "every check that fired": "reason_details, names_private, names_other"
+    },
+    "blocked_named": {
+      "fault": "a reason names someone the member blocked",
+      "check": "names_blocked",
+      "violations found": 1,
+      "caught": true,
+      "every check that fired": "reason_details, names_private, names_blocked, names_other"
+    },
+    "blocker_named": {
+      "fault": "a reason names someone who blocked the member",
+      "check": "names_blocked",
+      "violations found": 1,
+      "caught": true,
+      "every check that fired": "reason_fidelity, reason_details, names_blocked, names_other"
+    },
+    "suspended_named": {
+      "fault": "a reason names a suspended account",
+      "check": "names_suspended",
+      "violations found": 1,
+      "caught": true,
+      "every check that fired": "reason_details, names_suspended, names_other"
+    },
+    "stranger_named": {
+      "fault": "a reason names a public account that is not the member's friend",
+      "check": "names_other",
+      "violations found": 1,
+      "caught": true,
+      "every check that fired": "reason_details, names_other"
+    },
+    "wrong_reason": {
+      "fault": "a reason that is not the largest part (\"also joined\" relabelled as the AI model)",
+      "check": "reason_fidelity",
+      "violations found": 1,
+      "caught": true,
+      "every check that fired": "reason_fidelity"
+    },
+    "fake_quota_slot": {
+      "fault": "a group picked on its own merit passed off as a newcomer-quota slot",
+      "check": "reason_fidelity",
+      "violations found": 1,
+      "caught": true,
+      "every check that fired": "reason_fidelity"
+    },
+    "wrong_count": {
+      "fault": "a \"shared members\" reason with the wrong number of members",
+      "check": "reason_details",
+      "violations found": 1,
+      "caught": true,
+      "every check that fired": "reason_details"
+    },
+    "wrong_part": {
+      "fault": "a part of the score reported 0.05 too high",
+      "check": "reason_parts",
+      "violations found": 1,
+      "caught": true,
+      "every check that fired": "reason_parts"
+    },
+    "short_list": {
+      "fault": "a list with 4 groups",
+      "check": "list_length",
+      "violations found": 1,
+      "caught": true,
+      "every check that fired": "list_length, quota"
+    },
+    "empty_list": {
+      "fault": "a member with candidates gets no list at all",
+      "check": "empty_list",
+      "violations found": 1,
+      "caught": true,
+      "every check that fired": "list_length, empty_list"
+    },
+    "quota_broken": {
+      "fault": "a list's only new or small group swapped for an ordinary one",
+      "check": "quota",
+      "violations found": 1,
+      "caught": true,
+      "every check that fired": "reason_parts, reason_fidelity, reason_details, quota"
+    },
+    "over_cap": {
+      "fault": "one group put in more lists than the global cap c allows",
+      "check": "global_cap",
+      "violations found": 1,
+      "caught": true,
+      "every check that fired": "reason_parts, reason_fidelity, reason_details, names_other, quota, global_cap, topic_cap"
+    },
+    "topic_pile": {
+      "fault": "a list with three groups of one public topic cluster",
+      "check": "topic_cap",
+      "violations found": 1,
+      "caught": true,
+      "every check that fired": "reason_parts, reason_fidelity, reason_details, quota, topic_cap"
+    },
+    "extra_column": {
+      "fault": "the recommender is handed a column outside the allow-list (users.interests)",
+      "check": "allow_list",
+      "violations found": 1,
+      "caught": true,
+      "every check that fired": "allow_list"
+    },
+    "reads_answers": {
+      "fault": "a recommender that reorders lists by the hidden interests when it can see them",
+      "check": "private_data",
+      "violations found": 3764,
+      "caught": true,
+      "every check that fired": "private_data"
+    },
+    "paid_reach": {
+      "fault": "a recommender that moves groups that paid for reach to the top",
+      "check": "paid_budget",
+      "violations found": 2719,
+      "caught": true,
+      "every check that fired": "paid_budget"
+    },
+    "reads_test_file": {
+      "fault": "a recommender that reads the test file from disk and puts the member's hidden groups first",
+      "check": "private_data",
+      "violations found": 1156,
+      "caught": true,
+      "every check that fired": "reason_fidelity, private_data"
+    },
+    "final_noise_mismatch": {
+      "fault": "final design: lists made with another noise draw than the one the statistics report",
+      "check": "reason_parts",
+      "violations found": 6803,
+      "caught": true,
+      "every check that fired": "reason_parts, reason_fidelity, reason_details"
+    },
+    "final_young_friend": {
+      "fault": "final design: young accounts counted as friends and in the activity (R9 on joins only)",
+      "check": "names_other",
+      "violations found": 19,
+      "caught": true,
+      "every check that fired": "reason_parts, reason_fidelity, reason_details, names_other"
+    },
+    "final_small_counted": {
+      "fault": "final design: \"small\" judged from the clipped, noisy counts, not from the members who count",
+      "check": "quota",
+      "violations found": 707,
+      "caught": true,
+      "every check that fired": "reason_fidelity, reason_details, quota"
+    }
+  },
+  "found_and_fixed": {
+    "problem": "with young accounts down-weighted (burst_w < 1), \"N members of X are in it\" stated a weighted count",
+    "setting": "burst_w = 0.5, tested members",
+    "wrong reasons before the fix": 916,
+    "flagged by the checker": 916,
+    "flagged after the fix": 0
+  },
+  "test_cases": {
+    "cases": 13,
+    "match_expected": 13,
+    "intent_holds": 13,
+    "hard_rule_violations": 0,
+    "folder": "testcases/"
+  },
+  "all_hard_rules_hold": true
+}

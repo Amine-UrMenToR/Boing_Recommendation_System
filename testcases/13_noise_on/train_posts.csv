@@ -1,0 +1,182 @@
+post_id,user_id,group_id,day,text,likes,hidden_by_mods
+1,2,0,20,Any tips for getting better at photography?,2,0
+3,66,12,35,Week 56: sent three applications.,0,0
+4,219,0,43,Spent two hours on a bug. It was a missing bracket.,0,0
+5,232,0,44,What is the best free resource for Python?,0,0
+6,40,0,45,Problem 22: can someone check my number theory solution?,0,0
+7,236,7,50,Day 41 of Korean: I ordered a coffee without switching languages!,1,0
+8,9,10,53,"Day 31 of weightlifting done, feeling good.",5,0
+10,149,3,67,"Sharing my Rust project from this week, feedback welcome.",2,0
+11,203,7,72,Anyone up for a Korean chat this weekend?,3,0
+12,151,0,72,How do you stay focused during IELTS season?,0,0
+13,149,3,78,"Sharing my Rust project from this week, feedback welcome.",1,0
+15,1,4,80,36 days left until finals. Study session tonight?,3,0
+16,110,0,80,Finished a full practice test for IELTS.,0,0
+17,210,0,84,Spent two hours on a bug. It was a missing bracket.,0,0
+18,31,0,84,"Week 34 of drums, my fingers hurt but it's worth it.",0,0
+23,79,12,95,Any advice on networking? I start next week.,0,0
+24,270,14,95,"Week 48 of violin, my fingers hurt but it's worth it.",2,0
+25,244,18,96,Day 33 of algorithms: my first program that actually works.,1,0
+27,292,10,98,Rest day today. Back at it tomorrow.,4,0
+28,254,0,98,"Sharing my Python project from this week, feedback welcome.",0,0
+29,25,4,102,Finished a full practice test for finals.,3,0
+32,84,1,109,"This week's theme is ""frogs"".",0,0
+33,172,18,110,Spent two hours on a bug. It was a missing bracket.,4,0
+34,226,0,111,How do you stay focused during entrance exams season?,0,0
+36,172,18,116,"Sharing my algorithms project from this week, feedback welcome.",3,0
+41,28,37,120,New personal best in cycling today!,3,0
+43,120,37,122,Rest day today. Back at it tomorrow.,1,0
+44,23,25,123,What is the best free resource for algorithms?,4,0
+45,150,9,125,Week 7: sent three applications.,0,0
+48,12,0,130,"Day 52 of cycling done, feeling good.",0,0
+52,157,0,135,This number theory trick finally made sense to me today.,0,0
+54,133,15,139,"Word of the day in Japanese, guess the meaning before you look it up.",4,0
+58,285,8,142,"Week 54 of probability, slowly getting there.",3,0
+60,172,8,143,This probability trick finally made sense to me today.,2,0
+62,23,0,143,Who is joining the weightlifting challenge this week?,0,0
+64,77,0,149,Day 3 of drums: finally got that part right.,2,0
+69,158,0,151,Rest day today. Back at it tomorrow.,0,0
+71,146,0,152,Anyone up for a French chat this weekend?,0,0
+75,75,0,156,Finished a full practice test for GRE.,0,0
+78,231,3,158,"Sharing my Rust project from this week, feedback welcome.",2,0
+79,250,0,159,Spent two hours on a bug. It was a missing bracket.,0,0
+84,154,3,163,Spent two hours on a bug. It was a missing bracket.,1,0
+85,170,37,163,New personal best in cycling today!,3,0
+88,111,25,168,Spent two hours on a bug. It was a missing bracket.,1,0
+93,170,0,173,New personal best in calisthenics today!,0,0
+102,248,25,180,What is the best free resource for algorithms?,1,0
+107,198,0,183,"Day 54 of digital painting, here is today's piece.",1,0
+110,246,25,185,What is the best free resource for algorithms?,1,0
+111,56,0,185,How do you stay focused during MCAT season?,0,0
+114,61,0,186,Day 45 of Rust: my first program that actually works.,0,0
+122,294,5,193,How long do you practise guitar every day?,3,0
+137,101,0,200,"This week's theme is ""frogs"".",0,0
+138,127,0,201,"Study session tonight, who is in?",1,0
+139,95,46,202,"Made a study plan for finals, sharing it here.",0,0
+142,292,12,204,"Practised networking today, it went better than I expected.",1,0
+144,115,0,204,Who is joining the hiking challenge this week?,1,0
+152,108,2,210,Week 3: finished the astronomy chapter.,2,0
+155,121,47,211,Finished a full practice test for entrance exams.,0,0
+156,138,0,211,"Made a study plan for MCAT, sharing it here.",0,0
+167,89,13,218,Finally understood a whole podcast episode in Spanish.,1,0
+168,18,0,218,"This week's theme is ""frogs"".",1,0
+176,53,0,221,Day 57 of drums: finally got that part right.,0,0
+182,29,37,225,Rest day today. Back at it tomorrow.,0,0
+189,175,4,229,"Made a study plan for finals, sharing it here.",3,0
+190,63,4,229,"Made a study plan for finals, sharing it here.",2,0
+191,275,15,229,Day 56 of Japanese: I ordered a coffee without switching languages!,1,0
+198,8,37,232,Rest day today. Back at it tomorrow.,1,0
+199,66,11,233,Any advice on job interviews? I start next week.,1,0
+202,121,0,233,How do you stay focused during GRE season?,1,0
+205,141,4,234,How do you stay focused during finals season?,8,0
+209,220,23,235,How do you stay focused during midterms season?,1,0
+211,4,0,235,Problem set 12 done. Question 4 was brutal.,1,0
+213,189,8,236,"Week 19 of probability, slowly getting there.",3,0
+219,151,0,239,Finished a full practice test for entrance exams.,0,0
+228,51,0,242,"Week 15 of statistics, slowly getting there.",0,0
+238,248,0,245,Spent two hours on a bug. It was a missing bracket.,0,0
+246,9,10,250,New personal best in weightlifting today!,7,0
+253,234,0,251,Any advice on freelancing? I start next week.,0,0
+257,8,37,252,"Day 27 of cycling done, feeling good.",2,0
+258,218,0,252,Finally understood a whole podcast episode in English.,0,0
+270,53,0,255,"Recorded my first guitar piece, be kind!",0,0
+271,138,25,256,What is the best free resource for algorithms?,1,0
+273,266,0,257,Anyone up for a English chat this weekend?,1,0
+278,139,82,259,How do you stay focused during MCAT season?,0,0
+282,118,23,261,Finished a full practice test for midterms.,3,0
+292,39,4,264,How do you stay focused during finals season?,2,0
+297,168,9,265,Sharing a guide about networking that helped me.,1,0
+312,101,26,270,"This week's theme is ""frogs"".",1,0
+318,181,0,271,Week 50: sent three applications.,1,0
+322,180,25,273,Day 31 of algorithms: my first program that actually works.,1,0
+323,176,28,273,Any advice on freelancing? I start next week.,0,0
+329,165,38,274,"Great video on astronomy, sharing it here.",0,0
+333,148,37,276,New personal best in cycling today!,6,0
+334,10,1,277,"Tried a new 3D modelling technique, what do you think?",1,0
+337,81,17,277,Can someone explain this thermodynamics idea in simple words?,3,0
+340,230,48,277,Day 44 of Arabic: I ordered a coffee without switching languages!,2,0
+350,226,0,279,11 days left until midterms. Study session tonight?,0,0
+353,64,10,280,New personal best in weightlifting today!,3,0
+355,41,0,280,"Missed a day, starting again today.",1,0
+356,229,0,280,Spent two hours on a bug. It was a missing bracket.,1,0
+367,124,10,282,Who is joining the weightlifting challenge this week?,7,0
+368,134,10,282,New personal best in weightlifting today!,1,0
+371,29,3,283,Spent two hours on a bug. It was a missing bracket.,3,1
+372,175,7,283,Day 46 of Korean: I ordered a coffee without switching languages!,2,0
+376,223,22,284,"Recorded my first drums piece, be kind!",3,0
+384,227,5,286,"Recorded my first guitar piece, be kind!",0,0
+388,58,7,287,"Word of the day in Korean, guess the meaning before you look it up.",2,0
+414,7,10,293,Rest day today. Back at it tomorrow.,5,0
+416,138,0,293,Finished a full practice test for entrance exams.,0,0
+417,80,16,294,"Week 37 of calculus, slowly getting there.",1,0
+435,176,7,297,"Word of the day in Korean, guess the meaning before you look it up.",4,0
+463,194,25,302,"Sharing my algorithms project from this week, feedback welcome.",0,0
+464,124,37,302,Rest day today. Back at it tomorrow.,4,0
+470,200,20,304,"Sharing my SQL project from this week, feedback welcome.",0,0
+473,241,0,304,How do you stay focused during SAT season?,1,0
+485,88,33,307,"Recorded my first piano piece, be kind!",0,0
+490,128,29,308,9 days left until SAT. Study session tonight?,2,0
+505,135,23,311,"Made a study plan for midterms, sharing it here.",2,0
+517,207,29,314,How do you stay focused during SAT season?,3,0
+518,141,29,314,How do you stay focused during SAT season?,3,0
+525,188,1,315,"Day 29 of 3D modelling, here is today's piece.",0,0
+527,62,44,315,New personal best in stretching today!,0,0
+529,200,20,316,Day 29 of SQL: my first program that actually works.,0,0
+535,294,0,316,"Recorded my first piano piece, be kind!",0,0
+558,83,45,321,17 days left until IELTS. Study session tonight?,1,0
+568,298,43,323,What is the best free resource for SQL?,0,0
+573,162,78,324,Finished a full practice test for finals.,0,0
+589,160,16,327,This calculus trick finally made sense to me today.,1,0
+610,111,0,329,What is the best free resource for app building?,0,0
+612,104,11,330,Week 45: sent three applications.,0,0
+613,9,20,330,"Sharing my SQL project from this week, feedback welcome.",0,0
+616,238,29,330,Finished a full practice test for SAT.,2,0
+633,255,16,334,Problem 42: can someone check my calculus solution?,3,0
+683,201,99,339,Rest day today. Back at it tomorrow.,0,0
+686,81,0,339,Can someone explain this quantum physics idea in simple words?,1,0
+687,174,0,339,Who is joining the swimming challenge this week?,1,0
+696,172,72,340,Finished a full practice test for MCAT.,0,0
+702,259,13,341,Day 45 of Spanish: I ordered a coffee without switching languages!,1,0
+704,222,8,342,"Week 45 of probability, slowly getting there.",4,0
+705,240,15,342,Anyone up for a Japanese chat this weekend?,1,0
+707,100,29,342,"Made a study plan for SAT, sharing it here.",3,0
+719,83,123,343,59 days left until IELTS. Study session tonight?,0,0
+723,210,25,344,What is the best free resource for algorithms?,0,0
+730,262,78,344,Finished a full practice test for finals.,1,0
+755,165,38,347,Week 18: finished the astronomy chapter.,1,0
+757,15,47,347,"Made a study plan for entrance exams, sharing it here.",0,0
+761,83,123,347,Finished a full practice test for IELTS.,0,0
+774,168,59,348,Rest day today. Back at it tomorrow.,1,0
+779,221,10,349,Who is joining the weightlifting challenge this week?,5,0
+788,166,51,349,"Sharing my JavaScript project from this week, feedback welcome.",1,1
+801,146,42,350,"Word of the day in French, guess the meaning before you look it up.",0,0
+827,94,21,352,"Word of the day in English, guess the meaning before you look it up.",0,0
+837,54,136,352,Sharing a guide about freelancing that helped me.,0,0
+840,295,0,352,"Day 8 of pixel art, here is today's piece.",1,0
+858,125,17,354,Can someone explain this thermodynamics idea in simple words?,1,0
+859,227,23,354,"Made a study plan for midterms, sharing it here.",4,0
+872,180,15,355,"Word of the day in Japanese, guess the meaning before you look it up.",5,0
+875,62,37,355,"Day 46 of cycling done, feeling good.",0,0
+879,107,52,355,Rest day today. Back at it tomorrow.,0,0
+890,266,42,356,Finally understood a whole podcast episode in French.,1,0
+893,278,50,356,Rest day today. Back at it tomorrow.,0,0
+906,261,30,357,"This week's theme is ""frogs"".",0,0
+908,140,38,357,"Great video on astronomy, sharing it here.",0,0
+926,176,12,359,Any advice on networking? I start next week.,2,0
+931,167,25,359,Day 3 of algorithms: my first program that actually works.,1,0
+932,142,36,359,Finished a full practice test for MCAT.,0,0
+945,54,136,359,"Practised freelancing today, it went better than I expected.",0,0
+959,112,57,360,Any tips for getting better at drawing?,1,0
+964,120,83,360,Rest day today. Back at it tomorrow.,0,0
+984,258,68,361,This calculus trick finally made sense to me today.,0,0
+986,83,123,361,"Made a study plan for IELTS, sharing it here.",0,0
+992,66,11,362,Week 45: sent three applications.,1,0
+1021,21,141,363,"Made a study plan for finals, sharing it here.",0,0
+1022,171,143,363,How long do you practise guitar every day?,0,0
+1028,181,0,363,"Practised public speaking today, it went better than I expected.",0,0
+1029,165,6,364,Week 9 of journaling: I feel the difference.,0,0
+1034,183,11,364,Any advice on job interviews? I start next week.,1,0
+1047,171,143,364,How long do you practise guitar every day?,0,0
+1062,291,24,365,"Study session tonight, who is in?",1,0
+1066,110,36,365,Finished a full practice test for MCAT.,2,0
+1070,110,51,365,Spent two hours on a bug. It was a missing bracket.,0,0

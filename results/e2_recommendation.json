@@ -1,0 +1,397 @@
+{
+  "experiment": "E2: what fair exposure (R4) and diversity (R5) cost",
+  "recommended": {
+    "q": 0.2,
+    "c": 0.05,
+    "n": 2,
+    "lam": 0.8
+  },
+  "notebook_06_defaults": {
+    "q": 0.2,
+    "c": 0.1,
+    "n": 2,
+    "lam": 1.0
+  },
+  "differs_from_defaults": [
+    "c",
+    "lam"
+  ],
+  "rule": "Chosen on the practice quiz only. Budget: keep at least 95% of the hybrid's NDCG@5 (no re-ranking). q: the largest that fits the budget (n = 5, lambda = 1, no cap). n, then lambda: the strictest topic cap, then the lowest lambda (lowered one step at a time), whose paired NDCG@5 cost against the same setting without that dial is at most 1% of the hybrid's (the tolerance) and whose whole setting still fits the budget. c: the strictest cap whose paired cost against no cap is at most the tolerance, both on the personalised lists (where it never binds) and on the default list (personalisation off).",
+  "budget": 0.05,
+  "tolerance": 0.01,
+  "validation": {
+    "users": 1090,
+    "hybrid ndcg@5": 0.4777,
+    "ndcg@5": 0.464,
+    "share of the hybrid": 0.9714,
+    "newcomer_share": 0.2006,
+    "topics_per_list": 2.5606
+  },
+  "test": {
+    "users": 1406,
+    "hit_rate": 0.6536,
+    "precision@5": 0.1374,
+    "recall@5": 0.6319,
+    "ndcg@5": 0.5257,
+    "ndcg@5 low": 0.5015,
+    "ndcg@5 high": 0.5489,
+    "newcomer_share": 0.2009,
+    "gini": 0.5229,
+    "largest_share": 0.032,
+    "topics_per_list": 2.591,
+    "diversity": 0.9495,
+    "clusters_per_list": 3.9602,
+    "quota_slots": 0.1846,
+    "coverage": 126,
+    "hybrid ndcg@5": 0.5407,
+    "hybrid newcomer_share": 0.0201,
+    "cost vs hybrid": 0.015,
+    "cost vs hybrid low": 0.0096,
+    "cost vs hybrid high": 0.0203,
+    "relative cost vs hybrid": 0.0277,
+    "cost vs notebook 06 design": 0.0024,
+    "cost vs notebook 06 design low": -0.002,
+    "cost vs notebook 06 design high": 0.007,
+    "popularity ndcg@5": 0.1311,
+    "popularity newcomer_share": 0.0,
+    "on the pareto front": false
+  },
+  "steps on the practice quiz": {
+    "q": {
+      "0%": {
+        "ndcg@5": 0.4777,
+        "cost": 0.0,
+        "fits": true
+      },
+      "20%": {
+        "ndcg@5": 0.4683,
+        "cost": 0.0198,
+        "fits": true
+      },
+      "40%": {
+        "ndcg@5": 0.4467,
+        "cost": 0.065,
+        "fits": false
+      },
+      "60%": {
+        "ndcg@5": 0.4083,
+        "cost": 0.1453,
+        "fits": false
+      }
+    },
+    "n": {
+      "2": {
+        "ndcg@5": 0.465,
+        "cost": 0.0033,
+        "cost (share of the hybrid)": 0.0069,
+        "low": -0.0006,
+        "high": 0.0072,
+        "within tolerance": true,
+        "fits the budget": true,
+        "topics_per_list": 2.3963
+      },
+      "3": {
+        "ndcg@5": 0.4668,
+        "cost": 0.0015,
+        "cost (share of the hybrid)": 0.0031,
+        "low": 0.0004,
+        "high": 0.003,
+        "within tolerance": true,
+        "fits the budget": true,
+        "topics_per_list": 2.2844
+      },
+      "5": {
+        "ndcg@5": 0.4683,
+        "cost": 0.0,
+        "cost (share of the hybrid)": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "within tolerance": true,
+        "fits the budget": true,
+        "topics_per_list": 2.2569
+      }
+    },
+    "lam": {
+      "1": {
+        "ndcg@5": 0.465,
+        "cost": 0.0,
+        "cost (share of the hybrid)": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "within tolerance": true,
+        "fits the budget": true,
+        "topics_per_list": 2.3963
+      },
+      "0.9": {
+        "ndcg@5": 0.464,
+        "cost": 0.0009,
+        "cost (share of the hybrid)": 0.0019,
+        "low": -0.0028,
+        "high": 0.0047,
+        "within tolerance": true,
+        "fits the budget": true,
+        "topics_per_list": 2.478
+      },
+      "0.8": {
+        "ndcg@5": 0.464,
+        "cost": 0.0009,
+        "cost (share of the hybrid)": 0.0019,
+        "low": -0.0042,
+        "high": 0.0062,
+        "within tolerance": true,
+        "fits the budget": true,
+        "topics_per_list": 2.5606
+      },
+      "0.7": {
+        "ndcg@5": 0.4579,
+        "cost": 0.0071,
+        "cost (share of the hybrid)": 0.0148,
+        "low": 0.0008,
+        "high": 0.0138,
+        "within tolerance": false,
+        "fits the budget": true,
+        "topics_per_list": 2.6881
+      },
+      "0.5": {
+        "ndcg@5": 0.4355,
+        "cost": 0.0295,
+        "cost (share of the hybrid)": 0.0617,
+        "low": 0.0193,
+        "high": 0.0399,
+        "within tolerance": false,
+        "fits the budget": false,
+        "topics_per_list": 2.9826
+      }
+    },
+    "c": {
+      "c = 5%": {
+        "cost, personalised": 0.0,
+        "cost, default list": -0.0129,
+        "cost low, default list": -0.0255,
+        "cost high, default list": -0.0009,
+        "ndcg@5, default list": 0.0582,
+        "newcomer_share, default list": 0.5262,
+        "gini, default list": 0.8437,
+        "coverage, default list": 23,
+        "largest_share, default list": 0.0499,
+        "ok": true
+      },
+      "c = 10%": {
+        "cost, personalised": 0.0,
+        "cost, default list": -0.0235,
+        "cost low, default list": -0.0336,
+        "cost high, default list": -0.0131,
+        "ndcg@5, default list": 0.0688,
+        "newcomer_share, default list": 0.4086,
+        "gini, default list": 0.9209,
+        "coverage, default list": 14,
+        "largest_share, default list": 0.1,
+        "ok": true
+      },
+      "no cap": {
+        "cost, personalised": 0.0,
+        "cost, default list": 0.0,
+        "cost low, default list": 0.0,
+        "cost high, default list": 0.0,
+        "ndcg@5, default list": 0.0453,
+        "newcomer_share, default list": 0.5994,
+        "gini, default list": 0.9594,
+        "coverage, default list": 11,
+        "largest_share, default list": 0.1998,
+        "ok": true
+      }
+    }
+  },
+  "other budgets and tolerances (practice quiz)": [
+    {
+      "budget": 0.025,
+      "tolerance": 0.01,
+      "q": 0.2,
+      "n": 3,
+      "lam": 0.8,
+      "ndcg@5": 0.4669,
+      "share of the hybrid": 0.9773,
+      "newcomer_share": 0.2006,
+      "topics_per_list": 2.4936
+    },
+    {
+      "budget": 0.05,
+      "tolerance": 0.01,
+      "q": 0.2,
+      "n": 2,
+      "lam": 0.8,
+      "ndcg@5": 0.464,
+      "share of the hybrid": 0.9714,
+      "newcomer_share": 0.2006,
+      "topics_per_list": 2.5606
+    },
+    {
+      "budget": 0.1,
+      "tolerance": 0.01,
+      "q": 0.4,
+      "n": 2,
+      "lam": 0.9,
+      "ndcg@5": 0.4409,
+      "share of the hybrid": 0.923,
+      "newcomer_share": 0.4,
+      "topics_per_list": 2.3
+    },
+    {
+      "budget": 0.15,
+      "tolerance": 0.01,
+      "q": 0.6,
+      "n": 2,
+      "lam": 1.0,
+      "ndcg@5": 0.4072,
+      "share of the hybrid": 0.8525,
+      "newcomer_share": 0.6,
+      "topics_per_list": 2.0991
+    },
+    {
+      "budget": 0.2,
+      "tolerance": 0.01,
+      "q": 0.6,
+      "n": 2,
+      "lam": 1.0,
+      "ndcg@5": 0.4072,
+      "share of the hybrid": 0.8525,
+      "newcomer_share": 0.6,
+      "topics_per_list": 2.0991
+    },
+    {
+      "budget": 0.05,
+      "tolerance": 0.005,
+      "q": 0.2,
+      "n": 3,
+      "lam": 0.8,
+      "ndcg@5": 0.4669,
+      "share of the hybrid": 0.9773,
+      "newcomer_share": 0.2006,
+      "topics_per_list": 2.4936
+    },
+    {
+      "budget": 0.05,
+      "tolerance": 0.02,
+      "q": 0.2,
+      "n": 2,
+      "lam": 0.7,
+      "ndcg@5": 0.4579,
+      "share of the hybrid": 0.9585,
+      "newcomer_share": 0.2007,
+      "topics_per_list": 2.6881
+    }
+  ],
+  "c changes personalised lists (combinations of 60)": {
+    "validation": 0,
+    "test": 0
+  },
+  "largest share of one group, any personalised setting": {
+    "validation": 0.047,
+    "test": 0.0465
+  },
+  "spearman ndcg@5 validation vs test": 0.9685,
+  "settings on the test pareto front": 30,
+  "dials (test; each against the recommended setting with only that dial switched off)": {
+    "q": {
+      "value": 0.2,
+      "switched off": 0.0,
+      "measured on": "personalised",
+      "value served": "equity and inclusion (R4): a new or small group cannot gain members if nobody sees it",
+      "ndcg@5 off": 0.5401,
+      "ndcg@5 on": 0.5257,
+      "cost": 0.0144,
+      "cost low": 0.0104,
+      "cost high": 0.0188,
+      "relative cost": 0.0267,
+      "newcomer_share off": 0.0162,
+      "gini off": 0.6556,
+      "coverage off": 108.0,
+      "largest_share off": 0.0408,
+      "topics_per_list off": 2.8528,
+      "diversity off": 0.9479,
+      "newcomer_share on": 0.2009,
+      "gini on": 0.5229,
+      "coverage on": 126.0,
+      "largest_share on": 0.032,
+      "topics_per_list on": 2.591,
+      "diversity on": 0.9495
+    },
+    "c": {
+      "value": 0.05,
+      "switched off": null,
+      "measured on": "personalisation off",
+      "value served": "equity (R4): no group takes everyone's attention",
+      "ndcg@5 off": 0.0253,
+      "ndcg@5 on": 0.065,
+      "cost": -0.0397,
+      "cost low": -0.0509,
+      "cost high": -0.0282,
+      "relative cost": -1.5719,
+      "newcomer_share off": 0.7991,
+      "gini off": 0.9607,
+      "coverage off": 8.0,
+      "largest_share off": 0.1999,
+      "topics_per_list off": 4.1586,
+      "newcomer_share on": 0.4908,
+      "gini on": 0.844,
+      "coverage on": 23.0,
+      "largest_share on": 0.0499,
+      "topics_per_list on": 3.8073
+    },
+    "n": {
+      "value": 2,
+      "switched off": 5,
+      "measured on": "personalised",
+      "value served": "diversity and autonomy (R5): a list that is not all one subject leaves the member a real choice",
+      "ndcg@5 off": 0.5265,
+      "ndcg@5 on": 0.5257,
+      "cost": 0.0008,
+      "cost low": -0.0013,
+      "cost high": 0.003,
+      "relative cost": 0.0015,
+      "newcomer_share off": 0.2009,
+      "gini off": 0.5209,
+      "coverage off": 127.0,
+      "largest_share off": 0.0316,
+      "topics_per_list off": 2.5185,
+      "diversity off": 0.9403,
+      "newcomer_share on": 0.2009,
+      "gini on": 0.5229,
+      "coverage on": 126.0,
+      "largest_share on": 0.032,
+      "topics_per_list on": 2.591,
+      "diversity on": 0.9495
+    },
+    "lam": {
+      "value": 0.8,
+      "switched off": 1.0,
+      "measured on": "personalised",
+      "value served": "diversity (R5): groups unlike each other in a list",
+      "ndcg@5 off": 0.5281,
+      "ndcg@5 on": 0.5257,
+      "cost": 0.0024,
+      "cost low": -0.002,
+      "cost high": 0.007,
+      "relative cost": 0.0045,
+      "newcomer_share off": 0.2027,
+      "gini off": 0.5112,
+      "coverage off": 125.0,
+      "largest_share off": 0.0331,
+      "topics_per_list off": 2.4018,
+      "diversity off": 0.9216,
+      "newcomer_share on": 0.2009,
+      "gini on": 0.5229,
+      "coverage on": 126.0,
+      "largest_share on": 0.032,
+      "topics_per_list on": 2.591,
+      "diversity on": 0.9495
+    }
+  },
+  "plain_language": [
+    "Quota q = 20% (1 of the 5 slots). It costs 0.014 NDCG@5 (95% range 0.010 to 0.019; 2.7%) and raises the share of slots for new or small groups from 2% to 20%; 126 groups are shown instead of 108, and the Gini of exposure falls from 0.66 to 0.52. It serves equity and inclusion (R4): a new or small group cannot gain members if nobody sees it.",
+    "Global cap c = 5%. On personalised lists it changes nothing: no group reaches 5% of the slots there (at most 4.7% in any setting). On the default list, where every member sees nearly the same groups, it costs nothing: NDCG@5 even rises by 0.040 (95% range 0.028 to 0.051) and shows 23 groups instead of 8; the most-shown group falls from 20% to 5% of the slots. It serves equity (R4): no group takes everyone's attention.",
+    "Topic cap n = 2. It costs 0.001 NDCG@5 (95% range -0.001 to 0.003; 0.2%) and raises the hidden topics in a list of 5 from 2.52 to 2.59. It serves diversity and autonomy (R5): a list that is not all one subject leaves the member a real choice.",
+    "Variety weight λ = 0.8. It costs 0.002 NDCG@5 (95% range -0.002 to 0.007; 0.5%) and raises the topics in a list from 2.40 to 2.59 (description diversity 0.922 to 0.949). It serves diversity (R5): groups unlike each other in a list.",
+    "Together, the four dials cost 0.015 NDCG@5 against the hybrid without re-ranking (2.8% of its 0.541; 95% range 0.010 to 0.020), within the 5% budget chosen on the practice quiz, and members still find a hidden group in 65% of lists (today's BOING: 22%)."
+  ]
+}
